@@ -1,0 +1,66 @@
+ <!DOCTYPE html>
+
+<html>
+	<head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+			<title>LIT Hound Dog</title>
+	<link href="css/style.css" rel="stylesheet" media="all" />
+	<link href="css/interface-style.css" rel="stylesheet" media="all" />
+	<link href="css/jquery-ui-1.10.1.custom.min.css" rel="stylesheet" media="all" />
+    <link href='http://fonts.googleapis.com/css?family=Patrick+Hand+SC' rel='stylesheet' type='text/css'>
+
+	 <script src="js/libs/modernizr-2.5.3.min.js"></script>
+	</head>
+<body id="body">
+<!-- hidden iframe for ajax file upload -->
+<iframe id="fileIframe" name="file-submit" style="display: none;"></iframe>
+<div id="top">
+<div id="header" style="text-align:left">
+	<ul>
+		<li>
+	        <img id="logo" src="img/logo.png" alt="UNT Language and Information Technologies"href="http://lit.csci.unt.edu/index.php" />
+		</li>
+		<li>
+			<div id="inputPanel">
+                <ul>
+				<li><span style="font-family: 'Patrick Hand SC', cursive;">URL</span><br /><input style="float: left;" type="text" id="upaddr" /><button id="go_button" style="float: left; font-size:12pt; color:black">GO</button></li>
+				<li><span style="font-family: 'Patrick Hand SC', cursive;">FILE</span><br /><form method="post" action="cgi/parseFile.pl" target="file-submit" enctype="multipart/form-data"><button id="file_upload" style="float: left; font-size:12pt; color:black">Browse</button><input id="chooseFile" style="float: left; visibility: hidden;" type="file" name="file" id="upfile" /><input style="float: left; font-size:12pt; color:black" type="submit" value="Upload" /><div id="fileName"></div></form>
+                </li>
+                </ul>
+			</div>
+		</li>
+		<li>
+		</li>
+	</ul>
+	
+</div><!-- end hd_header -->
+<div id="navbar" style="clear:right"></div> <!-- end navbar -->
+</div> <!-- end hd_top -->
+<div id="mainContent">
+<div id="reading-elements">
+<!-- WORKING - put user's page or file into this iframe after processing -->
+	<!-- TEMPLATE FOR CLICKABLE WORDS 
+<span class="head" style="color: red" data-synonyms="greatly,seriously" data-example="His income increased dramatically after he started working at a bank.">dramatically</span> -->
+<iframe id="user-content" frameborder=0 src="">
+	This iframe holds user content</iframe>
+
+</div> <!-- end reading elements -->
+</div> <!-- end main content -->
+<div id="hd_infoColumn" style="visibility: hidden;"><div id="synonyms"></div><div id="definitions"></div></div><!-- this column displays info about the clicked word -->
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script> 
+<script src="js/libs/jquery-1.7.1.min.js"></script>
+<script src="js/libs/jquery-ui-1.10.1.custom.min.js"></script>
+<!-- JQUERY UI STUFF -->
+<script type="text/javascript">
+$(function(){
+    $("#ui-button")
+        .button();
+}); 
+</script>
+<!-- END JQUERY UI -->
+<script src="js/interface.js"></script>
+</body>
+
+</html>

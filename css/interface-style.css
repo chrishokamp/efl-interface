@@ -1,0 +1,140 @@
+body {
+	font-size: 100% !important;
+	color:#000000;
+	font-family: verdana,helvetica,arial,sans-serif;
+	background-color: #FOEAD6;
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+h3 {
+    text-size: large;
+}
+
+#chooseFile {
+    width: 10px;
+}
+
+
+#mainContent {
+	position: fixed;
+	top: 110px;
+	width: 80%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+iframe {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	frameBorder: 0;
+}
+
+#logo {
+    display: inline-block;
+	-moz-border-radius: 3px;
+    border-radius: 3px;
+    -moz-box-shadow:    1px 1px 2px 3px #233311;
+    -webkit-box-shadow: 1px 1px 2px 3px #233311;
+    box-shadow:         1px 1px 2px 3px #233311;
+}
+#logo:hover {
+    -moz-box-shadow:    1px 1px 2px 3px #c77405;
+    -webkit-box-shadow: 1px 1px 2px 3px #c77405;
+    box-shadow:         1px 1px 2px 3px #c77405;
+}
+
+
+.headword {
+	font-size: x-large;
+}
+
+#header {
+	background-color: #C0C9B3;
+	background-image:url(images/gbar.png); 
+	text-align: center;
+	overflow: hidden;
+	height: 100px
+}
+
+#reading-elements {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+/*========END INFO COLUMN CSS===========*/
+#hd_infoColumn {
+	position: absolute;
+    overflow: auto;
+	top: 110px;
+    opacity: 0.0;
+	right: 0px;
+	width: 20%;
+	height: 100%;
+	color: black;
+	text-align: center;
+	text-size: medium;
+	background-color: #458B45;
+	z-index: 1;
+}
+#definitions {
+    margin: 15px;
+}
+
+/*======== END INFO COLUMN CSS===========*/
+
+#top {
+	width: 100%;
+	line-height: 16.8px;
+	font-size: 14px;
+	z-index: 2;
+	top: 0px;
+	overflow: hidden;	
+	position: fixed;
+}
+
+/* input area CSS */
+#upaddr {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+#header ul {
+    margin-top: 10px;
+}
+
+#header ul li {
+	display: inline-block;
+	float: left; 
+	padding: 0em 1.0em;
+}
+
+#header input {
+	display: inline;
+	float: left; 
+}
+
+
+
+/* END input area CSS */
+
+#navbar 
+	{
+	color: white;
+	font-size: 9px;
+	line-height: 16px;
+	background: #4A5A2F;
+	text-align: center;
+	letter-spacing: 6px;
+	height: 16px;
+}
+

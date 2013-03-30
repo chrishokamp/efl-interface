@@ -1,0 +1,157 @@
+html {
+}
+
+body {
+	font-size: 100% !important;
+	color:#000000;
+	font-family: verdana,helvetica,arial,sans-serif;
+	background-color: #FOEAD6;
+	text-align: left;
+	overflow: auto;
+	margin: 0;
+	padding: 0;
+}
+fieldset {
+	margin: 15px;
+}
+
+.reading {
+	text-size: x-large;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify; 
+	line-height: 2.5;
+}
+
+#hd_synList {
+	text-align: center;
+}
+
+#hd_example {
+	padding: 5px;
+}
+
+.headword {
+	font-size: x-large;
+}
+
+.prompt {
+	background-color: LightGrey;
+	border-left: 2px solid;
+	border-bottom: 2px solid;
+	border-top: 1px solid;	
+	border-right: 1px solid;	
+	padding: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+
+}
+
+form#subdata {
+	top: 0 !important;
+	
+	}
+
+#userInfo {
+	width: 50%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 2.5;
+}
+
+#hello {
+	width: 50%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+td {
+	font-size: 75%;
+	color:#000000;
+	font-family: verdana,helvetica,arial,sans-serif;
+	text-align: left;
+	margin: 0;
+	border-width: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	vertical-align: top !important;
+}
+
+#hd_header 
+	{
+	background-color: #C0C9B3;
+	background-image:url(images/gbar.png); 
+	text-align: center;
+	visibility: visible;
+
+	position: relative;
+	height: 100px
+	}
+
+#mainContent {
+	top: 110px;
+	position: relative;
+}
+
+#reading-elements {
+	width: 70%;
+	margin-left: 5%;
+	margin-right: auto;
+	text-align: justify;
+}
+#quiz-elements {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#hd_infoColumn {
+	position: fixed;
+	top: 115px;
+	right: 0px;
+	width: 23%;
+	height: 100%;
+	opacity: .10;
+	color: black;
+	text-align: left;
+	text-size: medium;
+	background-color: #458B45;
+	z-index: 10000;
+}
+#hd_synList {
+	margin: 10%;
+}
+#hd_hideInfoCol {
+	position: relative;
+	text-align: center;
+}
+
+#hd_wordInfo {
+	text-align: center;
+}
+#hd_top
+{
+	height: 110px;
+	width: 100%;
+	line-height: 16.8px;
+	font-size: 14px;
+	z-index: 1000;
+	top: 0px;
+	position: fixed;
+}
+
+#navbar 
+	{
+	color: white;
+	font-size: 9px;
+	line-height: 16px;
+	background-color: #4A5A2F;
+	text-align: center;
+	letter-spacing: 6px;
+	margin-bottom: 5px;
+	height: 16px
+}
+

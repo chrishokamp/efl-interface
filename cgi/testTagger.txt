@@ -1,0 +1,3131 @@
+TEST
+
+WORD: Skip, BOOL: false
+WORD: over, BOOL: false
+WORD: navigation, BOOL: false
+WORD: View, BOOL: false
+WORD: Access, BOOL: false
+WORD: Keys, BOOL: false
+WORD: Email, BOOL: false
+WORD: A, BOOL: false
+WORD: to, BOOL: false
+WORD: Z, BOOL: false
+WORD: Contacts, BOOL: false
+WORD: Site, BOOL: false
+WORD: Map, BOOL: false
+WORD: News, BOOL: false
+WORD: Multimedia, BOOL: false
+WORD: About, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: Academics, BOOL: false
+WORD: Admission, BOOL: false
+WORD: &, BOOL: false
+WORD: Aid, BOOL: false
+WORD: Arts, BOOL: false
+WORD: International, BOOL: false
+WORD: Library, BOOL: false
+WORD: Research, BOOL: false
+WORD: Administration, BOOL: false
+WORD: &, BOOL: false
+WORD: Services, BOOL: false
+WORD: Campus, BOOL: false
+WORD: Life, BOOL: false
+WORD: Visiting, BOOL: false
+WORD: Campus, BOOL: false
+WORD: Students, BOOL: false
+WORD: Faculty, BOOL: false
+WORD: &, BOOL: false
+WORD: Staff, BOOL: false
+WORD: Alumni, BOOL: false
+WORD: Parents, BOOL: false
+WORD: Undergraduate, BOOL: false
+WORD: Applicants, BOOL: false
+WORD: Graduate, BOOL: false
+WORD: School, BOOL: false
+WORD: Applicants, BOOL: false
+WORD: News, BOOL: false
+WORD: at, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: Merewether, BOOL: false
+WORD: receives, BOOL: false
+WORD: Luce, BOOL: false
+WORD: Scholarship, BOOL: false
+WORD: to, BOOL: false
+WORD: explore, BOOL: false
+WORD: rescue, BOOL: true
+After tagging: <span class="feedback" id="25" style="color: red">rescue</span>
+WORD: tech, BOOL: false
+WORD: in, BOOL: false
+WORD: Asia, BOOL: false
+WORD: 
+	, BOOL: false
+WORD: Six, BOOL: false
+WORD: international, BOOL: false
+WORD: scholars, BOOL: true
+After tagging: <span class="feedback" id="26" style="color: red">scholars</span>
+WORD: chosen, BOOL: false
+WORD: as, BOOL: false
+WORD: first, BOOL: false
+WORD: Fung, BOOL: false
+WORD: Fellows, BOOL: false
+WORD: 
+	, BOOL: false
+WORD: Tilghman, BOOL: false
+WORD: ,, BOOL: false
+WORD: Slaughter, BOOL: false
+WORD: discuss, BOOL: false
+WORD: ', BOOL: false
+WORD: next, BOOL: true
+After tagging: <span class="feedback" id="27" style="color: red">next</span>
+WORD: wave, BOOL: false
+WORD: ', BOOL: false
+WORD: of, BOOL: true
+After tagging: <span class="feedback" id="27" style="color: red">of</span>
+WORD: women, BOOL: false
+WORD: and, BOOL: false
+WORD: leadership, BOOL: false
+WORD: 
+	, BOOL: false
+WORD: Bernanke, BOOL: true
+After tagging: <span class="feedback" id="28" style="color: red">Bernanke</span>
+WORD: named, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: ', BOOL: false
+WORD: s, BOOL: false
+WORD: Baccalaureate, BOOL: false
+WORD: speaker, BOOL: false
+WORD: 
+	, BOOL: false
+WORD: March, BOOL: false
+WORD: of, BOOL: true
+After tagging: <span class="feedback" id="29" style="color: red">of</span>
+WORD: the, BOOL: false
+WORD: pathogens, BOOL: false
+WORD: :, BOOL: false
+WORD: Parasite, BOOL: false
+WORD: metabolism, BOOL: false
+WORD: can, BOOL: false
+WORD: foretell, BOOL: false
+WORD: disease, BOOL: false
+WORD: ranges, BOOL: false
+WORD: under, BOOL: false
+WORD: climate, BOOL: false
+WORD: change, BOOL: true
+After tagging: <span class="feedback" id="29" style="color: red">change</span>
+WORD: 
+	, BOOL: false
+WORD: All, BOOL: false
+WORD: Homepage, BOOL: true
+After tagging: <span class="feedback" id="30" style="color: red">Homepage</span>
+WORD: Stories, BOOL: true
+After tagging: <span class="feedback" id="30" style="color: red">Stories</span>
+WORD: Featured, BOOL: false
+WORD: Events, BOOL: false
+WORD: Blinder, BOOL: false
+WORD: to, BOOL: false
+WORD: speak, BOOL: false
+WORD: on, BOOL: false
+WORD: what, BOOL: false
+WORD: ', BOOL: false
+WORD: s, BOOL: false
+WORD: ahead, BOOL: true
+After tagging: <span class="feedback" id="32" style="color: red">ahead</span>
+WORD: after, BOOL: false
+WORD: the, BOOL: false
+WORD: financial, BOOL: false
+WORD: crisis, BOOL: false
+WORD: Yale, BOOL: true
+After tagging: <span class="feedback" id="33" style="color: red">Yale</span>
+WORD: Law, BOOL: false
+WORD: professor, BOOL: false
+WORD: ,, BOOL: true
+After tagging: <span class="feedback" id="33" style="color: red">,</span>
+WORD: Princeton, BOOL: true
+After tagging: <span class="feedback" id="33" style="color: red">Princeton</span>
+WORD: students, BOOL: false
+WORD: will, BOOL: false
+WORD: discuss, BOOL: false
+WORD: ethical, BOOL: false
+WORD: investing, BOOL: false
+WORD: Student, BOOL: false
+WORD: Playwrights, BOOL: false
+WORD: Festival, BOOL: true
+After tagging: <span class="feedback" id="34" style="color: red">Festival</span>
+WORD: to, BOOL: true
+After tagging: <span class="feedback" id="34" style="color: red">to</span>
+WORD: feature, BOOL: false
+WORD: original, BOOL: false
+WORD: works, BOOL: false
+WORD: Conference, BOOL: false
+WORD: to, BOOL: false
+WORD: explore, BOOL: true
+After tagging: <span class="feedback" id="35" style="color: red">explore</span>
+WORD: topics, BOOL: true
+After tagging: <span class="feedback" id="35" style="color: red">topics</span>
+WORD: in, BOOL: false
+WORD: environmental, BOOL: false
+WORD: humanities, BOOL: false
+WORD: Featured, BOOL: false
+WORD: Events, BOOL: false
+WORD: and, BOOL: false
+WORD: Calendars, BOOL: true
+After tagging: <span class="feedback" id="36" style="color: red">Calendars</span>
+WORD: Public, BOOL: false
+WORD: Events, BOOL: false
+WORD: Calendar, BOOL: false
+WORD: Show, BOOL: false
+WORD: Closed, BOOL: false
+WORD: Captions, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: students, BOOL: false
+WORD: are, BOOL: false
+WORD: showcasing, BOOL: false
+WORD: their, BOOL: false
+WORD: many, BOOL: false
+WORD: opportunities, BOOL: false
+WORD: to, BOOL: false
+WORD: experience, BOOL: false
+WORD: life, BOOL: false
+WORD: abroad, BOOL: false
+WORD: through, BOOL: false
+WORD: an, BOOL: false
+WORD: exhibition, BOOL: true
+After tagging: <span class="feedback" id="39" style="color: red">exhibition</span>
+WORD: of, BOOL: true
+After tagging: <span class="feedback" id="39" style="color: red">of</span>
+WORD: photographs, BOOL: false
+WORD: taken, BOOL: false
+WORD: while, BOOL: false
+WORD: participating, BOOL: true
+After tagging: <span class="feedback" id="39" style="color: red">participating</span>
+WORD: in, BOOL: false
+WORD: international, BOOL: false
+WORD: programs, BOOL: false
+WORD: ., BOOL: false
+WORD: Read, BOOL: false
+WORD: more, BOOL: false
+WORD: VIDEO, BOOL: true
+After tagging: <span class="feedback" id="41" style="color: red">VIDEO</span>
+WORD: :, BOOL: false
+WORD: Students, BOOL: false
+WORD: look, BOOL: false
+WORD: at, BOOL: false
+WORD: the, BOOL: false
+WORD: world, BOOL: false
+WORD: with, BOOL: false
+WORD: an, BOOL: true
+After tagging: <span class="feedback" id="41" style="color: red">an</span>
+WORD: ', BOOL: false
+WORD: international, BOOL: false
+WORD: eye, BOOL: true
+After tagging: <span class="feedback" id="41" style="color: red">eye</span>
+WORD: ', BOOL: false
+WORD: |, BOOL: false
+WORD: 
+	, BOOL: false
+WORD: Read, BOOL: true
+After tagging: <span class="feedback" id="43" style="color: red">Read</span>
+WORD: Story, BOOL: true
+After tagging: <span class="feedback" id="43" style="color: red">Story</span>
+WORD: |, BOOL: false
+WORD: 
+	, BOOL: false
+WORD: Play, BOOL: false
+WORD: Video, BOOL: false
+WORD: |, BOOL: false
+WORD: 
+	, BOOL: false
+WORD: See, BOOL: false
+WORD: All, BOOL: false
+WORD: Features, BOOL: false
+WORD: Video, BOOL: false
+WORD: not, BOOL: false
+WORD: loading, BOOL: false
+WORD: ?, BOOL: false
+WORD: Load, BOOL: false
+WORD: video, BOOL: false
+WORD: in, BOOL: false
+WORD: a, BOOL: false
+WORD: different, BOOL: false
+WORD: player, BOOL: false
+WORD: ., BOOL: false
+WORD: Update, BOOL: false
+WORD: your, BOOL: false
+WORD: Flash, BOOL: true
+After tagging: <span class="feedback" id="51" style="color: red">Flash</span>
+WORD: Player, BOOL: false
+WORD: VIDEO, BOOL: false
+WORD: :, BOOL: false
+WORD: Students, BOOL: true
+After tagging: <span class="feedback" id="52" style="color: red">Students</span>
+WORD: look, BOOL: false
+WORD: at, BOOL: false
+WORD: the, BOOL: false
+WORD: world, BOOL: false
+WORD: with, BOOL: false
+WORD: an, BOOL: false
+WORD: ', BOOL: false
+WORD: international, BOOL: false
+WORD: eye, BOOL: true
+After tagging: <span class="feedback" id="52" style="color: red">eye</span>
+WORD: ', BOOL: false
+WORD: |, BOOL: false
+WORD: Read, BOOL: true
+After tagging: <span class="feedback" id="54" style="color: red">Read</span>
+WORD: Story, BOOL: false
+WORD: |, BOOL: false
+WORD: Play, BOOL: false
+WORD: Video, BOOL: true
+After tagging: <span class="feedback" id="56" style="color: red">Video</span>
+WORD: |, BOOL: true
+After tagging: <span class="feedback" id="57" style="color: red">|</span>
+WORD: See, BOOL: false
+WORD: All, BOOL: false
+WORD: Features, BOOL: false
+WORD: Show, BOOL: false
+WORD: Closed, BOOL: false
+WORD: Captions, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: junior, BOOL: false
+WORD: Tanya, BOOL: false
+WORD: Tawengwa, BOOL: false
+WORD: talks, BOOL: false
+WORD: about, BOOL: false
+WORD: the, BOOL: false
+WORD: many, BOOL: false
+WORD: ways, BOOL: false
+WORD: in, BOOL: true
+After tagging: <span class="feedback" id="60" style="color: red">in</span>
+WORD: which, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: has, BOOL: false
+WORD: helped, BOOL: false
+WORD: her, BOOL: false
+WORD: pursue, BOOL: false
+WORD: her, BOOL: false
+WORD: dream, BOOL: false
+WORD: to, BOOL: false
+WORD: become, BOOL: false
+WORD: a, BOOL: false
+WORD: performer, BOOL: false
+WORD: Read, BOOL: false
+WORD: more, BOOL: true
+After tagging: <span class="feedback" id="61" style="color: red">more</span>
+WORD: ., BOOL: false
+WORD: Show, BOOL: true
+After tagging: <span class="feedback" id="62" style="color: red">Show</span>
+WORD: Closed, BOOL: false
+WORD: Captions, BOOL: false
+WORD: This, BOOL: false
+WORD: video, BOOL: false
+WORD: compiled, BOOL: false
+WORD: from, BOOL: false
+WORD: photos, BOOL: false
+WORD: and, BOOL: false
+WORD: video, BOOL: false
+WORD: clips, BOOL: false
+WORD: submitted, BOOL: false
+WORD: from, BOOL: true
+After tagging: <span class="feedback" id="63" style="color: red">from</span>
+WORD: campus, BOOL: false
+WORD: and, BOOL: false
+WORD: around, BOOL: false
+WORD: the, BOOL: false
+WORD: world, BOOL: true
+After tagging: <span class="feedback" id="63" style="color: red">world</span>
+WORD: shows, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: alumni, BOOL: false
+WORD: expressing, BOOL: false
+WORD: their, BOOL: false
+WORD: appreciation, BOOL: false
+WORD: for, BOOL: false
+WORD: President, BOOL: true
+After tagging: <span class="feedback" id="63" style="color: red">President</span>
+WORD: Shirley, BOOL: false
+WORD: M., BOOL: false
+WORD: Tilghman, BOOL: false
+WORD: ., BOOL: false
+WORD: The, BOOL: false
+WORD: video, BOOL: false
+WORD: was, BOOL: false
+WORD: played, BOOL: false
+WORD: Saturday, BOOL: false
+WORD: ,, BOOL: false
+WORD: Feb, BOOL: false
+WORD: 23, BOOL: false
+WORD: ,, BOOL: false
+WORD: at, BOOL: true
+After tagging: <span class="feedback" id="66" style="color: red">at</span>
+WORD: the, BOOL: false
+WORD: annual, BOOL: false
+WORD: Alumni, BOOL: false
+WORD: Day, BOOL: false
+WORD: luncheon, BOOL: false
+WORD: Read, BOOL: false
+WORD: more, BOOL: false
+WORD: ., BOOL: false
+WORD: Show, BOOL: false
+WORD: Closed, BOOL: true
+After tagging: <span class="feedback" id="68" style="color: red">Closed</span>
+WORD: Captions, BOOL: false
+WORD: Students, BOOL: false
+WORD: :, BOOL: false
+WORD: See, BOOL: false
+WORD: your, BOOL: false
+WORD: work, BOOL: false
+WORD: on, BOOL: false
+WORD: the, BOOL: false
+WORD: home, BOOL: false
+WORD: page, BOOL: false
+WORD: Submit, BOOL: false
+WORD: your, BOOL: false
+WORD: creative, BOOL: false
+WORD: work, BOOL: false
+WORD: and, BOOL: false
+WORD: it, BOOL: false
+WORD: may, BOOL: true
+After tagging: <span class="feedback" id="70" style="color: red">may</span>
+WORD: be, BOOL: true
+After tagging: <span class="feedback" id="70" style="color: red">be</span>
+WORD: featured, BOOL: false
+WORD: on, BOOL: false
+WORD: the, BOOL: true
+After tagging: <span class="feedback" id="70" style="color: red">the</span>
+WORD: home, BOOL: false
+WORD: page, BOOL: false
+WORD: Read, BOOL: false
+WORD: more, BOOL: false
+WORD: ., BOOL: false
+WORD: Students, BOOL: false
+WORD: :, BOOL: false
+WORD: See, BOOL: false
+WORD: your, BOOL: true
+After tagging: <span class="feedback" id="72" style="color: red">your</span>
+WORD: work, BOOL: true
+After tagging: <span class="feedback" id="72" style="color: red">work</span>
+WORD: on, BOOL: false
+WORD: the, BOOL: false
+WORD: home, BOOL: false
+WORD: page, BOOL: false
+WORD: Community, BOOL: false
+WORD: Resources, BOOL: false
+WORD: Athletics, BOOL: false
+WORD: Art, BOOL: false
+WORD: Museum, BOOL: false
+WORD: Jobs, BOOL: false
+WORD: Campus, BOOL: true
+After tagging: <span class="feedback" id="77" style="color: red">Campus</span>
+WORD: Tours, BOOL: true
+After tagging: <span class="feedback" id="77" style="color: red">Tours</span>
+WORD: Campus, BOOL: false
+WORD: Shuttle, BOOL: false
+WORD: Faculty, BOOL: false
+WORD: Blogs, BOOL: false
+WORD: Aid, BOOL: false
+WORD: Estimator, BOOL: false
+WORD: Website, BOOL: false
+WORD: Highlights, BOOL: false
+WORD: Presidential, BOOL: false
+WORD: Search, BOOL: false
+WORD: Office, BOOL: false
+WORD: of, BOOL: false
+WORD: the, BOOL: false
+WORD: Dean, BOOL: false
+WORD: of, BOOL: false
+WORD: the, BOOL: false
+WORD: College, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: Journal, BOOL: false
+WORD: Watch, BOOL: false
+WORD: Arts, BOOL: false
+WORD: &, BOOL: false
+WORD: Transit, BOOL: false
+WORD: Project, BOOL: false
+WORD: Multimedia, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: University, BOOL: false
+WORD: Career, BOOL: false
+WORD: Services, BOOL: false
+WORD: Facebook, BOOL: false
+WORD: Twitter, BOOL: false
+WORD: YouTube, BOOL: false
+WORD: iTunes, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: University, BOOL: false
+WORD: ·, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: ,, BOOL: false
+WORD: New, BOOL: false
+WORD: Jersey, BOOL: false
+WORD: 08544, BOOL: false
+WORD: USA, BOOL: false
+WORD: ,, BOOL: false
+WORD: Operator, BOOL: false
+WORD: :, BOOL: false
+WORD: (, BOOL: false
+WORD: 609, BOOL: false
+WORD: ), BOOL: false
+WORD: 258, BOOL: false
+WORD: -, BOOL: false
+WORD: 3000, BOOL: false
+WORD: ·, BOOL: false
+WORD: Copyright, BOOL: false
+WORD: infringement, BOOL: false
+WORD: ·, BOOL: false
+WORD: Web, BOOL: false
+WORD: page, BOOL: false
+WORD: feedback, BOOL: false
+WORD: ·, BOOL: false
+WORD: 
+, BOOL: false
+WORD: 
+, BOOL: false
+WORD: Last, BOOL: false
+WORD: update, BOOL: false
+WORD: :, BOOL: false
+WORD: 
+, BOOL: true
+After tagging: <span class="feedback" id="98" style="color: red">
+</span>
+WORD: March, BOOL: false
+WORD: 6, BOOL: false
+WORD: ,, BOOL: false
+WORD: 2013, BOOL: false
+WORD: Skip, BOOL: false
+WORD: over, BOOL: false
+WORD: navigation, BOOL: false
+WORD: View, BOOL: false
+WORD: Access, BOOL: false
+WORD: Keys, BOOL: false
+WORD: Email, BOOL: false
+WORD: A, BOOL: false
+WORD: to, BOOL: false
+WORD: Z, BOOL: false
+WORD: Contacts, BOOL: false
+WORD: Site, BOOL: false
+WORD: Map, BOOL: false
+WORD: News, BOOL: false
+WORD: Multimedia, BOOL: false
+WORD: About, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: Academics, BOOL: false
+WORD: Admission, BOOL: false
+WORD: &, BOOL: false
+WORD: Aid, BOOL: false
+WORD: Arts, BOOL: false
+WORD: International, BOOL: false
+WORD: Library, BOOL: false
+WORD: Research, BOOL: false
+WORD: Administration, BOOL: false
+WORD: &, BOOL: false
+WORD: Services, BOOL: false
+WORD: Campus, BOOL: false
+WORD: Life, BOOL: false
+WORD: Visiting, BOOL: false
+WORD: Campus, BOOL: false
+WORD: Students, BOOL: false
+WORD: Faculty, BOOL: false
+WORD: &, BOOL: false
+WORD: Staff, BOOL: false
+WORD: Alumni, BOOL: false
+WORD: Parents, BOOL: false
+WORD: Undergraduate, BOOL: false
+WORD: Applicants, BOOL: false
+WORD: Graduate, BOOL: false
+WORD: School, BOOL: false
+WORD: Applicants, BOOL: false
+WORD: News, BOOL: false
+WORD: at, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: Merewether, BOOL: false
+WORD: receives, BOOL: false
+WORD: Luce, BOOL: false
+WORD: Scholarship, BOOL: false
+WORD: to, BOOL: false
+WORD: explore, BOOL: false
+WORD: rescue, BOOL: true
+After tagging: <span class="feedback" id="25" style="color: red">rescue</span>
+WORD: tech, BOOL: false
+WORD: in, BOOL: false
+WORD: Asia, BOOL: false
+WORD: 
+	, BOOL: false
+WORD: Six, BOOL: false
+WORD: international, BOOL: false
+WORD: scholars, BOOL: true
+After tagging: <span class="feedback" id="26" style="color: red">scholars</span>
+WORD: chosen, BOOL: false
+WORD: as, BOOL: false
+WORD: first, BOOL: false
+WORD: Fung, BOOL: false
+WORD: Fellows, BOOL: false
+WORD: 
+	, BOOL: false
+WORD: Tilghman, BOOL: false
+WORD: ,, BOOL: false
+WORD: Slaughter, BOOL: false
+WORD: discuss, BOOL: false
+WORD: ', BOOL: false
+WORD: next, BOOL: true
+After tagging: <span class="feedback" id="27" style="color: red">next</span>
+WORD: wave, BOOL: false
+WORD: ', BOOL: false
+WORD: of, BOOL: true
+After tagging: <span class="feedback" id="27" style="color: red">of</span>
+WORD: women, BOOL: false
+WORD: and, BOOL: false
+WORD: leadership, BOOL: false
+WORD: 
+	, BOOL: false
+WORD: Bernanke, BOOL: true
+After tagging: <span class="feedback" id="28" style="color: red">Bernanke</span>
+WORD: named, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: ', BOOL: false
+WORD: s, BOOL: false
+WORD: Baccalaureate, BOOL: false
+WORD: speaker, BOOL: false
+WORD: 
+	, BOOL: false
+WORD: March, BOOL: false
+WORD: of, BOOL: true
+After tagging: <span class="feedback" id="29" style="color: red">of</span>
+WORD: the, BOOL: false
+WORD: pathogens, BOOL: false
+WORD: :, BOOL: false
+WORD: Parasite, BOOL: false
+WORD: metabolism, BOOL: false
+WORD: can, BOOL: false
+WORD: foretell, BOOL: false
+WORD: disease, BOOL: false
+WORD: ranges, BOOL: false
+WORD: under, BOOL: false
+WORD: climate, BOOL: false
+WORD: change, BOOL: true
+After tagging: <span class="feedback" id="29" style="color: red">change</span>
+WORD: 
+	, BOOL: false
+WORD: All, BOOL: false
+WORD: Homepage, BOOL: true
+After tagging: <span class="feedback" id="30" style="color: red">Homepage</span>
+WORD: Stories, BOOL: true
+After tagging: <span class="feedback" id="30" style="color: red">Stories</span>
+WORD: Featured, BOOL: false
+WORD: Events, BOOL: false
+WORD: Blinder, BOOL: false
+WORD: to, BOOL: false
+WORD: speak, BOOL: false
+WORD: on, BOOL: false
+WORD: what, BOOL: false
+WORD: ', BOOL: false
+WORD: s, BOOL: false
+WORD: ahead, BOOL: true
+After tagging: <span class="feedback" id="32" style="color: red">ahead</span>
+WORD: after, BOOL: false
+WORD: the, BOOL: false
+WORD: financial, BOOL: false
+WORD: crisis, BOOL: false
+WORD: Yale, BOOL: true
+After tagging: <span class="feedback" id="33" style="color: red">Yale</span>
+WORD: Law, BOOL: false
+WORD: professor, BOOL: false
+WORD: ,, BOOL: true
+After tagging: <span class="feedback" id="33" style="color: red">,</span>
+WORD: Princeton, BOOL: true
+After tagging: <span class="feedback" id="33" style="color: red">Princeton</span>
+WORD: students, BOOL: false
+WORD: will, BOOL: false
+WORD: discuss, BOOL: false
+WORD: ethical, BOOL: false
+WORD: investing, BOOL: false
+WORD: Student, BOOL: false
+WORD: Playwrights, BOOL: false
+WORD: Festival, BOOL: true
+After tagging: <span class="feedback" id="34" style="color: red">Festival</span>
+WORD: to, BOOL: true
+After tagging: <span class="feedback" id="34" style="color: red">to</span>
+WORD: feature, BOOL: false
+WORD: original, BOOL: false
+WORD: works, BOOL: false
+WORD: Conference, BOOL: false
+WORD: to, BOOL: false
+WORD: explore, BOOL: true
+After tagging: <span class="feedback" id="35" style="color: red">explore</span>
+WORD: topics, BOOL: true
+After tagging: <span class="feedback" id="35" style="color: red">topics</span>
+WORD: in, BOOL: false
+WORD: environmental, BOOL: false
+WORD: humanities, BOOL: false
+WORD: Featured, BOOL: false
+WORD: Events, BOOL: false
+WORD: and, BOOL: false
+WORD: Calendars, BOOL: true
+After tagging: <span class="feedback" id="36" style="color: red">Calendars</span>
+WORD: Public, BOOL: false
+WORD: Events, BOOL: false
+WORD: Calendar, BOOL: false
+WORD: Show, BOOL: false
+WORD: Closed, BOOL: false
+WORD: Captions, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: students, BOOL: false
+WORD: are, BOOL: false
+WORD: showcasing, BOOL: false
+WORD: their, BOOL: false
+WORD: many, BOOL: false
+WORD: opportunities, BOOL: false
+WORD: to, BOOL: false
+WORD: experience, BOOL: false
+WORD: life, BOOL: false
+WORD: abroad, BOOL: false
+WORD: through, BOOL: false
+WORD: an, BOOL: false
+WORD: exhibition, BOOL: true
+After tagging: <span class="feedback" id="39" style="color: red">exhibition</span>
+WORD: of, BOOL: true
+After tagging: <span class="feedback" id="39" style="color: red">of</span>
+WORD: photographs, BOOL: false
+WORD: taken, BOOL: false
+WORD: while, BOOL: false
+WORD: participating, BOOL: true
+After tagging: <span class="feedback" id="39" style="color: red">participating</span>
+WORD: in, BOOL: false
+WORD: international, BOOL: false
+WORD: programs, BOOL: false
+WORD: ., BOOL: false
+WORD: Read, BOOL: false
+WORD: more, BOOL: false
+WORD: VIDEO, BOOL: true
+After tagging: <span class="feedback" id="41" style="color: red">VIDEO</span>
+WORD: :, BOOL: false
+WORD: Students, BOOL: false
+WORD: look, BOOL: false
+WORD: at, BOOL: false
+WORD: the, BOOL: false
+WORD: world, BOOL: false
+WORD: with, BOOL: false
+WORD: an, BOOL: true
+After tagging: <span class="feedback" id="41" style="color: red">an</span>
+WORD: ', BOOL: false
+WORD: international, BOOL: false
+WORD: eye, BOOL: true
+After tagging: <span class="feedback" id="41" style="color: red">eye</span>
+WORD: ', BOOL: false
+WORD: |, BOOL: false
+WORD: 
+	, BOOL: false
+WORD: Read, BOOL: true
+After tagging: <span class="feedback" id="43" style="color: red">Read</span>
+WORD: Story, BOOL: true
+After tagging: <span class="feedback" id="43" style="color: red">Story</span>
+WORD: |, BOOL: false
+WORD: 
+	, BOOL: false
+WORD: Play, BOOL: false
+WORD: Video, BOOL: false
+WORD: |, BOOL: false
+WORD: 
+	, BOOL: false
+WORD: See, BOOL: false
+WORD: All, BOOL: false
+WORD: Features, BOOL: false
+WORD: Video, BOOL: false
+WORD: not, BOOL: false
+WORD: loading, BOOL: false
+WORD: ?, BOOL: false
+WORD: Load, BOOL: false
+WORD: video, BOOL: false
+WORD: in, BOOL: false
+WORD: a, BOOL: false
+WORD: different, BOOL: false
+WORD: player, BOOL: false
+WORD: ., BOOL: false
+WORD: Update, BOOL: false
+WORD: your, BOOL: false
+WORD: Flash, BOOL: true
+After tagging: <span class="feedback" id="51" style="color: red">Flash</span>
+WORD: Player, BOOL: false
+WORD: VIDEO, BOOL: false
+WORD: :, BOOL: false
+WORD: Students, BOOL: true
+After tagging: <span class="feedback" id="52" style="color: red">Students</span>
+WORD: look, BOOL: false
+WORD: at, BOOL: false
+WORD: the, BOOL: false
+WORD: world, BOOL: false
+WORD: with, BOOL: false
+WORD: an, BOOL: false
+WORD: ', BOOL: false
+WORD: international, BOOL: false
+WORD: eye, BOOL: true
+After tagging: <span class="feedback" id="52" style="color: red">eye</span>
+WORD: ', BOOL: false
+WORD: |, BOOL: false
+WORD: Read, BOOL: true
+After tagging: <span class="feedback" id="54" style="color: red">Read</span>
+WORD: Story, BOOL: false
+WORD: |, BOOL: false
+WORD: Play, BOOL: false
+WORD: Video, BOOL: true
+After tagging: <span class="feedback" id="56" style="color: red">Video</span>
+WORD: |, BOOL: true
+After tagging: <span class="feedback" id="57" style="color: red">|</span>
+WORD: See, BOOL: false
+WORD: All, BOOL: false
+WORD: Features, BOOL: false
+WORD: Show, BOOL: false
+WORD: Closed, BOOL: false
+WORD: Captions, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: junior, BOOL: false
+WORD: Tanya, BOOL: false
+WORD: Tawengwa, BOOL: false
+WORD: talks, BOOL: false
+WORD: about, BOOL: false
+WORD: the, BOOL: false
+WORD: many, BOOL: false
+WORD: ways, BOOL: false
+WORD: in, BOOL: true
+After tagging: <span class="feedback" id="60" style="color: red">in</span>
+WORD: which, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: has, BOOL: false
+WORD: helped, BOOL: false
+WORD: her, BOOL: false
+WORD: pursue, BOOL: false
+WORD: her, BOOL: false
+WORD: dream, BOOL: false
+WORD: to, BOOL: false
+WORD: become, BOOL: false
+WORD: a, BOOL: false
+WORD: performer, BOOL: false
+WORD: Read, BOOL: false
+WORD: more, BOOL: true
+After tagging: <span class="feedback" id="61" style="color: red">more</span>
+WORD: ., BOOL: false
+WORD: Show, BOOL: true
+After tagging: <span class="feedback" id="62" style="color: red">Show</span>
+WORD: Closed, BOOL: false
+WORD: Captions, BOOL: false
+WORD: This, BOOL: false
+WORD: video, BOOL: false
+WORD: compiled, BOOL: false
+WORD: from, BOOL: false
+WORD: photos, BOOL: false
+WORD: and, BOOL: false
+WORD: video, BOOL: false
+WORD: clips, BOOL: false
+WORD: submitted, BOOL: false
+WORD: from, BOOL: true
+After tagging: <span class="feedback" id="63" style="color: red">from</span>
+WORD: campus, BOOL: false
+WORD: and, BOOL: false
+WORD: around, BOOL: false
+WORD: the, BOOL: false
+WORD: world, BOOL: true
+After tagging: <span class="feedback" id="63" style="color: red">world</span>
+WORD: shows, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: alumni, BOOL: false
+WORD: expressing, BOOL: false
+WORD: their, BOOL: false
+WORD: appreciation, BOOL: false
+WORD: for, BOOL: false
+WORD: President, BOOL: true
+After tagging: <span class="feedback" id="63" style="color: red">President</span>
+WORD: Shirley, BOOL: false
+WORD: M., BOOL: false
+WORD: Tilghman, BOOL: false
+WORD: ., BOOL: false
+WORD: The, BOOL: false
+WORD: video, BOOL: false
+WORD: was, BOOL: false
+WORD: played, BOOL: false
+WORD: Saturday, BOOL: false
+WORD: ,, BOOL: false
+WORD: Feb, BOOL: false
+WORD: 23, BOOL: false
+WORD: ,, BOOL: false
+WORD: at, BOOL: true
+After tagging: <span class="feedback" id="66" style="color: red">at</span>
+WORD: the, BOOL: false
+WORD: annual, BOOL: false
+WORD: Alumni, BOOL: false
+WORD: Day, BOOL: false
+WORD: luncheon, BOOL: false
+WORD: Read, BOOL: false
+WORD: more, BOOL: false
+WORD: ., BOOL: false
+WORD: Show, BOOL: false
+WORD: Closed, BOOL: true
+After tagging: <span class="feedback" id="68" style="color: red">Closed</span>
+WORD: Captions, BOOL: false
+WORD: Students, BOOL: false
+WORD: :, BOOL: false
+WORD: See, BOOL: false
+WORD: your, BOOL: false
+WORD: work, BOOL: false
+WORD: on, BOOL: false
+WORD: the, BOOL: false
+WORD: home, BOOL: false
+WORD: page, BOOL: false
+WORD: Submit, BOOL: false
+WORD: your, BOOL: false
+WORD: creative, BOOL: false
+WORD: work, BOOL: false
+WORD: and, BOOL: false
+WORD: it, BOOL: false
+WORD: may, BOOL: true
+After tagging: <span class="feedback" id="70" style="color: red">may</span>
+WORD: be, BOOL: true
+After tagging: <span class="feedback" id="70" style="color: red">be</span>
+WORD: featured, BOOL: false
+WORD: on, BOOL: false
+WORD: the, BOOL: true
+After tagging: <span class="feedback" id="70" style="color: red">the</span>
+WORD: home, BOOL: false
+WORD: page, BOOL: false
+WORD: Read, BOOL: false
+WORD: more, BOOL: false
+WORD: ., BOOL: false
+WORD: Students, BOOL: false
+WORD: :, BOOL: false
+WORD: See, BOOL: false
+WORD: your, BOOL: true
+After tagging: <span class="feedback" id="72" style="color: red">your</span>
+WORD: work, BOOL: true
+After tagging: <span class="feedback" id="72" style="color: red">work</span>
+WORD: on, BOOL: false
+WORD: the, BOOL: false
+WORD: home, BOOL: false
+WORD: page, BOOL: false
+WORD: Community, BOOL: false
+WORD: Resources, BOOL: false
+WORD: Athletics, BOOL: false
+WORD: Art, BOOL: false
+WORD: Museum, BOOL: false
+WORD: Jobs, BOOL: false
+WORD: Campus, BOOL: true
+After tagging: <span class="feedback" id="77" style="color: red">Campus</span>
+WORD: Tours, BOOL: true
+After tagging: <span class="feedback" id="77" style="color: red">Tours</span>
+WORD: Campus, BOOL: false
+WORD: Shuttle, BOOL: false
+WORD: Faculty, BOOL: false
+WORD: Blogs, BOOL: false
+WORD: Aid, BOOL: false
+WORD: Estimator, BOOL: false
+WORD: Website, BOOL: false
+WORD: Highlights, BOOL: false
+WORD: Presidential, BOOL: false
+WORD: Search, BOOL: false
+WORD: Office, BOOL: false
+WORD: of, BOOL: false
+WORD: the, BOOL: false
+WORD: Dean, BOOL: false
+WORD: of, BOOL: false
+WORD: the, BOOL: false
+WORD: College, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: Journal, BOOL: false
+WORD: Watch, BOOL: false
+WORD: Arts, BOOL: false
+WORD: &, BOOL: false
+WORD: Transit, BOOL: false
+WORD: Project, BOOL: false
+WORD: Multimedia, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: University, BOOL: false
+WORD: Career, BOOL: false
+WORD: Services, BOOL: false
+WORD: Facebook, BOOL: false
+WORD: Twitter, BOOL: false
+WORD: YouTube, BOOL: false
+WORD: iTunes, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: University, BOOL: false
+WORD: ·, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: ,, BOOL: false
+WORD: New, BOOL: false
+WORD: Jersey, BOOL: false
+WORD: 08544, BOOL: false
+WORD: USA, BOOL: false
+WORD: ,, BOOL: false
+WORD: Operator, BOOL: false
+WORD: :, BOOL: false
+WORD: (, BOOL: false
+WORD: 609, BOOL: false
+WORD: ), BOOL: false
+WORD: 258, BOOL: false
+WORD: -, BOOL: false
+WORD: 3000, BOOL: false
+WORD: ·, BOOL: false
+WORD: Copyright, BOOL: false
+WORD: infringement, BOOL: false
+WORD: ·, BOOL: false
+WORD: Web, BOOL: false
+WORD: page, BOOL: false
+WORD: feedback, BOOL: false
+WORD: ·, BOOL: false
+WORD: 
+, BOOL: false
+WORD: 
+, BOOL: false
+WORD: Last, BOOL: false
+WORD: update, BOOL: false
+WORD: :, BOOL: false
+WORD: 
+, BOOL: true
+After tagging: <span class="feedback" id="98" style="color: red">
+</span>
+WORD: March, BOOL: false
+WORD: 6, BOOL: false
+WORD: ,, BOOL: false
+WORD: 2013, BOOL: false
+WORD: Skip, BOOL: false
+WORD: over, BOOL: false
+WORD: navigation, BOOL: false
+WORD: View, BOOL: false
+WORD: Access, BOOL: false
+WORD: Keys, BOOL: false
+WORD: Email, BOOL: false
+WORD: A, BOOL: false
+WORD: to, BOOL: false
+WORD: Z, BOOL: false
+WORD: Contacts, BOOL: false
+WORD: Site, BOOL: false
+WORD: Map, BOOL: false
+WORD: News, BOOL: false
+WORD: Multimedia, BOOL: false
+WORD: About, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: Academics, BOOL: false
+WORD: Admission, BOOL: false
+WORD: &, BOOL: false
+WORD: Aid, BOOL: false
+WORD: Arts, BOOL: false
+WORD: International, BOOL: false
+WORD: Library, BOOL: false
+WORD: Research, BOOL: false
+WORD: Administration, BOOL: false
+WORD: &, BOOL: false
+WORD: Services, BOOL: false
+WORD: Campus, BOOL: false
+WORD: Life, BOOL: false
+WORD: Visiting, BOOL: false
+WORD: Campus, BOOL: false
+WORD: Students, BOOL: false
+WORD: Faculty, BOOL: false
+WORD: &, BOOL: false
+WORD: Staff, BOOL: false
+WORD: Alumni, BOOL: false
+WORD: Parents, BOOL: false
+WORD: Undergraduate, BOOL: false
+WORD: Applicants, BOOL: false
+WORD: Graduate, BOOL: false
+WORD: School, BOOL: false
+WORD: Applicants, BOOL: false
+WORD: News, BOOL: false
+WORD: at, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: Merewether, BOOL: false
+WORD: receives, BOOL: false
+WORD: Luce, BOOL: false
+WORD: Scholarship, BOOL: false
+WORD: to, BOOL: false
+WORD: explore, BOOL: false
+WORD: rescue, BOOL: true
+After tagging: <span class="feedback" id="25" style="color: red">rescue</span>
+WORD: tech, BOOL: false
+WORD: in, BOOL: false
+WORD: Asia, BOOL: false
+WORD: 
+	, BOOL: false
+WORD: Six, BOOL: false
+WORD: international, BOOL: false
+WORD: scholars, BOOL: true
+After tagging: <span class="feedback" id="26" style="color: red">scholars</span>
+WORD: chosen, BOOL: false
+WORD: as, BOOL: false
+WORD: first, BOOL: false
+WORD: Fung, BOOL: false
+WORD: Fellows, BOOL: false
+WORD: 
+	, BOOL: false
+WORD: Tilghman, BOOL: false
+WORD: ,, BOOL: false
+WORD: Slaughter, BOOL: false
+WORD: discuss, BOOL: false
+WORD: ', BOOL: false
+WORD: next, BOOL: true
+After tagging: <span class="feedback" id="27" style="color: red">next</span>
+WORD: wave, BOOL: false
+WORD: ', BOOL: false
+WORD: of, BOOL: true
+After tagging: <span class="feedback" id="27" style="color: red">of</span>
+WORD: women, BOOL: false
+WORD: and, BOOL: false
+WORD: leadership, BOOL: false
+WORD: 
+	, BOOL: false
+WORD: Bernanke, BOOL: true
+After tagging: <span class="feedback" id="28" style="color: red">Bernanke</span>
+WORD: named, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: ', BOOL: false
+WORD: s, BOOL: false
+WORD: Baccalaureate, BOOL: false
+WORD: speaker, BOOL: false
+WORD: 
+	, BOOL: false
+WORD: March, BOOL: false
+WORD: of, BOOL: true
+After tagging: <span class="feedback" id="29" style="color: red">of</span>
+WORD: the, BOOL: false
+WORD: pathogens, BOOL: false
+WORD: :, BOOL: false
+WORD: Parasite, BOOL: false
+WORD: metabolism, BOOL: false
+WORD: can, BOOL: false
+WORD: foretell, BOOL: false
+WORD: disease, BOOL: false
+WORD: ranges, BOOL: false
+WORD: under, BOOL: false
+WORD: climate, BOOL: false
+WORD: change, BOOL: true
+After tagging: <span class="feedback" id="29" style="color: red">change</span>
+WORD: 
+	, BOOL: false
+WORD: All, BOOL: false
+WORD: Homepage, BOOL: true
+After tagging: <span class="feedback" id="30" style="color: red">Homepage</span>
+WORD: Stories, BOOL: true
+After tagging: <span class="feedback" id="30" style="color: red">Stories</span>
+WORD: Featured, BOOL: false
+WORD: Events, BOOL: false
+WORD: Blinder, BOOL: false
+WORD: to, BOOL: false
+WORD: speak, BOOL: false
+WORD: on, BOOL: false
+WORD: what, BOOL: false
+WORD: ', BOOL: false
+WORD: s, BOOL: false
+WORD: ahead, BOOL: true
+After tagging: <span class="feedback" id="32" style="color: red">ahead</span>
+WORD: after, BOOL: false
+WORD: the, BOOL: false
+WORD: financial, BOOL: false
+WORD: crisis, BOOL: false
+WORD: Yale, BOOL: true
+After tagging: <span class="feedback" id="33" style="color: red">Yale</span>
+WORD: Law, BOOL: false
+WORD: professor, BOOL: false
+WORD: ,, BOOL: true
+After tagging: <span class="feedback" id="33" style="color: red">,</span>
+WORD: Princeton, BOOL: true
+After tagging: <span class="feedback" id="33" style="color: red">Princeton</span>
+WORD: students, BOOL: false
+WORD: will, BOOL: false
+WORD: discuss, BOOL: false
+WORD: ethical, BOOL: false
+WORD: investing, BOOL: false
+WORD: Student, BOOL: false
+WORD: Playwrights, BOOL: false
+WORD: Festival, BOOL: true
+After tagging: <span class="feedback" id="34" style="color: red">Festival</span>
+WORD: to, BOOL: true
+After tagging: <span class="feedback" id="34" style="color: red">to</span>
+WORD: feature, BOOL: false
+WORD: original, BOOL: false
+WORD: works, BOOL: false
+WORD: Conference, BOOL: false
+WORD: to, BOOL: false
+WORD: explore, BOOL: true
+After tagging: <span class="feedback" id="35" style="color: red">explore</span>
+WORD: topics, BOOL: true
+After tagging: <span class="feedback" id="35" style="color: red">topics</span>
+WORD: in, BOOL: false
+WORD: environmental, BOOL: false
+WORD: humanities, BOOL: false
+WORD: Featured, BOOL: false
+WORD: Events, BOOL: false
+WORD: and, BOOL: false
+WORD: Calendars, BOOL: true
+After tagging: <span class="feedback" id="36" style="color: red">Calendars</span>
+WORD: Public, BOOL: false
+WORD: Events, BOOL: false
+WORD: Calendar, BOOL: false
+WORD: Show, BOOL: false
+WORD: Closed, BOOL: false
+WORD: Captions, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: students, BOOL: false
+WORD: are, BOOL: false
+WORD: showcasing, BOOL: false
+WORD: their, BOOL: false
+WORD: many, BOOL: false
+WORD: opportunities, BOOL: false
+WORD: to, BOOL: false
+WORD: experience, BOOL: false
+WORD: life, BOOL: false
+WORD: abroad, BOOL: false
+WORD: through, BOOL: false
+WORD: an, BOOL: false
+WORD: exhibition, BOOL: true
+After tagging: <span class="feedback" id="39" style="color: red">exhibition</span>
+WORD: of, BOOL: true
+After tagging: <span class="feedback" id="39" style="color: red">of</span>
+WORD: photographs, BOOL: false
+WORD: taken, BOOL: false
+WORD: while, BOOL: false
+WORD: participating, BOOL: true
+After tagging: <span class="feedback" id="39" style="color: red">participating</span>
+WORD: in, BOOL: false
+WORD: international, BOOL: false
+WORD: programs, BOOL: false
+WORD: ., BOOL: false
+WORD: Read, BOOL: false
+WORD: more, BOOL: false
+WORD: VIDEO, BOOL: true
+After tagging: <span class="feedback" id="41" style="color: red">VIDEO</span>
+WORD: :, BOOL: false
+WORD: Students, BOOL: false
+WORD: look, BOOL: false
+WORD: at, BOOL: false
+WORD: the, BOOL: false
+WORD: world, BOOL: false
+WORD: with, BOOL: false
+WORD: an, BOOL: true
+After tagging: <span class="feedback" id="41" style="color: red">an</span>
+WORD: ', BOOL: false
+WORD: international, BOOL: false
+WORD: eye, BOOL: true
+After tagging: <span class="feedback" id="41" style="color: red">eye</span>
+WORD: ', BOOL: false
+WORD: |, BOOL: false
+WORD: 
+	, BOOL: false
+WORD: Read, BOOL: true
+After tagging: <span class="feedback" id="43" style="color: red">Read</span>
+WORD: Story, BOOL: true
+After tagging: <span class="feedback" id="43" style="color: red">Story</span>
+WORD: |, BOOL: false
+WORD: 
+	, BOOL: false
+WORD: Play, BOOL: false
+WORD: Video, BOOL: false
+WORD: |, BOOL: false
+WORD: 
+	, BOOL: false
+WORD: See, BOOL: false
+WORD: All, BOOL: false
+WORD: Features, BOOL: false
+WORD: Video, BOOL: false
+WORD: not, BOOL: false
+WORD: loading, BOOL: false
+WORD: ?, BOOL: false
+WORD: Load, BOOL: false
+WORD: video, BOOL: false
+WORD: in, BOOL: false
+WORD: a, BOOL: false
+WORD: different, BOOL: false
+WORD: player, BOOL: false
+WORD: ., BOOL: false
+WORD: Update, BOOL: false
+WORD: your, BOOL: false
+WORD: Flash, BOOL: true
+After tagging: <span class="feedback" id="51" style="color: red">Flash</span>
+WORD: Player, BOOL: false
+WORD: VIDEO, BOOL: false
+WORD: :, BOOL: false
+WORD: Students, BOOL: true
+After tagging: <span class="feedback" id="52" style="color: red">Students</span>
+WORD: look, BOOL: false
+WORD: at, BOOL: false
+WORD: the, BOOL: false
+WORD: world, BOOL: false
+WORD: with, BOOL: false
+WORD: an, BOOL: false
+WORD: ', BOOL: false
+WORD: international, BOOL: false
+WORD: eye, BOOL: true
+After tagging: <span class="feedback" id="52" style="color: red">eye</span>
+WORD: ', BOOL: false
+WORD: |, BOOL: false
+WORD: Read, BOOL: true
+After tagging: <span class="feedback" id="54" style="color: red">Read</span>
+WORD: Story, BOOL: false
+WORD: |, BOOL: false
+WORD: Play, BOOL: false
+WORD: Video, BOOL: true
+After tagging: <span class="feedback" id="56" style="color: red">Video</span>
+WORD: |, BOOL: true
+After tagging: <span class="feedback" id="57" style="color: red">|</span>
+WORD: See, BOOL: false
+WORD: All, BOOL: false
+WORD: Features, BOOL: false
+WORD: Show, BOOL: false
+WORD: Closed, BOOL: false
+WORD: Captions, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: junior, BOOL: false
+WORD: Tanya, BOOL: false
+WORD: Tawengwa, BOOL: false
+WORD: talks, BOOL: false
+WORD: about, BOOL: false
+WORD: the, BOOL: false
+WORD: many, BOOL: false
+WORD: ways, BOOL: false
+WORD: in, BOOL: true
+After tagging: <span class="feedback" id="60" style="color: red">in</span>
+WORD: which, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: has, BOOL: false
+WORD: helped, BOOL: false
+WORD: her, BOOL: false
+WORD: pursue, BOOL: false
+WORD: her, BOOL: false
+WORD: dream, BOOL: false
+WORD: to, BOOL: false
+WORD: become, BOOL: false
+WORD: a, BOOL: false
+WORD: performer, BOOL: false
+WORD: Read, BOOL: false
+WORD: more, BOOL: true
+After tagging: <span class="feedback" id="61" style="color: red">more</span>
+WORD: ., BOOL: false
+WORD: Show, BOOL: true
+After tagging: <span class="feedback" id="62" style="color: red">Show</span>
+WORD: Closed, BOOL: false
+WORD: Captions, BOOL: false
+WORD: This, BOOL: false
+WORD: video, BOOL: false
+WORD: compiled, BOOL: false
+WORD: from, BOOL: false
+WORD: photos, BOOL: false
+WORD: and, BOOL: false
+WORD: video, BOOL: false
+WORD: clips, BOOL: false
+WORD: submitted, BOOL: false
+WORD: from, BOOL: true
+After tagging: <span class="feedback" id="63" style="color: red">from</span>
+WORD: campus, BOOL: false
+WORD: and, BOOL: false
+WORD: around, BOOL: false
+WORD: the, BOOL: false
+WORD: world, BOOL: true
+After tagging: <span class="feedback" id="63" style="color: red">world</span>
+WORD: shows, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: alumni, BOOL: false
+WORD: expressing, BOOL: false
+WORD: their, BOOL: false
+WORD: appreciation, BOOL: false
+WORD: for, BOOL: false
+WORD: President, BOOL: true
+After tagging: <span class="feedback" id="63" style="color: red">President</span>
+WORD: Shirley, BOOL: false
+WORD: M., BOOL: false
+WORD: Tilghman, BOOL: false
+WORD: ., BOOL: false
+WORD: The, BOOL: false
+WORD: video, BOOL: false
+WORD: was, BOOL: false
+WORD: played, BOOL: false
+WORD: Saturday, BOOL: false
+WORD: ,, BOOL: false
+WORD: Feb, BOOL: false
+WORD: 23, BOOL: false
+WORD: ,, BOOL: false
+WORD: at, BOOL: true
+After tagging: <span class="feedback" id="66" style="color: red">at</span>
+WORD: the, BOOL: false
+WORD: annual, BOOL: false
+WORD: Alumni, BOOL: false
+WORD: Day, BOOL: false
+WORD: luncheon, BOOL: false
+WORD: Read, BOOL: false
+WORD: more, BOOL: false
+WORD: ., BOOL: false
+WORD: Show, BOOL: false
+WORD: Closed, BOOL: true
+After tagging: <span class="feedback" id="68" style="color: red">Closed</span>
+WORD: Captions, BOOL: false
+WORD: Students, BOOL: false
+WORD: :, BOOL: false
+WORD: See, BOOL: false
+WORD: your, BOOL: false
+WORD: work, BOOL: false
+WORD: on, BOOL: false
+WORD: the, BOOL: false
+WORD: home, BOOL: false
+WORD: page, BOOL: false
+WORD: Submit, BOOL: false
+WORD: your, BOOL: false
+WORD: creative, BOOL: false
+WORD: work, BOOL: false
+WORD: and, BOOL: false
+WORD: it, BOOL: false
+WORD: may, BOOL: true
+After tagging: <span class="feedback" id="70" style="color: red">may</span>
+WORD: be, BOOL: true
+After tagging: <span class="feedback" id="70" style="color: red">be</span>
+WORD: featured, BOOL: false
+WORD: on, BOOL: false
+WORD: the, BOOL: true
+After tagging: <span class="feedback" id="70" style="color: red">the</span>
+WORD: home, BOOL: false
+WORD: page, BOOL: false
+WORD: Read, BOOL: false
+WORD: more, BOOL: false
+WORD: ., BOOL: false
+WORD: Students, BOOL: false
+WORD: :, BOOL: false
+WORD: See, BOOL: false
+WORD: your, BOOL: true
+After tagging: <span class="feedback" id="72" style="color: red">your</span>
+WORD: work, BOOL: true
+After tagging: <span class="feedback" id="72" style="color: red">work</span>
+WORD: on, BOOL: false
+WORD: the, BOOL: false
+WORD: home, BOOL: false
+WORD: page, BOOL: false
+WORD: Community, BOOL: false
+WORD: Resources, BOOL: false
+WORD: Athletics, BOOL: false
+WORD: Art, BOOL: false
+WORD: Museum, BOOL: false
+WORD: Jobs, BOOL: false
+WORD: Campus, BOOL: true
+After tagging: <span class="feedback" id="77" style="color: red">Campus</span>
+WORD: Tours, BOOL: true
+After tagging: <span class="feedback" id="77" style="color: red">Tours</span>
+WORD: Campus, BOOL: false
+WORD: Shuttle, BOOL: false
+WORD: Faculty, BOOL: false
+WORD: Blogs, BOOL: false
+WORD: Aid, BOOL: false
+WORD: Estimator, BOOL: false
+WORD: Website, BOOL: false
+WORD: Highlights, BOOL: false
+WORD: Presidential, BOOL: false
+WORD: Search, BOOL: false
+WORD: Office, BOOL: false
+WORD: of, BOOL: false
+WORD: the, BOOL: false
+WORD: Dean, BOOL: false
+WORD: of, BOOL: false
+WORD: the, BOOL: false
+WORD: College, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: Journal, BOOL: false
+WORD: Watch, BOOL: false
+WORD: Arts, BOOL: false
+WORD: &, BOOL: false
+WORD: Transit, BOOL: false
+WORD: Project, BOOL: false
+WORD: Multimedia, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: University, BOOL: false
+WORD: Career, BOOL: false
+WORD: Services, BOOL: false
+WORD: Facebook, BOOL: false
+WORD: Twitter, BOOL: false
+WORD: YouTube, BOOL: false
+WORD: iTunes, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: University, BOOL: false
+WORD: ·, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: ,, BOOL: false
+WORD: New, BOOL: false
+WORD: Jersey, BOOL: false
+WORD: 08544, BOOL: false
+WORD: USA, BOOL: false
+WORD: ,, BOOL: false
+WORD: Operator, BOOL: false
+WORD: :, BOOL: false
+WORD: (, BOOL: false
+WORD: 609, BOOL: false
+WORD: ), BOOL: false
+WORD: 258, BOOL: false
+WORD: -, BOOL: false
+WORD: 3000, BOOL: false
+WORD: ·, BOOL: false
+WORD: Copyright, BOOL: false
+WORD: infringement, BOOL: false
+WORD: ·, BOOL: false
+WORD: Web, BOOL: false
+WORD: page, BOOL: false
+WORD: feedback, BOOL: false
+WORD: ·, BOOL: false
+WORD: 
+, BOOL: false
+WORD: 
+, BOOL: false
+WORD: Last, BOOL: false
+WORD: update, BOOL: false
+WORD: :, BOOL: false
+WORD: 
+, BOOL: true
+After tagging: <span class="feedback" id="98" style="color: red">
+</span>
+WORD: March, BOOL: false
+WORD: 6, BOOL: false
+WORD: ,, BOOL: false
+WORD: 2013, BOOL: false
+WORD: Skip, BOOL: false
+WORD: over, BOOL: false
+WORD: navigation, BOOL: false
+WORD: View, BOOL: false
+WORD: Access, BOOL: false
+WORD: Keys, BOOL: false
+WORD: Email, BOOL: false
+WORD: A, BOOL: false
+WORD: to, BOOL: false
+WORD: Z, BOOL: false
+WORD: Contacts, BOOL: false
+WORD: Site, BOOL: false
+WORD: Map, BOOL: false
+WORD: News, BOOL: false
+WORD: Multimedia, BOOL: false
+WORD: About, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: Academics, BOOL: false
+WORD: Admission, BOOL: false
+WORD: &, BOOL: false
+WORD: Aid, BOOL: false
+WORD: Arts, BOOL: false
+WORD: International, BOOL: false
+WORD: Library, BOOL: false
+WORD: Research, BOOL: false
+WORD: Administration, BOOL: false
+WORD: &, BOOL: false
+WORD: Services, BOOL: false
+WORD: Campus, BOOL: false
+WORD: Life, BOOL: false
+WORD: Visiting, BOOL: false
+WORD: Campus, BOOL: false
+WORD: Students, BOOL: false
+WORD: Faculty, BOOL: false
+WORD: &, BOOL: false
+WORD: Staff, BOOL: false
+WORD: Alumni, BOOL: false
+WORD: Parents, BOOL: false
+WORD: Undergraduate, BOOL: false
+WORD: Applicants, BOOL: false
+WORD: Graduate, BOOL: false
+WORD: School, BOOL: false
+WORD: Applicants, BOOL: false
+WORD: News, BOOL: false
+WORD: at, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: Merewether, BOOL: false
+WORD: receives, BOOL: false
+WORD: Luce, BOOL: false
+WORD: Scholarship, BOOL: false
+WORD: to, BOOL: false
+WORD: explore, BOOL: false
+WORD: rescue, BOOL: true
+After tagging: <span class="feedback" id="25" style="color: red">rescue</span>
+WORD: tech, BOOL: false
+WORD: in, BOOL: false
+WORD: Asia, BOOL: false
+WORD: 
+	, BOOL: false
+WORD: Six, BOOL: false
+WORD: international, BOOL: false
+WORD: scholars, BOOL: true
+After tagging: <span class="feedback" id="26" style="color: red">scholars</span>
+WORD: chosen, BOOL: false
+WORD: as, BOOL: false
+WORD: first, BOOL: false
+WORD: Fung, BOOL: false
+WORD: Fellows, BOOL: false
+WORD: 
+	, BOOL: false
+WORD: Tilghman, BOOL: false
+WORD: ,, BOOL: false
+WORD: Slaughter, BOOL: false
+WORD: discuss, BOOL: false
+WORD: ', BOOL: false
+WORD: next, BOOL: true
+After tagging: <span class="feedback" id="27" style="color: red">next</span>
+WORD: wave, BOOL: false
+WORD: ', BOOL: false
+WORD: of, BOOL: true
+After tagging: <span class="feedback" id="27" style="color: red">of</span>
+WORD: women, BOOL: false
+WORD: and, BOOL: false
+WORD: leadership, BOOL: false
+WORD: 
+	, BOOL: false
+WORD: Bernanke, BOOL: true
+After tagging: <span class="feedback" id="28" style="color: red">Bernanke</span>
+WORD: named, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: ', BOOL: false
+WORD: s, BOOL: false
+WORD: Baccalaureate, BOOL: false
+WORD: speaker, BOOL: false
+WORD: 
+	, BOOL: false
+WORD: March, BOOL: false
+WORD: of, BOOL: true
+After tagging: <span class="feedback" id="29" style="color: red">of</span>
+WORD: the, BOOL: false
+WORD: pathogens, BOOL: false
+WORD: :, BOOL: false
+WORD: Parasite, BOOL: false
+WORD: metabolism, BOOL: false
+WORD: can, BOOL: false
+WORD: foretell, BOOL: false
+WORD: disease, BOOL: false
+WORD: ranges, BOOL: false
+WORD: under, BOOL: false
+WORD: climate, BOOL: false
+WORD: change, BOOL: true
+After tagging: <span class="feedback" id="29" style="color: red">change</span>
+WORD: 
+	, BOOL: false
+WORD: All, BOOL: false
+WORD: Homepage, BOOL: true
+After tagging: <span class="feedback" id="30" style="color: red">Homepage</span>
+WORD: Stories, BOOL: true
+After tagging: <span class="feedback" id="30" style="color: red">Stories</span>
+WORD: Featured, BOOL: false
+WORD: Events, BOOL: false
+WORD: Blinder, BOOL: false
+WORD: to, BOOL: false
+WORD: speak, BOOL: false
+WORD: on, BOOL: false
+WORD: what, BOOL: false
+WORD: ', BOOL: false
+WORD: s, BOOL: false
+WORD: ahead, BOOL: true
+After tagging: <span class="feedback" id="32" style="color: red">ahead</span>
+WORD: after, BOOL: false
+WORD: the, BOOL: false
+WORD: financial, BOOL: false
+WORD: crisis, BOOL: false
+WORD: Yale, BOOL: true
+After tagging: <span class="feedback" id="33" style="color: red">Yale</span>
+WORD: Law, BOOL: false
+WORD: professor, BOOL: false
+WORD: ,, BOOL: true
+After tagging: <span class="feedback" id="33" style="color: red">,</span>
+WORD: Princeton, BOOL: true
+After tagging: <span class="feedback" id="33" style="color: red">Princeton</span>
+WORD: students, BOOL: false
+WORD: will, BOOL: false
+WORD: discuss, BOOL: false
+WORD: ethical, BOOL: false
+WORD: investing, BOOL: false
+WORD: Student, BOOL: false
+WORD: Playwrights, BOOL: false
+WORD: Festival, BOOL: true
+After tagging: <span class="feedback" id="34" style="color: red">Festival</span>
+WORD: to, BOOL: true
+After tagging: <span class="feedback" id="34" style="color: red">to</span>
+WORD: feature, BOOL: false
+WORD: original, BOOL: false
+WORD: works, BOOL: false
+WORD: Conference, BOOL: false
+WORD: to, BOOL: false
+WORD: explore, BOOL: true
+After tagging: <span class="feedback" id="35" style="color: red">explore</span>
+WORD: topics, BOOL: true
+After tagging: <span class="feedback" id="35" style="color: red">topics</span>
+WORD: in, BOOL: false
+WORD: environmental, BOOL: false
+WORD: humanities, BOOL: false
+WORD: Featured, BOOL: false
+WORD: Events, BOOL: false
+WORD: and, BOOL: false
+WORD: Calendars, BOOL: true
+After tagging: <span class="feedback" id="36" style="color: red">Calendars</span>
+WORD: Public, BOOL: false
+WORD: Events, BOOL: false
+WORD: Calendar, BOOL: false
+WORD: Show, BOOL: false
+WORD: Closed, BOOL: false
+WORD: Captions, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: students, BOOL: false
+WORD: are, BOOL: false
+WORD: showcasing, BOOL: false
+WORD: their, BOOL: false
+WORD: many, BOOL: false
+WORD: opportunities, BOOL: false
+WORD: to, BOOL: false
+WORD: experience, BOOL: false
+WORD: life, BOOL: false
+WORD: abroad, BOOL: false
+WORD: through, BOOL: false
+WORD: an, BOOL: false
+WORD: exhibition, BOOL: true
+After tagging: <span class="feedback" id="39" style="color: red">exhibition</span>
+WORD: of, BOOL: true
+After tagging: <span class="feedback" id="39" style="color: red">of</span>
+WORD: photographs, BOOL: false
+WORD: taken, BOOL: false
+WORD: while, BOOL: false
+WORD: participating, BOOL: true
+After tagging: <span class="feedback" id="39" style="color: red">participating</span>
+WORD: in, BOOL: false
+WORD: international, BOOL: false
+WORD: programs, BOOL: false
+WORD: ., BOOL: false
+WORD: Read, BOOL: false
+WORD: more, BOOL: false
+WORD: VIDEO, BOOL: true
+After tagging: <span class="feedback" id="41" style="color: red">VIDEO</span>
+WORD: :, BOOL: false
+WORD: Students, BOOL: false
+WORD: look, BOOL: false
+WORD: at, BOOL: false
+WORD: the, BOOL: false
+WORD: world, BOOL: false
+WORD: with, BOOL: false
+WORD: an, BOOL: true
+After tagging: <span class="feedback" id="41" style="color: red">an</span>
+WORD: ', BOOL: false
+WORD: international, BOOL: false
+WORD: eye, BOOL: true
+After tagging: <span class="feedback" id="41" style="color: red">eye</span>
+WORD: ', BOOL: false
+WORD: |, BOOL: false
+WORD: 
+	, BOOL: false
+WORD: Read, BOOL: true
+After tagging: <span class="feedback" id="43" style="color: red">Read</span>
+WORD: Story, BOOL: true
+After tagging: <span class="feedback" id="43" style="color: red">Story</span>
+WORD: |, BOOL: false
+WORD: 
+	, BOOL: false
+WORD: Play, BOOL: false
+WORD: Video, BOOL: false
+WORD: |, BOOL: false
+WORD: 
+	, BOOL: false
+WORD: See, BOOL: false
+WORD: All, BOOL: false
+WORD: Features, BOOL: false
+WORD: Video, BOOL: false
+WORD: not, BOOL: false
+WORD: loading, BOOL: false
+WORD: ?, BOOL: false
+WORD: Load, BOOL: false
+WORD: video, BOOL: false
+WORD: in, BOOL: false
+WORD: a, BOOL: false
+WORD: different, BOOL: false
+WORD: player, BOOL: false
+WORD: ., BOOL: false
+WORD: Update, BOOL: false
+WORD: your, BOOL: false
+WORD: Flash, BOOL: true
+After tagging: <span class="feedback" id="51" style="color: red">Flash</span>
+WORD: Player, BOOL: false
+WORD: VIDEO, BOOL: false
+WORD: :, BOOL: false
+WORD: Students, BOOL: true
+After tagging: <span class="feedback" id="52" style="color: red">Students</span>
+WORD: look, BOOL: false
+WORD: at, BOOL: false
+WORD: the, BOOL: false
+WORD: world, BOOL: false
+WORD: with, BOOL: false
+WORD: an, BOOL: false
+WORD: ', BOOL: false
+WORD: international, BOOL: false
+WORD: eye, BOOL: true
+After tagging: <span class="feedback" id="52" style="color: red">eye</span>
+WORD: ', BOOL: false
+WORD: |, BOOL: false
+WORD: Read, BOOL: true
+After tagging: <span class="feedback" id="54" style="color: red">Read</span>
+WORD: Story, BOOL: false
+WORD: |, BOOL: false
+WORD: Play, BOOL: false
+WORD: Video, BOOL: true
+After tagging: <span class="feedback" id="56" style="color: red">Video</span>
+WORD: |, BOOL: true
+After tagging: <span class="feedback" id="57" style="color: red">|</span>
+WORD: See, BOOL: false
+WORD: All, BOOL: false
+WORD: Features, BOOL: false
+WORD: Show, BOOL: false
+WORD: Closed, BOOL: false
+WORD: Captions, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: junior, BOOL: false
+WORD: Tanya, BOOL: false
+WORD: Tawengwa, BOOL: false
+WORD: talks, BOOL: false
+WORD: about, BOOL: false
+WORD: the, BOOL: false
+WORD: many, BOOL: false
+WORD: ways, BOOL: false
+WORD: in, BOOL: true
+After tagging: <span class="feedback" id="60" style="color: red">in</span>
+WORD: which, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: has, BOOL: false
+WORD: helped, BOOL: false
+WORD: her, BOOL: false
+WORD: pursue, BOOL: false
+WORD: her, BOOL: false
+WORD: dream, BOOL: false
+WORD: to, BOOL: false
+WORD: become, BOOL: false
+WORD: a, BOOL: false
+WORD: performer, BOOL: false
+WORD: Read, BOOL: false
+WORD: more, BOOL: true
+After tagging: <span class="feedback" id="61" style="color: red">more</span>
+WORD: ., BOOL: false
+WORD: Show, BOOL: true
+After tagging: <span class="feedback" id="62" style="color: red">Show</span>
+WORD: Closed, BOOL: false
+WORD: Captions, BOOL: false
+WORD: This, BOOL: false
+WORD: video, BOOL: false
+WORD: compiled, BOOL: false
+WORD: from, BOOL: false
+WORD: photos, BOOL: false
+WORD: and, BOOL: false
+WORD: video, BOOL: false
+WORD: clips, BOOL: false
+WORD: submitted, BOOL: false
+WORD: from, BOOL: true
+After tagging: <span class="feedback" id="63" style="color: red">from</span>
+WORD: campus, BOOL: false
+WORD: and, BOOL: false
+WORD: around, BOOL: false
+WORD: the, BOOL: false
+WORD: world, BOOL: true
+After tagging: <span class="feedback" id="63" style="color: red">world</span>
+WORD: shows, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: alumni, BOOL: false
+WORD: expressing, BOOL: false
+WORD: their, BOOL: false
+WORD: appreciation, BOOL: false
+WORD: for, BOOL: false
+WORD: President, BOOL: true
+After tagging: <span class="feedback" id="63" style="color: red">President</span>
+WORD: Shirley, BOOL: false
+WORD: M., BOOL: false
+WORD: Tilghman, BOOL: false
+WORD: ., BOOL: false
+WORD: The, BOOL: false
+WORD: video, BOOL: false
+WORD: was, BOOL: false
+WORD: played, BOOL: false
+WORD: Saturday, BOOL: false
+WORD: ,, BOOL: false
+WORD: Feb, BOOL: false
+WORD: 23, BOOL: false
+WORD: ,, BOOL: false
+WORD: at, BOOL: true
+After tagging: <span class="feedback" id="66" style="color: red">at</span>
+WORD: the, BOOL: false
+WORD: annual, BOOL: false
+WORD: Alumni, BOOL: false
+WORD: Day, BOOL: false
+WORD: luncheon, BOOL: false
+WORD: Read, BOOL: false
+WORD: more, BOOL: false
+WORD: ., BOOL: false
+WORD: Show, BOOL: false
+WORD: Closed, BOOL: true
+After tagging: <span class="feedback" id="68" style="color: red">Closed</span>
+WORD: Captions, BOOL: false
+WORD: Students, BOOL: false
+WORD: :, BOOL: false
+WORD: See, BOOL: false
+WORD: your, BOOL: false
+WORD: work, BOOL: false
+WORD: on, BOOL: false
+WORD: the, BOOL: false
+WORD: home, BOOL: false
+WORD: page, BOOL: false
+WORD: Submit, BOOL: false
+WORD: your, BOOL: false
+WORD: creative, BOOL: false
+WORD: work, BOOL: false
+WORD: and, BOOL: false
+WORD: it, BOOL: false
+WORD: may, BOOL: true
+After tagging: <span class="feedback" id="70" style="color: red">may</span>
+WORD: be, BOOL: true
+After tagging: <span class="feedback" id="70" style="color: red">be</span>
+WORD: featured, BOOL: false
+WORD: on, BOOL: false
+WORD: the, BOOL: true
+After tagging: <span class="feedback" id="70" style="color: red">the</span>
+WORD: home, BOOL: false
+WORD: page, BOOL: false
+WORD: Read, BOOL: false
+WORD: more, BOOL: false
+WORD: ., BOOL: false
+WORD: Students, BOOL: false
+WORD: :, BOOL: false
+WORD: See, BOOL: false
+WORD: your, BOOL: true
+After tagging: <span class="feedback" id="72" style="color: red">your</span>
+WORD: work, BOOL: true
+After tagging: <span class="feedback" id="72" style="color: red">work</span>
+WORD: on, BOOL: false
+WORD: the, BOOL: false
+WORD: home, BOOL: false
+WORD: page, BOOL: false
+WORD: Community, BOOL: false
+WORD: Resources, BOOL: false
+WORD: Athletics, BOOL: false
+WORD: Art, BOOL: false
+WORD: Museum, BOOL: false
+WORD: Jobs, BOOL: false
+WORD: Campus, BOOL: true
+After tagging: <span class="feedback" id="77" style="color: red">Campus</span>
+WORD: Tours, BOOL: true
+After tagging: <span class="feedback" id="77" style="color: red">Tours</span>
+WORD: Campus, BOOL: false
+WORD: Shuttle, BOOL: false
+WORD: Faculty, BOOL: false
+WORD: Blogs, BOOL: false
+WORD: Aid, BOOL: false
+WORD: Estimator, BOOL: false
+WORD: Website, BOOL: false
+WORD: Highlights, BOOL: false
+WORD: Presidential, BOOL: false
+WORD: Search, BOOL: false
+WORD: Office, BOOL: false
+WORD: of, BOOL: false
+WORD: the, BOOL: false
+WORD: Dean, BOOL: false
+WORD: of, BOOL: false
+WORD: the, BOOL: false
+WORD: College, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: Journal, BOOL: false
+WORD: Watch, BOOL: false
+WORD: Arts, BOOL: false
+WORD: &, BOOL: false
+WORD: Transit, BOOL: false
+WORD: Project, BOOL: false
+WORD: Multimedia, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: University, BOOL: false
+WORD: Career, BOOL: false
+WORD: Services, BOOL: false
+WORD: Facebook, BOOL: false
+WORD: Twitter, BOOL: false
+WORD: YouTube, BOOL: false
+WORD: iTunes, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: University, BOOL: false
+WORD: ·, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: ,, BOOL: false
+WORD: New, BOOL: false
+WORD: Jersey, BOOL: false
+WORD: 08544, BOOL: false
+WORD: USA, BOOL: false
+WORD: ,, BOOL: false
+WORD: Operator, BOOL: false
+WORD: :, BOOL: false
+WORD: (, BOOL: false
+WORD: 609, BOOL: false
+WORD: ), BOOL: false
+WORD: 258, BOOL: false
+WORD: -, BOOL: false
+WORD: 3000, BOOL: false
+WORD: ·, BOOL: false
+WORD: Copyright, BOOL: false
+WORD: infringement, BOOL: false
+WORD: ·, BOOL: false
+WORD: Web, BOOL: false
+WORD: page, BOOL: false
+WORD: feedback, BOOL: false
+WORD: ·, BOOL: false
+WORD: 
+, BOOL: false
+WORD: 
+, BOOL: false
+WORD: Last, BOOL: false
+WORD: update, BOOL: false
+WORD: :, BOOL: false
+WORD: 
+, BOOL: true
+After tagging: <span class="feedback" id="98" style="color: red">
+</span>
+WORD: March, BOOL: false
+WORD: 6, BOOL: false
+WORD: ,, BOOL: false
+WORD: 2013, BOOL: false
+WORD: Skip, BOOL: false
+WORD: over, BOOL: false
+WORD: navigation, BOOL: false
+WORD: View, BOOL: false
+WORD: Access, BOOL: false
+WORD: Keys, BOOL: false
+WORD: Email, BOOL: false
+WORD: A, BOOL: false
+WORD: to, BOOL: false
+WORD: Z, BOOL: false
+WORD: Contacts, BOOL: false
+WORD: Site, BOOL: false
+WORD: Map, BOOL: false
+WORD: News, BOOL: false
+WORD: Multimedia, BOOL: false
+WORD: About, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: Academics, BOOL: false
+WORD: Admission, BOOL: false
+WORD: &, BOOL: false
+WORD: Aid, BOOL: false
+WORD: Arts, BOOL: false
+WORD: International, BOOL: false
+WORD: Library, BOOL: false
+WORD: Research, BOOL: false
+WORD: Administration, BOOL: false
+WORD: &, BOOL: false
+WORD: Services, BOOL: false
+WORD: Campus, BOOL: false
+WORD: Life, BOOL: false
+WORD: Visiting, BOOL: false
+WORD: Campus, BOOL: false
+WORD: Students, BOOL: false
+WORD: Faculty, BOOL: false
+WORD: &, BOOL: false
+WORD: Staff, BOOL: false
+WORD: Alumni, BOOL: false
+WORD: Parents, BOOL: false
+WORD: Undergraduate, BOOL: false
+WORD: Applicants, BOOL: false
+WORD: Graduate, BOOL: false
+WORD: School, BOOL: false
+WORD: Applicants, BOOL: false
+WORD: News, BOOL: false
+WORD: at, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: Merewether, BOOL: false
+WORD: receives, BOOL: false
+WORD: Luce, BOOL: false
+WORD: Scholarship, BOOL: false
+WORD: to, BOOL: false
+WORD: explore, BOOL: false
+WORD: rescue, BOOL: true
+After tagging: <span class="feedback" id="25" style="color: red">rescue</span>
+WORD: tech, BOOL: false
+WORD: in, BOOL: false
+WORD: Asia, BOOL: false
+WORD: 	, BOOL: false
+WORD: Six, BOOL: false
+WORD: international, BOOL: true
+After tagging: <span class="feedback" id="26" style="color: red">international</span>
+WORD: scholars, BOOL: false
+WORD: chosen, BOOL: false
+WORD: as, BOOL: false
+WORD: first, BOOL: false
+WORD: Fung, BOOL: false
+WORD: Fellows, BOOL: false
+WORD: 	, BOOL: false
+WORD: Tilghman, BOOL: false
+WORD: ,, BOOL: false
+WORD: Slaughter, BOOL: false
+WORD: discuss, BOOL: true
+After tagging: <span class="feedback" id="27" style="color: red">discuss</span>
+WORD: ', BOOL: false
+WORD: next, BOOL: false
+WORD: wave, BOOL: true
+After tagging: <span class="feedback" id="27" style="color: red">wave</span>
+WORD: ', BOOL: false
+WORD: of, BOOL: false
+WORD: women, BOOL: false
+WORD: and, BOOL: false
+WORD: leadership, BOOL: true
+After tagging: <span class="feedback" id="27" style="color: red">leadership</span>
+WORD: 	, BOOL: false
+WORD: Bernanke, BOOL: false
+WORD: named, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: ', BOOL: false
+WORD: s, BOOL: false
+WORD: Baccalaureate, BOOL: false
+WORD: speaker, BOOL: true
+After tagging: <span class="feedback" id="28" style="color: red">speaker</span>
+WORD: 	, BOOL: false
+WORD: March, BOOL: false
+WORD: of, BOOL: false
+WORD: the, BOOL: false
+WORD: pathogens, BOOL: false
+WORD: :, BOOL: false
+WORD: Parasite, BOOL: false
+WORD: metabolism, BOOL: false
+WORD: can, BOOL: false
+WORD: foretell, BOOL: false
+WORD: disease, BOOL: true
+After tagging: <span class="feedback" id="29" style="color: red">disease</span>
+WORD: ranges, BOOL: false
+WORD: under, BOOL: false
+WORD: climate, BOOL: true
+After tagging: <span class="feedback" id="29" style="color: red">climate</span>
+WORD: change, BOOL: true
+After tagging: <span class="feedback" id="29" style="color: red">change</span>
+WORD: 	, BOOL: false
+WORD: All, BOOL: false
+WORD: Homepage, BOOL: false
+WORD: Stories, BOOL: false
+WORD: Featured, BOOL: false
+WORD: Events, BOOL: false
+WORD: Blinder, BOOL: false
+WORD: to, BOOL: false
+WORD: speak, BOOL: true
+After tagging: <span class="feedback" id="32" style="color: red">speak</span>
+WORD: on, BOOL: false
+WORD: what, BOOL: false
+WORD: ', BOOL: false
+WORD: s, BOOL: false
+WORD: ahead, BOOL: true
+After tagging: <span class="feedback" id="32" style="color: red">ahead</span>
+WORD: after, BOOL: false
+WORD: the, BOOL: false
+WORD: financial, BOOL: true
+After tagging: <span class="feedback" id="32" style="color: red">financial</span>
+WORD: crisis, BOOL: true
+After tagging: <span class="feedback" id="32" style="color: red">crisis</span>
+WORD: Yale, BOOL: false
+WORD: Law, BOOL: false
+WORD: professor, BOOL: false
+WORD: ,, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: students, BOOL: false
+WORD: will, BOOL: false
+WORD: discuss, BOOL: true
+After tagging: <span class="feedback" id="33" style="color: red">discuss</span>
+WORD: ethical, BOOL: true
+After tagging: <span class="feedback" id="33" style="color: red">ethical</span>
+WORD: investing, BOOL: false
+WORD: Student, BOOL: false
+WORD: Playwrights, BOOL: false
+WORD: Festival, BOOL: false
+WORD: to, BOOL: false
+WORD: feature, BOOL: true
+After tagging: <span class="feedback" id="34" style="color: red">feature</span>
+WORD: original, BOOL: true
+After tagging: <span class="feedback" id="34" style="color: red">original</span>
+WORD: works, BOOL: false
+WORD: Conference, BOOL: false
+WORD: to, BOOL: false
+WORD: explore, BOOL: false
+WORD: topics, BOOL: false
+WORD: in, BOOL: false
+WORD: environmental, BOOL: true
+After tagging: <span class="feedback" id="35" style="color: red">environmental</span>
+WORD: humanities, BOOL: false
+WORD: Featured, BOOL: false
+WORD: Events, BOOL: false
+WORD: and, BOOL: false
+WORD: Calendars, BOOL: false
+WORD: Public, BOOL: false
+WORD: Events, BOOL: false
+WORD: Calendar, BOOL: false
+WORD: Show, BOOL: false
+WORD: Closed, BOOL: false
+WORD: Captions, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: students, BOOL: false
+WORD: are, BOOL: false
+WORD: showcasing, BOOL: false
+WORD: their, BOOL: false
+WORD: many, BOOL: false
+WORD: opportunities, BOOL: false
+WORD: to, BOOL: false
+WORD: experience, BOOL: true
+After tagging: <span class="feedback" id="39" style="color: red">experience</span>
+WORD: life, BOOL: true
+After tagging: <span class="feedback" id="39" style="color: red">life</span>
+WORD: abroad, BOOL: false
+WORD: through, BOOL: false
+WORD: an, BOOL: false
+WORD: exhibition, BOOL: true
+After tagging: <span class="feedback" id="39" style="color: red">exhibition</span>
+WORD: of, BOOL: false
+WORD: photographs, BOOL: false
+WORD: taken, BOOL: false
+WORD: while, BOOL: false
+WORD: participating, BOOL: false
+WORD: in, BOOL: false
+WORD: international, BOOL: true
+After tagging: <span class="feedback" id="39" style="color: red">international</span>
+WORD: programs, BOOL: false
+WORD: ., BOOL: false
+WORD: Read, BOOL: false
+WORD: more, BOOL: false
+WORD: VIDEO, BOOL: false
+WORD: :, BOOL: false
+WORD: Students, BOOL: false
+WORD: look, BOOL: true
+After tagging: <span class="feedback" id="41" style="color: red">look</span>
+WORD: at, BOOL: false
+WORD: the, BOOL: false
+WORD: world, BOOL: true
+After tagging: <span class="feedback" id="41" style="color: red">world</span>
+WORD: with, BOOL: false
+WORD: an, BOOL: false
+WORD: ', BOOL: false
+WORD: international, BOOL: true
+After tagging: <span class="feedback" id="41" style="color: red">international</span>
+WORD: eye, BOOL: true
+After tagging: <span class="feedback" id="41" style="color: red">eye</span>
+WORD: ', BOOL: false
+WORD: |, BOOL: false
+WORD: 	, BOOL: false
+WORD: Read, BOOL: false
+WORD: Story, BOOL: false
+WORD: |, BOOL: false
+WORD: 	, BOOL: false
+WORD: Play, BOOL: false
+WORD: Video, BOOL: false
+WORD: |, BOOL: false
+WORD: 	, BOOL: false
+WORD: See, BOOL: false
+WORD: All, BOOL: false
+WORD: Features, BOOL: false
+WORD: Video, BOOL: false
+WORD: not, BOOL: false
+WORD: loading, BOOL: false
+WORD: ?, BOOL: false
+WORD: Load, BOOL: false
+WORD: video, BOOL: true
+After tagging: <span class="feedback" id="49" style="color: red">video</span>
+WORD: in, BOOL: false
+WORD: a, BOOL: false
+WORD: different, BOOL: false
+WORD: player, BOOL: true
+After tagging: <span class="feedback" id="50" style="color: red">player</span>
+WORD: ., BOOL: false
+WORD: Update, BOOL: false
+WORD: your, BOOL: false
+WORD: Flash, BOOL: false
+WORD: Player, BOOL: false
+WORD: VIDEO, BOOL: false
+WORD: :, BOOL: false
+WORD: Students, BOOL: false
+WORD: look, BOOL: true
+After tagging: <span class="feedback" id="52" style="color: red">look</span>
+WORD: at, BOOL: false
+WORD: the, BOOL: false
+WORD: world, BOOL: true
+After tagging: <span class="feedback" id="52" style="color: red">world</span>
+WORD: with, BOOL: false
+WORD: an, BOOL: false
+WORD: ', BOOL: false
+WORD: international, BOOL: true
+After tagging: <span class="feedback" id="52" style="color: red">international</span>
+WORD: eye, BOOL: true
+After tagging: <span class="feedback" id="52" style="color: red">eye</span>
+WORD: ', BOOL: false
+WORD: |, BOOL: false
+WORD: Read, BOOL: false
+WORD: Story, BOOL: false
+WORD: |, BOOL: false
+WORD: Play, BOOL: false
+WORD: Video, BOOL: false
+WORD: |, BOOL: false
+WORD: See, BOOL: false
+WORD: All, BOOL: false
+WORD: Features, BOOL: false
+WORD: Show, BOOL: false
+WORD: Closed, BOOL: false
+WORD: Captions, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: junior, BOOL: true
+After tagging: <span class="feedback" id="60" style="color: red">junior</span>
+WORD: Tanya, BOOL: false
+WORD: Tawengwa, BOOL: false
+WORD: talks, BOOL: false
+WORD: about, BOOL: false
+WORD: the, BOOL: false
+WORD: many, BOOL: false
+WORD: ways, BOOL: false
+WORD: in, BOOL: false
+WORD: which, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: has, BOOL: false
+WORD: helped, BOOL: false
+WORD: her, BOOL: false
+WORD: pursue, BOOL: true
+After tagging: <span class="feedback" id="60" style="color: red">pursue</span>
+WORD: her, BOOL: false
+WORD: dream, BOOL: true
+After tagging: <span class="feedback" id="60" style="color: red">dream</span>
+WORD: to, BOOL: false
+WORD: become, BOOL: false
+WORD: a, BOOL: false
+WORD: performer, BOOL: false
+WORD: Read, BOOL: false
+WORD: more, BOOL: false
+WORD: ., BOOL: false
+WORD: Show, BOOL: false
+WORD: Closed, BOOL: false
+WORD: Captions, BOOL: false
+WORD: This, BOOL: false
+WORD: video, BOOL: true
+After tagging: <span class="feedback" id="63" style="color: red">video</span>
+WORD: compiled, BOOL: false
+WORD: from, BOOL: false
+WORD: photos, BOOL: false
+WORD: and, BOOL: false
+WORD: video, BOOL: true
+After tagging: <span class="feedback" id="63" style="color: red">video</span>
+WORD: clips, BOOL: false
+WORD: submitted, BOOL: false
+WORD: from, BOOL: false
+WORD: campus, BOOL: false
+WORD: and, BOOL: false
+WORD: around, BOOL: false
+WORD: the, BOOL: false
+WORD: world, BOOL: true
+After tagging: <span class="feedback" id="63" style="color: red">world</span>
+WORD: shows, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: alumni, BOOL: false
+WORD: expressing, BOOL: false
+WORD: their, BOOL: false
+WORD: appreciation, BOOL: false
+WORD: for, BOOL: false
+WORD: President, BOOL: false
+WORD: Shirley, BOOL: false
+WORD: M., BOOL: false
+WORD: Tilghman, BOOL: false
+WORD: ., BOOL: false
+WORD: The, BOOL: false
+WORD: video, BOOL: true
+After tagging: <span class="feedback" id="65" style="color: red">video</span>
+WORD: was, BOOL: false
+WORD: played, BOOL: false
+WORD: Saturday, BOOL: false
+WORD: ,, BOOL: false
+WORD: Feb, BOOL: false
+WORD: 23, BOOL: false
+WORD: ,, BOOL: false
+WORD: at, BOOL: false
+WORD: the, BOOL: false
+WORD: annual, BOOL: true
+After tagging: <span class="feedback" id="66" style="color: red">annual</span>
+WORD: Alumni, BOOL: false
+WORD: Day, BOOL: false
+WORD: luncheon, BOOL: false
+WORD: Read, BOOL: false
+WORD: more, BOOL: false
+WORD: ., BOOL: false
+WORD: Show, BOOL: false
+WORD: Closed, BOOL: false
+WORD: Captions, BOOL: false
+WORD: Students, BOOL: false
+WORD: :, BOOL: false
+WORD: See, BOOL: false
+WORD: your, BOOL: false
+WORD: work, BOOL: false
+WORD: on, BOOL: false
+WORD: the, BOOL: false
+WORD: home, BOOL: true
+After tagging: <span class="feedback" id="69" style="color: red">home</span>
+WORD: page, BOOL: true
+After tagging: <span class="feedback" id="69" style="color: red">page</span>
+WORD: Submit, BOOL: false
+WORD: your, BOOL: false
+WORD: creative, BOOL: true
+After tagging: <span class="feedback" id="70" style="color: red">creative</span>
+WORD: work, BOOL: false
+WORD: and, BOOL: false
+WORD: it, BOOL: false
+WORD: may, BOOL: false
+WORD: be, BOOL: false
+WORD: featured, BOOL: false
+WORD: on, BOOL: false
+WORD: the, BOOL: false
+WORD: home, BOOL: true
+After tagging: <span class="feedback" id="70" style="color: red">home</span>
+WORD: page, BOOL: true
+After tagging: <span class="feedback" id="70" style="color: red">page</span>
+WORD: Read, BOOL: false
+WORD: more, BOOL: false
+WORD: ., BOOL: false
+WORD: Students, BOOL: false
+WORD: :, BOOL: false
+WORD: See, BOOL: false
+WORD: your, BOOL: false
+WORD: work, BOOL: false
+WORD: on, BOOL: false
+WORD: the, BOOL: false
+WORD: home, BOOL: true
+After tagging: <span class="feedback" id="72" style="color: red">home</span>
+WORD: page, BOOL: true
+After tagging: <span class="feedback" id="72" style="color: red">page</span>
+WORD: Community, BOOL: false
+WORD: Resources, BOOL: false
+WORD: Athletics, BOOL: false
+WORD: Art, BOOL: false
+WORD: Museum, BOOL: false
+WORD: Jobs, BOOL: false
+WORD: Campus, BOOL: false
+WORD: Tours, BOOL: false
+WORD: Campus, BOOL: false
+WORD: Shuttle, BOOL: false
+WORD: Faculty, BOOL: false
+WORD: Blogs, BOOL: false
+WORD: Aid, BOOL: false
+WORD: Estimator, BOOL: false
+WORD: Website, BOOL: false
+WORD: Highlights, BOOL: false
+WORD: Presidential, BOOL: false
+WORD: Search, BOOL: false
+WORD: Office, BOOL: false
+WORD: of, BOOL: false
+WORD: the, BOOL: false
+WORD: Dean, BOOL: false
+WORD: of, BOOL: false
+WORD: the, BOOL: false
+WORD: College, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: Journal, BOOL: false
+WORD: Watch, BOOL: false
+WORD: Arts, BOOL: false
+WORD: &, BOOL: false
+WORD: Transit, BOOL: false
+WORD: Project, BOOL: false
+WORD: Multimedia, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: University, BOOL: false
+WORD: Career, BOOL: false
+WORD: Services, BOOL: false
+WORD: Facebook, BOOL: false
+WORD: Twitter, BOOL: false
+WORD: YouTube, BOOL: false
+WORD: iTunes, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: University, BOOL: false
+WORD: ·, BOOL: false
+WORD: Princeton, BOOL: false
+WORD: ,, BOOL: false
+WORD: New, BOOL: false
+WORD: Jersey, BOOL: false
+WORD: 08544, BOOL: false
+WORD: USA, BOOL: false
+WORD: ,, BOOL: false
+WORD: Operator, BOOL: false
+WORD: :, BOOL: false
+WORD: (, BOOL: false
+WORD: 609, BOOL: false
+WORD: ), BOOL: false
+WORD: 258, BOOL: false
+WORD: -, BOOL: false
+WORD: 3000, BOOL: false
+WORD: ·, BOOL: false
+WORD: Copyright, BOOL: false
+WORD: infringement, BOOL: false
+WORD: ·, BOOL: false
+WORD: Web, BOOL: false
+WORD: page, BOOL: true
+After tagging: <span class="feedback" id="97" style="color: red">page</span>
+WORD: feedback, BOOL: false
+WORD: ·, BOOL: false
+WORD: Last, BOOL: false
+WORD: update, BOOL: false
+WORD: :, BOOL: false
+WORD: March, BOOL: false
+WORD: 6, BOOL: false
+WORD: ,, BOOL: false
+WORD: 2013, BOOL: false
+WORD: The, BOOL: false
+WORD: Titanic, BOOL: false
+WORD: 
+, BOOL: false
+WORD: The, BOOL: false
+WORD: Titanic, BOOL: false
+WORD: was, BOOL: false
+WORD: built, BOOL: false
+WORD: by, BOOL: false
+WORD: the, BOOL: false
+WORD: White, BOOL: false
+WORD: Star, BOOL: false
+WORD: Line, BOOL: false
+WORD: ., BOOL: false
+WORD: The, BOOL: false
+WORD: owners, BOOL: false
+WORD: of, BOOL: false
+WORD: the, BOOL: false
+WORD: company, BOOL: true
+After tagging: <span class="feedback" id="1" style="color: red">company</span>
+WORD: thought, BOOL: false
+WORD: that, BOOL: false
+WORD: if, BOOL: false
+WORD: ocean, BOOL: true
+After tagging: <span class="feedback" id="1" style="color: red">ocean</span>
+WORD: liners, BOOL: false
+WORD: were, BOOL: false
+WORD: big, BOOL: false
+WORD: and, BOOL: false
+WORD: luxurious, BOOL: false
+WORD: enough, BOOL: false
+WORD: more, BOOL: false
+WORD: people, BOOL: true
+After tagging: <span class="feedback" id="1" style="color: red">people</span>
+WORD: would, BOOL: false
+WORD: travel, BOOL: true
+After tagging: <span class="feedback" id="1" style="color: red">travel</span>
+WORD: with, BOOL: false
+WORD: them, BOOL: false
+WORD: ., BOOL: false
+WORD: 
+, BOOL: false
+WORD: The, BOOL: false
+WORD: Titanic, BOOL: false
+WORD: was, BOOL: false
+WORD: designed, BOOL: false
+WORD: to, BOOL: false
+WORD: be, BOOL: false
+WORD: the, BOOL: false
+WORD: largest, BOOL: false
+WORD: in, BOOL: false
+WORD: a, BOOL: false
+WORD: series, BOOL: true
+After tagging: <span class="feedback" id="1" style="color: red">series</span>
+WORD: of, BOOL: false
+WORD: three, BOOL: false
+WORD: ships, BOOL: false
+WORD: made, BOOL: false
+WORD: by, BOOL: false
+WORD: the, BOOL: false
+WORD: White, BOOL: false
+WORD: Star, BOOL: false
+WORD: line, BOOL: true
+After tagging: <span class="feedback" id="1" style="color: red">line</span>
+WORD: ., BOOL: false
+WORD: It, BOOL: false
+WORD: was, BOOL: false
+WORD: 268, BOOL: false
+WORD: metres, BOOL: false
+WORD: long, BOOL: false
+WORD: ,, BOOL: false
+WORD: 28, BOOL: false
+WORD: metres, BOOL: false
+WORD: wide, BOOL: true
+After tagging: <span class="feedback" id="2" style="color: red">wide</span>
+WORD: ,, BOOL: false
+WORD: and, BOOL: false
+WORD: weighed, BOOL: false
+WORD: 45, BOOL: false
+WORD: 000, BOOL: false
+WORD: tons, BOOL: false
+WORD: ., BOOL: false
+WORD: It, BOOL: false
+WORD: produced, BOOL: false
+WORD: enough, BOOL: false
+WORD: power, BOOL: true
+After tagging: <span class="feedback" id="3" style="color: red">power</span>
+WORD: to, BOOL: false
+WORD: travel, BOOL: true
+After tagging: <span class="feedback" id="3" style="color: red">travel</span>
+WORD: at, BOOL: false
+WORD: a, BOOL: false
+WORD: speed, BOOL: true
+After tagging: <span class="feedback" id="3" style="color: red">speed</span>
+WORD: of, BOOL: false
+WORD: 24, BOOL: false
+WORD: knots, BOOL: false
+WORD: (, BOOL: false
+WORD: about, BOOL: false
+WORD: 40, BOOL: false
+WORD: km, BOOL: false
+WORD: per, BOOL: false
+WORD: hour, BOOL: true
+After tagging: <span class="feedback" id="3" style="color: red">hour</span>
+WORD: ), BOOL: false
+WORD: ., BOOL: false
+WORD: 
+, BOOL: false
+WORD: The, BOOL: false
+WORD: bulk, BOOL: true
+After tagging: <span class="feedback" id="3" style="color: red">bulk</span>
+WORD: of, BOOL: false
+WORD: the, BOOL: false
+WORD: ship, BOOL: true
+After tagging: <span class="feedback" id="3" style="color: red">ship</span>
+WORD: was, BOOL: false
+WORD: divided, BOOL: false
+WORD: into, BOOL: false
+WORD: compartments, BOOL: false
+WORD: ., BOOL: false
+WORD: They, BOOL: false
+WORD: were, BOOL: false
+WORD: separated, BOOL: false
+WORD: by, BOOL: false
+WORD: steel, BOOL: true
+After tagging: <span class="feedback" id="4" style="color: red">steel</span>
+WORD: doors, BOOL: false
+WORD: that, BOOL: false
+WORD: did, BOOL: false
+WORD: not, BOOL: false
+WORD: let, BOOL: false
+WORD: any, BOOL: false
+WORD: water, BOOL: true
+After tagging: <span class="feedback" id="4" style="color: red">water</span>
+WORD: through, BOOL: false
+WORD: ., BOOL: false
+WORD: The, BOOL: false
+WORD: ship, BOOL: true
+After tagging: <span class="feedback" id="5" style="color: red">ship</span>
+WORD: could, BOOL: false
+WORD: still, BOOL: false
+WORD: move, BOOL: true
+After tagging: <span class="feedback" id="5" style="color: red">move</span>
+WORD: and, BOOL: false
+WORD: float, BOOL: false
+WORD: if, BOOL: false
+WORD: 3, BOOL: false
+WORD: or, BOOL: false
+WORD: 4, BOOL: false
+WORD: of, BOOL: false
+WORD: the, BOOL: false
+WORD: 16, BOOL: false
+WORD: compartments, BOOL: false
+WORD: were, BOOL: false
+WORD: filled, BOOL: false
+WORD: with, BOOL: false
+WORD: water, BOOL: true
+After tagging: <span class="feedback" id="5" style="color: red">water</span>
+WORD: ., BOOL: false
+WORD: 
+, BOOL: false
+WORD: The, BOOL: false
+WORD: Titanic, BOOL: false
+WORD: was, BOOL: false
+WORD: more, BOOL: false
+WORD: like, BOOL: false
+WORD: a, BOOL: false
+WORD: floating, BOOL: false
+WORD: hotel, BOOL: true
+After tagging: <span class="feedback" id="5" style="color: red">hotel</span>
+WORD: than, BOOL: false
+WORD: a, BOOL: false
+WORD: ship, BOOL: true
+After tagging: <span class="feedback" id="5" style="color: red">ship</span>
+WORD: ., BOOL: false
+WORD: It, BOOL: false
+WORD: cost, BOOL: true
+After tagging: <span class="feedback" id="6" style="color: red">cost</span>
+WORD: $, BOOL: false
+WORD: 7.5, BOOL: false
+WORD: million, BOOL: false
+WORD: and, BOOL: false
+WORD: it, BOOL: false
+WORD: was, BOOL: false
+WORD: unlike, BOOL: false
+WORD: any, BOOL: false
+WORD: other, BOOL: false
+WORD: ship, BOOL: true
+After tagging: <span class="feedback" id="6" style="color: red">ship</span>
+WORD: that, BOOL: false
+WORD: had, BOOL: false
+WORD: ever, BOOL: false
+WORD: been, BOOL: false
+WORD: built, BOOL: false
+WORD: ., BOOL: false
+WORD: Palm, BOOL: false
+WORD: trees, BOOL: false
+WORD: and, BOOL: false
+WORD: other, BOOL: false
+WORD: expensive, BOOL: true
+After tagging: <span class="feedback" id="7" style="color: red">expensive</span>
+WORD: plants, BOOL: false
+WORD: decorated, BOOL: false
+WORD: the, BOOL: false
+WORD: luxurious, BOOL: false
+WORD: hallways, BOOL: false
+WORD: and, BOOL: false
+WORD: corridors, BOOL: false
+WORD: The, BOOL: false
+WORD: ship, BOOL: true
+After tagging: <span class="feedback" id="8" style="color: red">ship</span>
+WORD: could, BOOL: false
+WORD: carry, BOOL: true
+After tagging: <span class="feedback" id="8" style="color: red">carry</span>
+WORD: 2, BOOL: false
+WORD: 600, BOOL: false
+WORD: passengers, BOOL: false
+WORD: and, BOOL: false
+WORD: a, BOOL: false
+WORD: crew, BOOL: true
+After tagging: <span class="feedback" id="8" style="color: red">crew</span>
+WORD: of, BOOL: false
+WORD: 900, BOOL: false
+WORD: ., BOOL: false
+WORD: 
+, BOOL: false
+WORD: Trade, BOOL: false
+WORD: is, BOOL: false
+WORD: the, BOOL: false
+WORD: buying, BOOL: false
+WORD: and, BOOL: false
+WORD: selling, BOOL: false
+WORD: of, BOOL: false
+WORD: goods, BOOL: false
+WORD: and, BOOL: false
+WORD: services, BOOL: false
+WORD: ., BOOL: false
+WORD: The, BOOL: false
+WORD: products, BOOL: false
+WORD: that, BOOL: false
+WORD: are, BOOL: false
+WORD: exchanged, BOOL: false
+WORD: are, BOOL: false
+WORD: things, BOOL: false
+WORD: that, BOOL: false
+WORD: people, BOOL: true
+After tagging: <span class="feedback" id="1" style="color: red">people</span>
+WORD: grow, BOOL: true
+After tagging: <span class="feedback" id="1" style="color: red">grow</span>
+WORD: or, BOOL: false
+WORD: make, BOOL: false
+WORD: ,, BOOL: false
+WORD: like, BOOL: false
+WORD: food, BOOL: true
+After tagging: <span class="feedback" id="1" style="color: red">food</span>
+WORD: to, BOOL: false
+WORD: eat, BOOL: true
+After tagging: <span class="feedback" id="1" style="color: red">eat</span>
+WORD: ,, BOOL: false
+WORD: machines, BOOL: false
+WORD: to, BOOL: false
+WORD: work, BOOL: false
+WORD: with, BOOL: false
+WORD: or, BOOL: false
+WORD: clothes, BOOL: true
+After tagging: <span class="feedback" id="1" style="color: red">clothes</span>
+WORD: to, BOOL: false
+WORD: wear, BOOL: true
+After tagging: <span class="feedback" id="1" style="color: red">wear</span>
+WORD: ., BOOL: false
+WORD: Services, BOOL: false
+WORD: are, BOOL: false
+WORD: things, BOOL: false
+WORD: that, BOOL: false
+WORD: people, BOOL: true
+After tagging: <span class="feedback" id="2" style="color: red">people</span>
+WORD: do, BOOL: false
+WORD: for, BOOL: false
+WORD: others, BOOL: false
+WORD: ,, BOOL: false
+WORD: like, BOOL: false
+WORD: working, BOOL: false
+WORD: in, BOOL: false
+WORD: bank, BOOL: true
+After tagging: <span class="feedback" id="2" style="color: red">bank</span>
+WORD: ,, BOOL: false
+WORD: caring, BOOL: false
+WORD: for, BOOL: false
+WORD: old, BOOL: false
+WORD: people, BOOL: true
+After tagging: <span class="feedback" id="2" style="color: red">people</span>
+WORD: or, BOOL: false
+WORD: teaching, BOOL: false
+WORD: pupils, BOOL: false
+WORD: ., BOOL: false
+WORD: 
+, BOOL: false
+WORD: 
+, BOOL: false
+WORD: Why, BOOL: false
+WORD: do, BOOL: false
+WORD: we, BOOL: false
+WORD: trade, BOOL: true
+After tagging: <span class="feedback" id="2" style="color: red">trade</span>
+WORD: ?, BOOL: false
+WORD: 
+, BOOL: false
+WORD: Trade, BOOL: false
+WORD: happens, BOOL: false
+WORD: because, BOOL: false
+WORD: people, BOOL: true
+After tagging: <span class="feedback" id="2" style="color: red">people</span>
+WORD: need, BOOL: false
+WORD: or, BOOL: false
+WORD: want, BOOL: false
+WORD: things, BOOL: false
+WORD: that, BOOL: false
+WORD: they, BOOL: false
+WORD: don, BOOL: true
+After tagging: <span class="feedback" id="2" style="color: red">don</span>
+WORD: ’, BOOL: false
+WORD: t, BOOL: false
+WORD: have, BOOL: false
+WORD: ., BOOL: false
+WORD: We, BOOL: false
+WORD: also, BOOL: false
+WORD: trade, BOOL: true
+After tagging: <span class="feedback" id="3" style="color: red">trade</span>
+WORD: for, BOOL: false
+WORD: work, BOOL: false
+WORD: that, BOOL: false
+WORD: we, BOOL: false
+WORD: cannot, BOOL: false
+WORD: do, BOOL: false
+WORD: ourselves, BOOL: false
+WORD: ., BOOL: false
+WORD: Trade, BOOL: false
+WORD: between, BOOL: false
+WORD: countries, BOOL: false
+WORD: happens, BOOL: false
+WORD: for, BOOL: false
+WORD: the, BOOL: false
+WORD: same, BOOL: false
+WORD: reason, BOOL: true
+After tagging: <span class="feedback" id="4" style="color: red">reason</span>
+WORD: ., BOOL: false
+WORD: Some, BOOL: false
+WORD: countries, BOOL: false
+WORD: ,, BOOL: false
+WORD: for, BOOL: false
+WORD: example, BOOL: true
+After tagging: <span class="feedback" id="5" style="color: red">example</span>
+WORD: ,, BOOL: false
+WORD: have, BOOL: false
+WORD: natural, BOOL: true
+After tagging: <span class="feedback" id="5" style="color: red">natural</span>
+WORD: resources, BOOL: false
+WORD: ,, BOOL: false
+WORD: like, BOOL: false
+WORD: coal, BOOL: true
+After tagging: <span class="feedback" id="5" style="color: red">coal</span>
+WORD: ,, BOOL: false
+WORD: oil, BOOL: true
+After tagging: <span class="feedback" id="5" style="color: red">oil</span>
+WORD: or, BOOL: false
+WORD: wood, BOOL: true
+After tagging: <span class="feedback" id="5" style="color: red">wood</span>
+WORD: which, BOOL: false
+WORD: other, BOOL: false
+WORD: countries, BOOL: false
+WORD: might, BOOL: false
+WORD: want, BOOL: false
+WORD: to, BOOL: false
+WORD: buy, BOOL: true
+After tagging: <span class="feedback" id="5" style="color: red">buy</span>
+WORD: ., BOOL: false
+WORD: They, BOOL: false
+WORD: try, BOOL: true
+After tagging: <span class="feedback" id="6" style="color: red">try</span>
+WORD: to, BOOL: false
+WORD: sell, BOOL: true
+After tagging: <span class="feedback" id="6" style="color: red">sell</span>
+WORD: the, BOOL: false
+WORD: goods, BOOL: false
+WORD: ,, BOOL: false
+WORD: products, BOOL: false
+WORD: or, BOOL: false
+WORD: services, BOOL: false
+WORD: that, BOOL: false
+WORD: they, BOOL: false
+WORD: have, BOOL: false
+WORD: too, BOOL: false
+WORD: much, BOOL: false
+WORD: of, BOOL: false
+WORD: to, BOOL: false
+WORD: other, BOOL: false
+WORD: countries, BOOL: false
+WORD: ., BOOL: false
+WORD: They, BOOL: false
+WORD: earn, BOOL: true
+After tagging: <span class="feedback" id="7" style="color: red">earn</span>
+WORD: money, BOOL: true
+After tagging: <span class="feedback" id="7" style="color: red">money</span>
+WORD: from, BOOL: false
+WORD: these, BOOL: false
+WORD: sales, BOOL: false
+WORD: and, BOOL: false
+WORD: then, BOOL: false
+WORD: can, BOOL: false
+WORD: buy, BOOL: true
+After tagging: <span class="feedback" id="7" style="color: red">buy</span>
+WORD: the, BOOL: false
+WORD: things, BOOL: false
+WORD: that, BOOL: false
+WORD: they, BOOL: false
+WORD: themselves, BOOL: false
+WORD: need, BOOL: false
+WORD: and, BOOL: false
+WORD: cannot, BOOL: false
+WORD: produce, BOOL: true
+After tagging: <span class="feedback" id="7" style="color: red">produce</span>
+WORD: on, BOOL: false
+WORD: their, BOOL: false
+WORD: own, BOOL: true
+After tagging: <span class="feedback" id="7" style="color: red">own</span>
+WORD: ., BOOL: false
+WORD: 
+, BOOL: false
+WORD: Both, BOOL: false
+WORD: producers, BOOL: false
+WORD: and, BOOL: false
+WORD: consumers, BOOL: false
+WORD: profit, BOOL: true
+After tagging: <span class="feedback" id="7" style="color: red">profit</span>
+WORD: from, BOOL: false
+WORD: international, BOOL: true
+After tagging: <span class="feedback" id="7" style="color: red">international</span>
+WORD: trade, BOOL: true
+After tagging: <span class="feedback" id="7" style="color: red">trade</span>
+WORD: ., BOOL: false
+WORD: If, BOOL: false
+WORD: countries, BOOL: false
+WORD: can, BOOL: false
+WORD: produce, BOOL: true
+After tagging: <span class="feedback" id="8" style="color: red">produce</span>
+WORD: goods, BOOL: false
+WORD: more, BOOL: false
+WORD: cheaply, BOOL: false
+WORD: than, BOOL: false
+WORD: others, BOOL: false
+WORD: because, BOOL: false
+WORD: they, BOOL: false
+WORD: specialize, BOOL: false
+WORD: on, BOOL: false
+WORD: them, BOOL: false
+WORD: why, BOOL: false
+WORD: not, BOOL: false
+WORD: let, BOOL: false
+WORD: them, BOOL: false
+WORD: ., BOOL: false
+WORD: They, BOOL: false
+WORD: make, BOOL: false
+WORD: more, BOOL: false
+WORD: money, BOOL: true
+After tagging: <span class="feedback" id="9" style="color: red">money</span>
+WORD: on, BOOL: false
+WORD: one, BOOL: false
+WORD: side, BOOL: false
+WORD: and, BOOL: false
+WORD: consumers, BOOL: false
+WORD: in, BOOL: false
+WORD: other, BOOL: false
+WORD: countries, BOOL: false
+WORD: can, BOOL: false
+WORD: buy, BOOL: true
+After tagging: <span class="feedback" id="9" style="color: red">buy</span>
+WORD: goods, BOOL: false
+WORD: that, BOOL: false
+WORD: are, BOOL: false
+WORD: cheaper, BOOL: false
+WORD: ., BOOL: false
+WORD: 
+, BOOL: false
+WORD: Even, BOOL: false
+WORD: though, BOOL: false
+WORD: many, BOOL: false
+WORD: nations, BOOL: false
+WORD: have, BOOL: false
+WORD: a, BOOL: false
+WORD: lot, BOOL: true
+After tagging: <span class="feedback" id="9" style="color: red">lot</span>
+WORD: of, BOOL: false
+WORD: different, BOOL: false
+WORD: goods, BOOL: false
+WORD: to, BOOL: false
+WORD: export, BOOL: true
+After tagging: <span class="feedback" id="9" style="color: red">export</span>
+WORD: there, BOOL: false
+WORD: are, BOOL: false
+WORD: countries, BOOL: false
+WORD: that, BOOL: false
+WORD: depend, BOOL: true
+After tagging: <span class="feedback" id="9" style="color: red">depend</span>
+WORD: only, BOOL: false
+WORD: on, BOOL: false
+WORD: one, BOOL: false
+WORD: or, BOOL: false
+WORD: two, BOOL: false
+WORD: products, BOOL: false
+WORD: to, BOOL: false
+WORD: get, BOOL: false
+WORD: money, BOOL: true
+After tagging: <span class="feedback" id="9" style="color: red">money</span>
+WORD: ., BOOL: false
+WORD: Saudi, BOOL: false
+WORD: Arabia, BOOL: false
+WORD: ,, BOOL: false
+WORD: Kuwait, BOOL: false
+WORD: and, BOOL: false
+WORD: other, BOOL: false
+WORD: countries, BOOL: false
+WORD: of, BOOL: false
+WORD: the, BOOL: false
+WORD: Middle, BOOL: false
+WORD: East, BOOL: false
+WORD: depend, BOOL: true
+After tagging: <span class="feedback" id="10" style="color: red">depend</span>
+WORD: on, BOOL: false
+WORD: oil, BOOL: true
+After tagging: <span class="feedback" id="10" style="color: red">oil</span>
+WORD: exports, BOOL: false
+WORD: ,, BOOL: false
+WORD: because, BOOL: false
+WORD: it, BOOL: false
+WORD: is, BOOL: false
+WORD: pretty, BOOL: true
+After tagging: <span class="feedback" id="10" style="color: red">pretty</span>
+WORD: much, BOOL: false
+WORD: the, BOOL: false
+WORD: only, BOOL: false
+WORD: thing, BOOL: false
+WORD: that, BOOL: false
+WORD: they, BOOL: false
+WORD: can, BOOL: false
+WORD: sell, BOOL: true
+After tagging: <span class="feedback" id="10" style="color: red">sell</span>
+WORD: ., BOOL: false
+WORD: Poor, BOOL: false
+WORD: countries, BOOL: false
+WORD: in, BOOL: false
+WORD: Africa, BOOL: false
+WORD: depend, BOOL: true
+After tagging: <span class="feedback" id="11" style="color: red">depend</span>
+WORD: largely, BOOL: false
+WORD: on, BOOL: false
+WORD: the, BOOL: false
+WORD: export, BOOL: true
+After tagging: <span class="feedback" id="11" style="color: red">export</span>
+WORD: of, BOOL: false
+WORD: tropical, BOOL: true
+After tagging: <span class="feedback" id="11" style="color: red">tropical</span>
+WORD: farm, BOOL: true
+After tagging: <span class="feedback" id="11" style="color: red">farm</span>
+WORD: products, BOOL: false
+WORD: to, BOOL: false
+WORD: get, BOOL: false
+WORD: money, BOOL: true
+After tagging: <span class="feedback" id="11" style="color: red">money</span>
+WORD: ., BOOL: false
+WORD: 
+, BOOL: false
+WORD: Each, BOOL: false
+WORD: year, BOOL: false
+WORD: goods, BOOL: false
+WORD: and, BOOL: false
+WORD: services, BOOL: false
+WORD: worth, BOOL: true
+After tagging: <span class="feedback" id="11" style="color: red">worth</span>
+WORD: about, BOOL: false
+WORD: 11, BOOL: false
+WORD: trillion, BOOL: false
+WORD: dollars, BOOL: false
+WORD: (, BOOL: false
+WORD: $, BOOL: false
+WORD: 11, BOOL: false
+WORD: 000, BOOL: false
+WORD: 000, BOOL: false
+WORD: 000, BOOL: false
+WORD: 000, BOOL: false
+WORD: ), BOOL: false
+WORD: are, BOOL: false
+WORD: traded, BOOL: false
+WORD: all, BOOL: false
+WORD: over, BOOL: false
+WORD: the, BOOL: false
+WORD: world, BOOL: true
+After tagging: <span class="feedback" id="11" style="color: red">world</span>
+WORD: ., BOOL: false
+WORD: The, BOOL: false
+WORD: biggest, BOOL: false
+WORD: exporting, BOOL: false
+WORD: nations, BOOL: false
+WORD: are, BOOL: false
+WORD: The, BOOL: false
+WORD: United, BOOL: false
+WORD: States, BOOL: false
+WORD: ,, BOOL: false
+WORD: France, BOOL: false
+WORD: ,, BOOL: false
+WORD: Germany, BOOL: false
+WORD: ,, BOOL: false
+WORD: the, BOOL: false
+WORD: United, BOOL: false
+WORD: Kingdom, BOOL: false
+WORD: ,, BOOL: false
+WORD: Canada, BOOL: false
+WORD: and, BOOL: false
+WORD: Japan, BOOL: false
+WORD: ., BOOL: false
+WORD: 
+, BOOL: false
+WORD: The, BOOL: false
+WORD: difference, BOOL: true
+After tagging: <span class="feedback" id="12" style="color: red">difference</span>
+WORD: between, BOOL: false
+WORD: what, BOOL: false
+WORD: a, BOOL: false
+WORD: country, BOOL: true
+After tagging: <span class="feedback" id="12" style="color: red">country</span>
+WORD: exports, BOOL: false
+WORD: and, BOOL: false
+WORD: what, BOOL: false
+WORD: it, BOOL: false
+WORD: imports, BOOL: false
+WORD: is, BOOL: false
+WORD: called, BOOL: false
+WORD: the, BOOL: false
+WORD: balance, BOOL: true
+After tagging: <span class="feedback" id="12" style="color: red">balance</span>
+WORD: of, BOOL: false
+WORD: trade, BOOL: true
+After tagging: <span class="feedback" id="12" style="color: red">trade</span>
+WORD: ., BOOL: false
+WORD: If, BOOL: false
+WORD: a, BOOL: false
+WORD: country, BOOL: true
+After tagging: <span class="feedback" id="13" style="color: red">country</span>
+WORD: exports, BOOL: false
+WORD: more, BOOL: false
+WORD: than, BOOL: false
+WORD: it, BOOL: false
+WORD: imports, BOOL: false
+WORD: we, BOOL: false
+WORD: call, BOOL: true
+After tagging: <span class="feedback" id="13" style="color: red">call</span>
+WORD: this, BOOL: false
+WORD: a, BOOL: false
+WORD: trade, BOOL: true
+After tagging: <span class="feedback" id="13" style="color: red">trade</span>
+WORD: surplus, BOOL: false
+WORD: ., BOOL: false
+WORD: And, BOOL: false
+WORD: if, BOOL: false
+WORD: a, BOOL: false
+WORD: country, BOOL: true
+After tagging: <span class="feedback" id="14" style="color: red">country</span>
+WORD: pays, BOOL: false
+WORD: more, BOOL: false
+WORD: for, BOOL: false
+WORD: its, BOOL: false
+WORD: imports, BOOL: false
+WORD: than, BOOL: false
+WORD: it, BOOL: false
+WORD: gets, BOOL: false
+WORD: for, BOOL: false
+WORD: its, BOOL: false
+WORD: exports, BOOL: false
+WORD: it, BOOL: false
+WORD: has, BOOL: false
+WORD: a, BOOL: false
+WORD: trade, BOOL: true
+After tagging: <span class="feedback" id="14" style="color: red">trade</span>
+WORD: deficit, BOOL: true
+After tagging: <span class="feedback" id="14" style="color: red">deficit</span>
