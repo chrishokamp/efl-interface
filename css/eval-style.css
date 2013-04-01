@@ -155,3 +155,5 @@ td {
 	height: 16px
 }
 
+.hover-pointer:hover {cursor:pointer}
+

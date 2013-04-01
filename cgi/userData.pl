@@ -2,7 +2,8 @@
 # Chris Hokamp 
 # Fall 2012
 
-#use strict;
+use strict;
+use warnings;
 
 #use Encode;
 use CGI '-utf8'; #TODO: ensure that this is necessary
@@ -19,9 +20,10 @@ my $jsonString = $userData->param("userData");
 #my $perlString = Dumper($decoded);
 
 #my $uid = $decoded->{"id"}; #tested
-#open OUT, '>>', '/home/chris/test/newData.json';
-#print OUT $jsonString; 
-#close OUT;
+open OUT, '>>', '/home/chris/test/userData.json';
+print OUT $jsonString; 
+print OUT "\n"; 
+close OUT;
 &outputPage($jsonString);
 sub outputPage {
 	print $userData->header(-charset => 'UTF-8');

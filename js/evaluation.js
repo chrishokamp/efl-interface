@@ -11,45 +11,71 @@ $(document).ready(function() {
     //alert('current time is: ' + currentSeconds);
     //TODO: intialize currentTime properly
     var userData = {
-    id: "",
-    nativeLang: "",
-    clickedWords: [],
-    feedbackReading: 0,
-    startTime: currentSeconds,
-    totalTime: 0,
-    answers: {},
-setTime: function() {
-    time = (new Date().getTime()/1000) - this.startTime;
-    this.totalTime = time;
-    },
-addWord: function(word) {
-    this.clickedWords.push(word);
-    },
-addAnswer: function(q, a) {
-    //qIndex = 'q' + q;
-    qIndex = q;
-    //alert(qIndex);
-    chosenAnswer = a;
-    this.answers[qIndex.toString()] =  chosenAnswer;
-    //this.answers.push({qIndex.toString(): chosenAnswer});
-},
-setRandomReading: function(min, max) {
-    this.feedbackReading =  Math.floor(Math.random() * (max - min +1)) + min;
-    },
-test: function () {
-    var wordString = this.clickedWords.toString();
-    //alert("clicked words: " + wordString );
-    //alert("time: " + this.getTime());
-    //alert("id: " + this.id + " lang: " + this.nativeLang);
-    alert("control reading: " + this.controlReading);
-    }
-};
+        id: "",
+        nativeLang: "",
+        eflLevel: "",
+        clickedWords: [],
+        feedbackReading: 0,
+        firstReading: 0,
+        startTime: currentSeconds,
+        currentReading: 0,         
+        finishedReadings: {
+                reading1 : "no",
+                reading2 : "no"
+        },
+        totalTime: 0,
+        answers: {},
+        setTime: function() {
+            time = (new Date().getTime()/1000) - this.startTime;
+            this.totalTime = time;
+        },
+        addWord: function(word) {
+            this.clickedWords.push(word);
+        },
+        addAnswer: function(q, a) {
+            //qIndex = 'q' + q;
+            qIndex = q;
+            //alert(qIndex);
+            chosenAnswer = a;
+            this.answers[qIndex.toString()] =  chosenAnswer;
+            //this.answers.push({qIndex.toString(): chosenAnswer});
+        },
+        setFinishedReading: function(reading) {
+            this.finishedReadings.reading = "yes";   
+        },
+        setRandomReading: function(min, max) {
+            this.feedbackReading =  Math.floor(Math.random() * (max - min +1)) + min;
+            this.firstReading =  Math.floor(Math.random() * (max - min +1)) + min;
+        },
+        remainingReadings: function() {
+            //this.remaining = [];
+            $.each(this.finishedReadings, function(index, value) {
+                alert("finishedReadings -> " + index + ":" + value);
+                var remaining = [];
+                if (value === "no") {
+                    remaining.push(index);
+                }
+            });
+
+       },
+        test: function () {
+            var wordString = this.clickedWords.toString();
+            //alert("clicked words: " + wordString );
+            //alert("time: " + this.getTime());
+            //alert("id: " + this.id + " lang: " + this.nativeLang);
+            //alert("control reading: " + this.controlReading);
+            $.each(this.finishedReadings, function(index, value) {
+                alert("finishedReadings -> " + index + ":" + value);
+            });
+        }
+    };
 //TESTING
 //userData.addWord('test');
 //userData.setRandomReading(1,2);
 //userData.test();
 //alert(userData.clickedWords.toString());
 
+//DISPLAY FUNCTIONS
 function displayEntry () {
     //var entry = $.post('pages/entry-elements.html');
     //alert(entry);
@@ -60,33 +86,65 @@ function displayEntry () {
     }
 function hideEntry () {
     $('.entry').slideUp("slow");
-    }
+    //var feedbackTest = userData.feedbackReading;
+    //alert ("feedback" + feedbackTest);
+    clearView();
+}
 
 //add function to take the reading as argument, and display feedback dynamically
 //we only need to select the class for markup once per session
 //displays the elements for reading
-function displayReading (reading) {
-    //$(readingId).slideDown("slow");
-    $('.reading').slideDown('slow');
+function displayReading (readingId, showFeedback) {
+    var readingFileName = 'pages/reading' + readingId + '.html'; 
+    userData.currentReading = readingId;
+    alert ("current reading was set to " + userData.currentReading);
+    //alert("inside display reading");
+			//$('#hd_synList').slideUp("slow");
+    $('#reading-elements').load(readingFileName, function() {
+        alert("show feedback is " + showFeedback + "!");
+        if (showFeedback == 1) {
+           //alert("show feedback is 1");
+           var testClass = '#reading-' + readingId;
+           //alert("Test class" + testClass);
+           $('#reading-' + readingId).find(".head").addClass('feedback');
+           $('.feedback').hover(function() {
+               $('.feedback').addClass('hover-pointer');
+               },               
+               function() {
+                $('.feedback').removeClass('hover-pointer');
+               }
+           );
+        }
+    });
+    //$('.reading').slideDown('slow');
+    $('.reading').show();
     $('#hd_infoColumn').css("display", "none");
-    $('#' + reading).slideDown('slow');
-    }
+    //$('.entry').show();
+    //$(readingId).slideDown("slow");
+
+
+    //TODO: Alert the user that THIS READING has/doesn't have feedback available
+}
 
 function hideReading (reading) {
     $('.reading').hide();
+    $('#hd_infoColumn').css("display", "none");
     //TODO: FIX THIS HACK AND DO A PROPER CLEAR
     $('#hd_infoColumn').find('*').text("");
     $('#' + reading).hide();
-    }
+}
 //TEST
 //displayReading();
 //hideReading();
 function displayQuiz (quiz) {
     //$('.quiz').show();
-    $('#' + quiz).show();
+    alert("inside display quiz");
+    $('#' + quiz).css("display", "block");
+    $('#' + quiz).css("visibility", "visible");
+    //$('#' + quiz).show();
     //$('#mainContent').css({"top": "0px"});
-//$("html, body").animate({ scrollTop: 0 }, "fast");
-$("html, body").scrollTop(0);
+    //$("html, body").animate({ scrollTop: 0 }, "fast");
+    $("html, body").scrollTop(0);
 }
 
 function hideQuiz (quiz) {
@@ -96,83 +154,129 @@ function hideQuiz (quiz) {
     }
 
 function displayThanks () {
-    $("#mainContent").html('<h1>Thanks and have a great day!</h1>');
-    }
+    $("#view").html('<h1>Thanks and have a great day!</h1>');
+}
+//LOAD BOTH QUIZZES
+function loadQuiz () {
+    $.get("pages/quiz.html", function(data) {
+        $('#view').append(data);
+    }, 'html');
+}
 
-//reset everything
-hideEntry();
-hideReading('reading-1');
-hideQuiz('quiz-1');
-hideReading('reading-2');
-hideQuiz('quiz-2');
+function clearView () {
+    $('#view').empty(); //remove entry from DOM (are any functions still bound?)
+}
+//END DISPLAY FUNCTIONS
 
-
-
-//User enters the interface, collect:
-//Id
-//nativeLanguage
+//User enters the interface:
 displayEntry();
 
-//the begin button on the entry page controls transition to the next state
+//the bin button on the entry page controls transition to the next state
 //functions for entry mode
 //NOTE: $(document).on("click" ... is necessary because this element is dynamically added to the DOM??
 $(document).on("click", "input#continue_button", function(e) {
     e.preventDefault();
     var userId = $('#userid').val();
     var lang = $('#nativeLang').val();
-    //Set the feedback/control readings for this user
-    userData.setRandomReading(1, 2);
-    var feedbackClass = userData.feedbackReading;
-    var readingId = 'reading-' + feedbackClass;
-    //TEST
-    alert('reading feedback id = ' + readingId);
-    //Now add .feedback to the red words in the selected class
-    $('#' + readingId).find(".head").addClass('feedback');
-    //Alert the user that THIS READING has/doesn't have feedback available
-    $('#view').empty(); //remove entry from DOM (are any functions still bound?)
-
-    //TODO: working here
-    $('#view').append("<p>This page does/doesn't have feedback available</p>");
-
+    var eflLevel = $('#eflLevel').val();
     //set these values on the user object
     //TODO: implement form checking!!
     userData.id = userId;
     userData.nativeLang = lang;
+    userData.eflLevel = eflLevel;
     //userData.test();
+
+    //Set the feedback/control readings for this user
+    //TODO: set first reading, if reading = feedback reading, call function with 1
+    userData.setRandomReading(1, 2);
+    var feedbackClass = userData.feedbackReading;
+    var firstReading = userData.firstReading;
 
     //change the view
     hideEntry();
 
     //ENTRY POINT
-    displayReading('reading-1');
-    });
+    //Set first reading
+    var readingId = 'reading-' + firstReading;
+    if (firstReading === feedbackClass) {
+        //call with one
+        displayReading(firstReading, 1);
+
+    } else {
+        //call with zero
+        displayReading(firstReading, 0);
+    }
+    //TODO: randomly choose which reading to display first AND which reading to add feedback to
+
+    //Load the quizzes, but keep them hidden
+    loadQuiz();
+});
 //Now we're in reading mode
 
 //reading-1
-$('#quiz-button-1').on('click', function(e) {
+$(document).on("click", "#quiz-button-1", function(e) {
     e.preventDefault();
+    //USER FINISHED READING 1
+    userData.finishedReadings.reading1 = 'yes';
     //change the view
-    hideReading('reading-1');
+    hideReading();
+    //TODO: WORKING  get the current reading and display its quiz
     displayQuiz('quiz-1');
-    });
-//Now we're in quiz mode
-$('#next_reading').on('click', function(e) {
-    e.preventDefault();
-    //log the answers
-    getAnswers('1');
-
-    //change the view
-    hideQuiz('quiz-1');
-    displayReading('reading-2');
-    });
-
+});
 //reading-2
-$('#quiz-button-2').on('click', function(e) {
+$(document).on('click', '#quiz-button-2', function(e) {
     e.preventDefault();
+    //USER FINISHED READING 2
+    userData.finishedReadings.reading2 = 'yes';
     //change the view
     hideReading('reading-2');
     displayQuiz('quiz-2');
     });
+//Now we're in quiz mode
+//WORKING: TODO: check remaining readings. if it's empty, get user data and display thanks. if it's not, choose another reading and proceed
+$(document).on('click', '.next', function(e) {
+    e.preventDefault();
+    alert("Next was clicked");
+    //get current reading
+    var cr = userData.currentReading;
+    //log the answers
+    getAnswers(cr);
+    //change the view
+    hideQuiz('quiz-' + cr);
+
+    var remaining = userData.finishedReadings;
+    alert ("REMAINING: " + remaining);
+    //TODO: HACK -- THIS ISN'T CORRECT
+    var nextReading = "none";
+    $.each(remaining, function(index, value) {
+        alert("finishedReadings -> " + index + ":" + value);
+            if (value === "no") {
+                nextReading = index.charAt(index.length-1);
+            }
+     });
+    
+    if (nextReading != "none") {
+        //get next reading
+        //TEST
+        alert("Next Reading is: " + nextReading);
+        //Set reading
+        var feedbackClass = userData.feedbackReading;
+        //var readingId = 'reading-' + nextReading;
+        if (nextReading == feedbackClass) {
+            //call with one
+            displayReading(nextReading, 1);
+        } else {
+            //call with zero
+            displayReading(nextReading, 0);
+        }
+    } else {
+        //finish
+        //STORE ANSWERS!!
+        storeUserData(userData);
+        displayThanks();
+        //display thanks!
+    }
+});
 
 //Call the server and save
 //also: display on the screen
@@ -188,12 +292,7 @@ function storeUserData (userObj) {
     data: { userData: userJSON},
 url: 'cgi/userData.pl',
 success: function(data) {
-    console.log('Fired when the request is successful');
-    //$('#test').load(data);
-    //$('#test').html(data);
-    //$('#mainContent').html(data);
-    //$("html").removeClass();
-    //alert(data);
+    console.log('User data was logged');
     $('#mainContent').append('<div id="user-data">' + data + '</div>');
     //show the json on the page for now
 
@@ -209,6 +308,7 @@ error: function(){
 }
 
 //Now we're back in quiz mode
+//TODO: DELETE THIS COMPLETELY
 $('#submit_button').on('click', function(e) {
     e.preventDefault();
     //change the view
@@ -249,30 +349,28 @@ for ( var i=0; i < questions.length; i++) {
 //10.12.12 - CHANGE span.head --> span.feedback
 
 $(document).on("click", "span.feedback", function(e) {
-	        e.preventDefault();
+            e.preventDefault();
+			$('#hd_infoColumn').show();
+            
 		//use (this).... to get the content for this word
 			var txt = $(this).text();
 			var synonyms = $(this).attr("data-synonyms");
 			var example = $(this).attr("data-example");
 			//store the word that was clicked
 			userData.addWord(txt); //TESTED
-
-			//alert(example +' was clicked');
-			//$('#hd_synList').slideUp("slow");
 			$('#hd_synList').hide();
 			$('#hd_synList').html("");
-                        $('#hd_example').hide();
+            $('#hd_example').hide();
 			$('#hd_example').html("");
-
 			$('#hd_synList').append('<div id="headword"><h3>Synonyms for ' + txt + ': </h3></div>');
 			$('#hd_infoColumn').css("display", "inline");
-        		$('#hd_infoColumn').animate({opacity: .80});
+            $('#hd_infoColumn').animate({opacity: 0.80});
 			displaySynonyms(synonyms);
 			displayExample(example);
   });
   $(document).on("click", "div#hd_infoColumn", function(e) {
 		e.preventDefault();
-		$('#hd_infoColumn').animate({opacity: .00});
+		$('#hd_infoColumn').animate({opacity: 0.00});
 
   });
 
@@ -289,7 +387,7 @@ for (var i=0; i < syns.length; i++) {
   }
 
   function displayExample (exampleSen) {
- 	$('#hd_example').append('<h4>Example Sentence:</h4>' + exampleSen);
+    $('#hd_example').append('<h4>Example Sentence:</h4>' + exampleSen);
     //$('#hd_example').slideDown("fast");
     $('#hd_example').show();
     $('#hd_example').animate({opacity: 1.0}, 2000);
@@ -299,6 +397,7 @@ for (var i=0; i < syns.length; i++) {
     //End functions for reading mode
 
     //Functions for quiz mode
+    //TODO: fix for dynamic loading of readings
     $('#submit_button').on('click', function(e) {
         e.preventDefault();
         var targetUrl = $('#upaddr').val(); //this is the value of the user-entered URL
