@@ -101,9 +101,11 @@ function displayReading (readingId, showFeedback) {
     //alert("inside display reading");
 			//$('#hd_synList').slideUp("slow");
     $('#reading-elements').load(readingFileName, function() {
-        alert("show feedback is " + showFeedback + "!");
+        //alert("show feedback is " + showFeedback + "!");
         if (showFeedback == 1) {
            //alert("show feedback is 1");
+           //TODO: sync with lit16 VERSION
+           alert("On this reading, CLICK RED WORDS to see more information");
            var testClass = '#reading-' + readingId;
            //alert("Test class" + testClass);
            $('#reading-' + readingId).find(".head").addClass('feedback');
