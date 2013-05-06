@@ -20,10 +20,10 @@ my $jsonString = $userData->param("userData");
 #my $perlString = Dumper($decoded);
 
 #my $uid = $decoded->{"id"}; #tested
-open OUT, '>>', '/home/chris/test/userData.json';
-print OUT $jsonString; 
-print OUT "\n"; 
-close OUT;
+#open OUT, '>>', '/local/chris_h/houndDog/userData/userLogs.json';
+#print OUT $jsonString; 
+#print OUT "\n"; 
+#close OUT;
 &outputPage($jsonString);
 sub outputPage {
 	print $userData->header(-charset => 'UTF-8');

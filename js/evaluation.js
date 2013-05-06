@@ -50,7 +50,7 @@ $(document).ready(function() {
         remainingReadings: function() {
             //this.remaining = [];
             $.each(this.finishedReadings, function(index, value) {
-                alert("finishedReadings -> " + index + ":" + value);
+                //alert("finishedReadings -> " + index + ":" + value);
                 var remaining = [];
                 if (value === "no") {
                     remaining.push(index);
@@ -65,7 +65,7 @@ $(document).ready(function() {
             //alert("id: " + this.id + " lang: " + this.nativeLang);
             //alert("control reading: " + this.controlReading);
             $.each(this.finishedReadings, function(index, value) {
-                alert("finishedReadings -> " + index + ":" + value);
+                //alert("finishedReadings -> " + index + ":" + value);
             });
         }
     };
@@ -97,15 +97,14 @@ function hideEntry () {
 function displayReading (readingId, showFeedback) {
     var readingFileName = 'pages/reading' + readingId + '.html'; 
     userData.currentReading = readingId;
-    alert ("current reading was set to " + userData.currentReading);
+    //alert ("current reading was set to " + userData.currentReading);
     //alert("inside display reading");
 			//$('#hd_synList').slideUp("slow");
     $('#reading-elements').load(readingFileName, function() {
         //alert("show feedback is " + showFeedback + "!");
         if (showFeedback == 1) {
+	   $("#reading-elements").prepend('<h3 style="color:blue;">You can click the <span style="color:red;">red</span> words to receive help!</h3>');
            //alert("show feedback is 1");
-           //TODO: sync with lit16 VERSION
-           alert("On this reading, CLICK RED WORDS to see more information");
            var testClass = '#reading-' + readingId;
            //alert("Test class" + testClass);
            $('#reading-' + readingId).find(".head").addClass('feedback');
@@ -116,10 +115,19 @@ function displayReading (readingId, showFeedback) {
                 $('.feedback').removeClass('hover-pointer');
                }
            );
-        }
+	   alert("In this reading, CLICK on the red words to get more information about them!");
+
+        } else {
+	   $("#reading-elements").prepend('<h3 style="color:blue;">Important words are highlighted in <span style="color:red;">red</span></h3>');
+	   alert("In this reading, you cannot click on the red words");
+	}
+	
     });
     //$('.reading').slideDown('slow');
     $('.reading').show();
+    $('#mainContent').css("top", "110px"); 
+    //var topTag = $("#topTag"); 
+    $('html, body').animate({scrollTop: 20}, 'slow'); 
     $('#hd_infoColumn').css("display", "none");
     //$('.entry').show();
     //$(readingId).slideDown("slow");
@@ -140,7 +148,7 @@ function hideReading (reading) {
 //hideReading();
 function displayQuiz (quiz) {
     //$('.quiz').show();
-    alert("inside display quiz");
+    //alert("inside display quiz");
     $('#' + quiz).css("display", "block");
     $('#' + quiz).css("visibility", "visible");
     //$('#' + quiz).show();
@@ -238,7 +246,7 @@ $(document).on('click', '#quiz-button-2', function(e) {
 //WORKING: TODO: check remaining readings. if it's empty, get user data and display thanks. if it's not, choose another reading and proceed
 $(document).on('click', '.next', function(e) {
     e.preventDefault();
-    alert("Next was clicked");
+    //alert("Next was clicked");
     //get current reading
     var cr = userData.currentReading;
     //log the answers
@@ -247,11 +255,11 @@ $(document).on('click', '.next', function(e) {
     hideQuiz('quiz-' + cr);
 
     var remaining = userData.finishedReadings;
-    alert ("REMAINING: " + remaining);
+    //alert ("REMAINING: " + remaining);
     //TODO: HACK -- THIS ISN'T CORRECT
     var nextReading = "none";
     $.each(remaining, function(index, value) {
-        alert("finishedReadings -> " + index + ":" + value);
+        //alert("finishedReadings -> " + index + ":" + value);
             if (value === "no") {
                 nextReading = index.charAt(index.length-1);
             }
@@ -260,7 +268,7 @@ $(document).on('click', '.next', function(e) {
     if (nextReading != "none") {
         //get next reading
         //TEST
-        alert("Next Reading is: " + nextReading);
+        //alert("Next Reading is: " + nextReading);
         //Set reading
         var feedbackClass = userData.feedbackReading;
         //var readingId = 'reading-' + nextReading;
@@ -295,7 +303,7 @@ function storeUserData (userObj) {
 url: 'cgi/userData.pl',
 success: function(data) {
     console.log('User data was logged');
-    $('#mainContent').append('<div id="user-data">' + data + '</div>');
+    //$('#mainContent').append('<div id="user-data">' + data + '</div>');
     //show the json on the page for now
 
     },
