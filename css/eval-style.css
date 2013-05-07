@@ -1,4 +1,8 @@
-html {
+html,body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
 }
 
 body {
@@ -8,12 +12,32 @@ body {
 	background-color: #FOEAD6;
 	text-align: left;
 	overflow: auto;
-	margin: 0;
-	padding: 0;
 }
 fieldset {
 	margin: 15px;
 }
+
+#loading {
+    /* stretch the overlay by attaching all four corners */
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    /* use any background color you like; rgba would be nice, but older IE will ignore it*/
+    background: #000;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+#loading#spinner {
+    width: 50px;
+    height: 57px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* the image is 50x57, so we use negative margins of 1/2 that size to center it*/
+    margin: -28px 0 0 -25px; 
+}    
 
 .reading {
 	text-size: x-large;
