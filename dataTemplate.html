@@ -12,6 +12,7 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
         <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/themes/base/jquery-ui.css" type="text/css" media="all" /> 
         <link rel="stylesheet" href="css/style.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
@@ -22,64 +23,41 @@
         <![endif]-->
 
     <div id="wrapper" class="container"> 
+        <div class="alert">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <strong>Drag the words</strong> into the blanks where they fit the best.
+        </div>
         <div id="quizElements" class="container">
             <div id="questions" class="col">
                 <!-- TODO: allow user to drag answers to question blanks in order to answer -->
                 <div class="question">
-                    <p>What is the airspeed of an unladen <span class="blank ui-widget-header"></span>?</p>
+                    <p>Even though I was nervous, I tried to act cool and <span id="blank1" class="blank ui-widget-header" data-current=""></span>.</p>
+                </div>
+                <div class="question">
+                    <p>I handled the delicate vase very <span id="blank2" class="blank ui-widget-header" data-current=""></span>.</p>
+                </div>
+                <div class="question">
+                    <p>Even though he may not be "book-smart", he has a lot of <span id="blank3" class="blank ui-widget-header" data-current=""></span> about the world.</p>
                 </div>
             </div>
             <div id="answers" class="col">
-                <span id="swallow" class="dragWord ui-widget-content">Swallow</span><br />
-                <span class="blank ui-widget-header"></span><br />
+                <span id="nonchalant" class="dragWord ui-widget-content">nonchalant</span><br />
+                <span id="gingerly" class="dragWord ui-widget-content">gingerly</span><br />
+                <span id="savvy" class="dragWord ui-widget-content">savvy</span><br />
+                <div id="listDrop"></div> 
                  
             </div>
         
         </div>
     </div>
-         
-
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
         <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
         <script src="js/core.js"></script>
-    <script>
-        $(document).ready(function() {
-            $(function() {
-                //TODO: only allow dragging to droppable elements
-                //TODO: if element is already filled, replace its content and                   send the other element back to the word column
-                $(".dragWord").draggable({ snap: ".ui-widget-header", snapMode: "inner", snapTolerance: 30, revert: "invalid" }); 
-                });
-                //TODO: factor out the drop function
-                $(".blank").droppable({
-                    drop: function( event, ui ) {
-                        var draggableId = ui.draggable.attr("id");
-                        var dropL = $(this).offset().left;
-                        alert ("elem id: " + draggableId);
-                        var w = $('#' + draggableId).width();
-                        var dropW = $(this).width();
-                        var widthDiff = dropW - w;
-                        var $e = $('#' + draggableId);
-                        var dragL = $e.offset().left;
-                        var d = dropL - dragL;
-                        $e.animate({left: "+="+d}, function(){
-                            var c = widthDiff/2;
-                            if (c > 0) {
-                                $e.animate({left: "+="+c});
-                            }
-                        });
-                        
-                        $(this).animate({left: "+="+d});
-                        //$e.css( "margin", "auto");
-                        //alert ("elem width: " + w);
-                        //alert("element was dropped!");
-                        
-                    }
-                });
-        });
-    </script>
+        <script src="js/ui.js"></script>
 
     </body>
 </html>
