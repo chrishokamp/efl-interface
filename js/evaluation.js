@@ -103,7 +103,7 @@ function displayReading (readingId, showFeedback) {
     $('#reading-elements').load(readingFileName, function() {
         //alert("show feedback is " + showFeedback + "!");
         if (showFeedback == 1) {
-	   $("#reading-elements").prepend('<h3 style="color:blue;">You can click the <span style="color:red;">red</span> words to receive help!</h3>');
+            $("#reading-elements").prepend('<h3 style="color:blue;">You can click the <span style="color:red;">red</span> words to receive help!</h3>');
            //alert("show feedback is 1");
            var testClass = '#reading-' + readingId;
            //alert("Test class" + testClass);
@@ -115,11 +115,11 @@ function displayReading (readingId, showFeedback) {
                 $('.feedback').removeClass('hover-pointer');
                }
            );
-	   alert("In this reading, CLICK on the red words to get more information about them!");
+           alert("In this reading, CLICK on the red words to get more information about them!");
 
         } else {
-	   $("#reading-elements").prepend('<h3 style="color:blue;">Important words are highlighted in <span style="color:red;">red</span></h3>');
-	   alert("In this reading, you cannot click on the red words");
+            $("#reading-elements").prepend('<h3 style="color:blue;">Important words are highlighted in <span style="color:red;">red</span></h3>');
+            alert("In this reading, you cannot click on the red words");
 	}
 	
     });
@@ -385,7 +385,7 @@ $(document).on("click", "span.feedback", function(e) {
   });
 
   function displaySynonyms (synList) {
-  	var syns = synList.split(",");
+        var syns = synList.split(",");
 for (var i=0; i < syns.length; i++) {
         //alert(syns[i]);
         $('#hd_synList').append('<div class="synonym">' + syns[i] + '</div>');

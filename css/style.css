@@ -1,4 +1,4 @@
-html,body {
+html,body, #wrapper {
     margin: 0;
     padding: 0;
     width: 100%;
@@ -10,22 +10,35 @@ body {
 	font-family: verdana,helvetica,arial,sans-serif;
 	background-color: #FOEAD6;
 }
-
 #wrapper { 
-    width: 100%;
-    height: 100%;
-    margin-top: 30px;
     background-color: DarkSalmon;
 }
 #quizElements {
-    width: 100%;
+    position: absolute;
     height: 100%;
+    left: 50%;
+    margin-left: -494px;
+    background-color: Tomato;
+    top: 40px;
+    width: 978px;
+}
+#questions, #answers {
+    top: 0px;
 }
 
 #questions {
     width: 80%;
     background-color: IndianRed;
 }
+#answers {
+    width: 20%;
+    background-color: yellow;
+}
+.col {
+    height: 100%;
+    float: left;
+}
+
 .question {
     margin: 10px 20px 10px 20px;
 }
@@ -45,20 +58,17 @@ body {
 .blank:hover {
     background: lavender;
 }
-
-
-#answers {
-    width: 20%;
-    text-align: center;
-    background-color: Ivory;
-}
 .dragWord {
     background: PaleTurquoise;
     position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    z-index: 10;
     padding-right: 10px;
     padding-left: 10px;
     margin-top: 6px;
-    display: inline-block;
     -moz-border-radius: 3px;
     border-radius: 3px;
 }
@@ -68,10 +78,6 @@ body {
     background-color: Tomato;
 }
 
-.col {
-    height: 100%;
-    float: left;
-}
 #listDrop {
     width: 10px;    
     margin: auto;
