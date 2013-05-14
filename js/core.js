@@ -8,6 +8,24 @@ function stopLoading () {
 function removeElement ($element) {
     $element.remove();
 }
+/* TODO: add this via a backbone or ember template!?!
+function loadQuestionData () {
+    loading();
+    //TODO: format -- two objects, questions and answers
+    $.getJSON('data/questions.json', function(data) {
+        var dict = data;
+        $('#loading').animate({opacity: 0.0}, 1500, function() {
+            stopLoading();
+        });
+        //var ex = dict["gingerly"]["example"];
+        //alert ("Gingerly ex: " + ex);
+                    
+        
+    });
+}
+*/
+
+//TODO: this is a reading function!
 function loadWordData () {
     loading();
     $.getJSON('data/words.json', function(data) {
@@ -21,10 +39,37 @@ function loadWordData () {
         
     });
 }
-function submitAnswers () {
+
+//TODO: on button click
+function checkAnswers () {
 //we want the correspondence between blankID and answerID
 //check these against json map to determine correctness --> record and give feedback
+    $.getJSON('data/answers.json', function(data) {
+        //var answerDict = data;
+        //var ex = answerDict["1"]["A"];
+        //alert ("answer to question 1: " + ex);
+        answerMap = data;
+        console.log("checking answers");
+        $(".inBlank").each( function() {
+            var $e = $(this);
+            var answerId = $e.attr('id');
+            var chosenBlank = $e.attr('current');
+            var qNumber = chosenBlank.charAt(chosenBlank.length - 1);
+            console.log("Answer for question " + qNumber + " is: " + answerId);
+            if(answerMap[qNumber]['A'] === answerId) {
+                console.log("you are correct");
+                var e = $('#' + chosenBlank).parent();
+                $(e).css("background", "#000"); 
+                $(e).animate({backgroundColor: "#228B22"}, 1500);
+            } else {
+                console.log("you are not correct");
+                var e = $('#' + chosenBlank).parent();
+                $(e).css("backgroundColor", "#000"); 
+                $(e).animate({backgroundColor: "#DC143C"}, 1500);
+            }
+        });
 
+    });
 }
 
 

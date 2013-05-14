@@ -11,14 +11,15 @@ body {
 	background-color: #FOEAD6;
 }
 #wrapper { 
-    background-color: DarkSalmon;
+    background-color: LemonChiffon;
 }
 #quizElements {
     position: absolute;
+    padding: 5px;
     height: 100%;
     left: 50%;
     margin-left: -494px;
-    background-color: Tomato;
+    background-color: DarkGray;
     top: 40px;
     width: 978px;
 }
@@ -28,16 +29,34 @@ body {
 
 #questions {
     width: 80%;
-    background-color: IndianRed;
+    background-color: Khaki;
 }
 #answers {
     width: 20%;
-    background-color: yellow;
+    background-color: Coral;
+}
+#answers:hover {
+    background-color: Salmon;
 }
 .col {
     height: 100%;
     float: left;
 }
+#footer {
+    position: fixed;
+    width: 100%;
+    background-color: DodgerBlue;
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    bottom: 0;
+}
+#submit {
+    display: block;
+    width: 200px;
+    height: 100%;
+    margin: auto;
+}    
 
 .question {
     margin: 10px 20px 10px 20px;
@@ -112,6 +131,11 @@ body {
     margin: -20px 0 0 -20px; 
 }    
 /* End page loading */
+
+.fancy {
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
 
 /* Clearfix for floated cols */
 /* For modern browsers */

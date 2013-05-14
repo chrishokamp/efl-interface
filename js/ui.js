@@ -1,6 +1,8 @@
 $(document).ready(function() {
-    //TODO -- TEMPORARY!
+    //TODO: temporary!!
     $(".dragWord").addClass('inBuffer');
+    //TODO: call add questions! 
+    
     pageUpdate();
     //END STARTUP FUNCTIONS
 
@@ -20,7 +22,6 @@ $(document).ready(function() {
     //Container.nextSpot();
 
 
-    //$(function() {
     //TODO: only allow dragging to droppable elements
     //TODO: if element is already filled, replace its content and                   send the other element back to the word column
     $(".dragWord").attr('current', "");
@@ -31,52 +32,68 @@ $(document).ready(function() {
         snapMode: "inner", 
         snapTolerance: 30, 
         revert: function(valid) {
+            //alert("revert fired"); //Revert always fires!
             if(valid) {
                 if ($(this).hasClass('inBlank')) {
                     var oldBlank = $(this).attr('oldBlank');
                     //alert("dragged from blank: " + oldBlank);
                     $('#' + oldBlank).removeClass('occupied');
                     $('#' + oldBlank).attr('current', '');
-                } else {
-                    $(this).addClass('inBlank'); 
+                } 
+                    //TODO: don't add a class if drop location is in #answers
+                    //we need the location where this was dropped
+                        
+                    // $(this).addClass('inBlank'); 
                     //var oldBlank = $(this).attr('oldBlank');
-                }
                 return false;
             } else {
                 return true;
             }
         }, 
-        /*
-
-        containment: 'document',
-                stop: function() {
-            if ($(this).hasClass('inBlank')) {
-                //TODO: add attr telling us which blank
-                var oldBlank = $(this).attr('current');
-                //alert("dragging from blank: " + oldBlank);
-                $('#' + oldBlank).removeClass('occupied');
-                $('#' + oldBlank).attr('current', '');
-            }
-        } */
     }); 
 
     //TODO: factor out the drop function
     $(".blank").droppable({
         drop: function( event, ui ) {
             dropped(event, ui, $(this));
-
             pageUpdate();
             //TODO: add local fallback for JqueryUI
         }
     });
-        
+
+    $("#answers").droppable({
+        drop: function( event, ui ) {
+            //$('#' + ui.draggable.attr("id")).removeClass('inBlank').removeClass('current').removeClass('oldBlank').addClass('inBuffer');
+            var elemId = '#' + ui.draggable.attr("id");
+            //alert ("elem: " + elemId + " was dropped into the answers div"); 
+            var $e = $(elemId);
+            $e.addClass('inBuffer');
+            $e.removeClass('inBlank');
+            pageUpdate();
+        }
+    });
+    $('#submit')
+        .button()
+        .click(function( event ) {
+            event.preventDefault();
+            console.log("submit button was clicked");
+            //TODO: switch view properly when this happens
+            checkAnswers(); 
+    });
+
+    //END UI ELEMENTS
+
+
     // TODO: move this logic to a global pageUpdate function
     function dropped (event, ui, $elem) {
          //TODO: remove the occupied class from previous blank
-                      
+         //alert("Dropped in blank fired");
          var draggableId = ui.draggable.attr("id");
          var thisId = $elem.attr("id");
          var $e = $('#' + draggableId);
+         //add inBlank regardless, because we know it's in a blank if we're here
+         $e.addClass('inBlank');
+         
          if ($e.attr('current').length > 2) {
             $e.attr('oldBlank', $e.attr('current'));
          }
@@ -130,8 +147,7 @@ $(document).ready(function() {
 
     function pageUpdate() { 
         //alert("page update fired");
-        //if has class inBuffer, add to list and position properly
-        // to keep absolute postioning, use something like currentTop += ... each time an element is added
+        //alert("page update fired");
         var containerOffset = $("#answers").offset();
         var contMiddle = $("#answers").width() / 2;
         //alert ("answers top is: " + containerOffset.top + " answers left is: " + containerOffset.left); 
