@@ -1,0 +1,134 @@
+{
+    "acquitted": {
+        "context": "That's a habit I have. Then he said I was acquitted and the whole case was closed. Just like that.",
+        "feedbackWord": "acquit",
+        "stemmed": "acquit",
+        "surfaceForm": "acquitted"
+    },
+    "aloofness": {
+        "context": "\"\nThat was the truth. Socs were always behind a wall of aloofness, careful not to let their real selves show through. I had seen a social-club rumble once.",
+        "feedbackWord": "aloof",
+        "stemmed": "aloof",
+        "surfaceForm": "aloofness"
+    },
+    "bleak": {
+        "context": "\"I was just mad. \"\n\"It's the truth,\" Johnny said with a bleak grin. \"I don't care.",
+        "feedbackWord": "bleak",
+        "stemmed": "bleak",
+        "surfaceForm": "bleak"
+    },
+    "bootlegging": {
+        "context": "\"\nBuck Merril was Dally's rodeo partner. He was the one who'd got Dally the iob as a jockey for the Slash J. Buck raised a few quarter horses, and made most of his money on fixed races and a little bootlegging. I was under strict orders from both Darry and Soda not to get caught within ten miles of his place, which was dandy with me.",
+        "feedbackWord": "bootleg",
+        "stemmed": "bootleg",
+        "surfaceForm": "bootlegging"
+    },
+    "conformity": {
+        "context": "I had it then. Soda fought for fun, Steve for hatred, Darry for pride, and Two-Bit for conformity. Why do I fight?",
+        "feedbackWord": "conform",
+        "stemmed": "conform",
+        "surfaceForm": "conformity"
+    },
+    "contemptuously": {
+        "context": "I'm sorry we got you away from the party. \"\n\"Oh, shoot, kid\"--- Dally glanced contemptuously over his shoulder--- \"I was in the bedroom. \"\nHe suddenly stared at me.",
+        "feedbackWord": "contemptuous",
+        "stemmed": "contemptu",
+        "surfaceForm": "contemptuously"
+    },
+    "dog": {
+        "context": "The country would be like that, I thought dreamily. I would have a yeller cur dog, like I used to, and Sodapop could get Mickey Mouse back and ride in all the rodeos he wanted to, and Darry would lose that cold, hard look and be like he used to be, eight months ago, before Mom and Dad were killed. Since I was dreaming I brought Mom and Dad back to life...",
+        "feedbackWord": "dogged",
+        "stemmed": "dog",
+        "surfaceForm": "dog"
+    },
+    "elite": {
+        "context": "\"\n\"No,\" Cherry said bleakly, \"it's Randy and Bob. \"\n\"And,\" Two-Bit added grimly, \"a few other of the socially elite checkered-shirt set\"\n\"Your boyfriends? \" Johnny's voice was steady, but standing as close to him as I was, I could see he was trembling.",
+        "feedbackWord": "elite",
+        "stemmed": "elit",
+        "surfaceForm": "elite"
+    },
+    "eluded": {
+        "context": "He meant more to it than I'm gettin' though. \" I was trying to find the meaning the poet had in mind, but it eluded me. \"I always remembered it because I never quite got what he meant by it\"\n\"You know,\" Johnny said slowly, \"I never noticed colors and clouds and stuff until you kept reminding me about them.",
+        "feedbackWord": "elude",
+        "stemmed": "elud",
+        "surfaceForm": "eluded"
+    },
+    "gallant": {
+        "context": "He was especially stuck on the Southern gentlemen--- impressed with their manners and charm. \"I bet they were cool ol' guys,\" he said, his eyes glowing, after I had read the part about them riding into sure death because they were gallant. \"They remind me of Dally.",
+        "feedbackWord": "gallant",
+        "stemmed": "gallant",
+        "surfaceForm": "gallant"
+    },
+    "gingerly": {
+        "context": "\"Nice-lookin' bruise you got there, kid. \"\nI touched my cheek gingerly. \"Really?",
+        "feedbackWord": "gingerly",
+        "stemmed": "gingerli",
+        "surfaceForm": "gingerly"
+    },
+    "incredulous": {
+        "context": "\"This might cool you off. \"\nShe gave him an incredulous look; and then she threw her Coke in his face. \"That might cool you off, greaser.",
+        "feedbackWord": "incredulous",
+        "stemmed": "incredul",
+        "surfaceForm": "incredulous"
+    },
+    "indignant": {
+        "context": "\"\n\"You're starved? \" Johnny was so indignant he nearly squeaked. I remembered the baloney.",
+        "feedbackWord": "indignant",
+        "stemmed": "indign",
+        "surfaceForm": "indignant"
+    },
+    "ironed": {
+        "context": "\"Where're those wheat jeans, too? \"\n\"I ironed. They're in my closet,\" Darry said.",
+        "feedbackWord": "ironic",
+        "stemmed": "iron",
+        "surfaceForm": "ironed"
+    },
+    "leery": {
+        "context": "One of the Brumly guys waved me over. We mostly stuck with our own outfits, so I was a little leery of going over to him, but I shrugged. He asked to borrow a weed, then lit up.",
+        "feedbackWord": "leery",
+        "stemmed": "leeri",
+        "surfaceForm": "leery"
+    },
+    "nonchalantly": {
+        "context": "Soda would flip when I told him. \"Okay,\" I said nonchalantly, \"might as well. \"\nI sat between them, and Johnny sat next to Cherry.",
+        "feedbackWord": "nonchalantly",
+        "stemmed": "nonchalantli",
+        "surfaceForm": "nonchalantly"
+    },
+    "ornery": {
+        "context": "When I was ten I thought that Mickey Mouse and Soda looked alike and were alike. Mickey Mouse was a dark-gold buckskin, sassy and ornery, not much more than a colt. He'd come when Soda called him.",
+        "feedbackWord": "ornery",
+        "stemmed": "orneri",
+        "surfaceForm": "ornery"
+    },
+    "ruefully": {
+        "context": "I just needed a place to lay over. \" He rubbed his side ruefully. \"Ol' Tim sure can pack a punch.",
+        "feedbackWord": "ruefully",
+        "stemmed": "ruefulli",
+        "surfaceForm": "ruefully"
+    },
+    "sagely": {
+        "context": "\"Really? \"\nTwo-Bit nodded sagely. \"Nice cut, too.",
+        "feedbackWord": "sage",
+        "stemmed": "sage",
+        "surfaceForm": "sagely"
+    },
+    "savvy": {
+        "context": "\"\nTim flipped away his beer can. \"You savvy real good. \"\nThere was an uneasy silence: Who was going to start it?",
+        "feedbackWord": "savvy",
+        "stemmed": "savvi",
+        "surfaceForm": "savvy"
+    },
+    "subsides": {
+        "context": "Her early leafs a flower;\nBut only so an hour. Then leaf subsides to leaf. So Eden sank to grief,\nSo dawn goes down to day.",
+        "feedbackWord": "subside",
+        "stemmed": "subsid",
+        "surfaceForm": "subsides"
+    },
+    "wistfully": {
+        "context": "\"\nJohnny and I leaped up. \"You'd better believe it\"\n\"Gee,\" Johnny said wistfully, \"it sure will be good to get into a car again. \"\n\"Well,\" Dally drawled, \"I'll give you a ride for your money.",
+        "feedbackWord": "wistful",
+        "stemmed": "wist",
+        "surfaceForm": "wistfully"
+    }
+}
