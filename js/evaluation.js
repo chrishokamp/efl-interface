@@ -112,7 +112,7 @@ function displayReading (readingId, showFeedback) {
                $('.feedback').addClass('hover-pointer');
                },               
                function() {
-                $('.feedback').removeClass('hover-pointer');
+                    $('.feedback').removeClass('hover-pointer');
                }
            );
            alert("In this reading, CLICK on the red words to get more information about them!");
