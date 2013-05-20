@@ -1,11 +1,16 @@
-{
-    "nonchalant": {
-        "synonyms": ["cool", "collected", "carefree"],
-        "example": "Even though I was nervous, I tried to act cool and nonchalant"
-    },
-    "gingerly": {
-        "synonyms": ["carefully", "delicately", "cautiously"],
-        "example": "I handled the delicate vase very gingerly."
+{ 
+"words": [
+    {
+        "word": "nonchalant",            
+        "pos": "JJ",
+        "syns": ["cool", "collected", "carefree"],
+        "ex": "Even though I was nervous, I tried to act cool and nonchalant"
+    }, 
+    {
+        "word": "gingerly",
+        "pos": "RB",
+        "syns": ["carefully", "delicately", "cautiously"],
+        "ex": "I handled the delicate vase very gingerly."
     }
+]
 }
-        

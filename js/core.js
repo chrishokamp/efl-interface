@@ -1,10 +1,13 @@
+
 function loading () {
         var spinner = '<div id="loading"><img id="spinner" src="img/ajax-loader.gif" alt="Loading..."></div>';
         $('body').append(spinner);
 }      
+
 function stopLoading () {
     removeElement($('#loading'));
 }
+
 function removeElement ($element) {
     $element.remove();
 }
@@ -56,8 +59,6 @@ function checkAnswers () {
 
     });
 }
-
-
 
 //TODO: 
 // READING EXERCISES

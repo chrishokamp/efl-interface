@@ -1,29 +1,28 @@
 $(document).ready(function() {
     //TODO: temporary!!
     $(".dragWord").addClass('inBuffer');
+
     //TODO: call add questions! 
-    
+    //NOTE: this is conceptually similar to 'render'
     pageUpdate();
     //END STARTUP FUNCTIONS
 
     // GLOBAL STATEFUL OBJECTS
-    var Container = {
-        numElements: function() {
-            return $(".inBuffer").length;
-        },
-        //we need to be able to increment and decrement each spot
-        nextSpot: function() {
-            var lineHeight = parseInt($('body').css('line-height'), 10);
-            //alert ("container says that line height is: " + lineHeight);
-            return (this.numElements() * lineHeight) + 20;
-            //alert("NEXT SPOT IS NOW: " + this.nextSpot);
-        }
-    };
+    //var Container = {
+    //    numElements: function() {
+    //        return $(".inBuffer").length;
+    //    },
+    //    //we need to be able to increment and decrement each spot
+    //    nextSpot: function() {
+    //        var lineHeight = parseInt($('body').css('line-height'), 10);
+    //        //alert ("container says that line height is: " + lineHeight);
+    //        return (this.numElements() * lineHeight) + 20;
+    //        //alert("NEXT SPOT IS NOW: " + this.nextSpot);
+    //    }
+    //};
     //Container.nextSpot();
 
-
-    //TODO: only allow dragging to droppable elements
-    //TODO: if element is already filled, replace its content and                   send the other element back to the word column
+    //Begin UI elements
     $(".dragWord").attr('current', "");
     $(".dragWord").draggable({ 
         start: function() {$(this).css("zIndex", "100");},
@@ -80,9 +79,6 @@ $(document).ready(function() {
             //TODO: switch view properly when this happens
             checkAnswers(); 
     });
-
-    //END UI ELEMENTS
-
 
     // TODO: move this logic to a global pageUpdate function
     function dropped (event, ui, $elem) {
@@ -167,3 +163,5 @@ $(document).ready(function() {
     }
                     
 });
+
+//END UI ELEMENTS
