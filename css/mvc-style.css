@@ -6,7 +6,6 @@ html,body {
 }
 
 body {
-	font-size: 100% !important;
 	color:#000000;
 	font-family: verdana,helvetica,arial,sans-serif;
 	background-color: #FOEAD6;
@@ -17,12 +16,21 @@ body {
     text-align: left;
     padding: 16px;
 }
-
 .feedback {
-    color: red;
+    color: blue;
 }
 .feedback:hover {
     cursor: pointer;
+    background-color: white;
+}
+.feedbackItem {
+    padding-bottom: 20px;
+}
+
+ul, li {
+    list-style-type: none;
+    margin: 0;
+    padding: 4px;
 }
 
 #loading {
@@ -113,7 +121,8 @@ body {
     z-index: 10000;
 }
 #hd_header {
-    background-color: ForestGreen;
+    background-color: #35531A;
+    z-index: 10001;
     height: 100%;
     width: 100%;
 }
@@ -125,7 +134,7 @@ body {
 
 #readingElements {
 	width: 70%;
-    background-color: DarkOrchid;
+    background-color: LightGrey;
 	margin-left: 5%;
 	margin-right: auto;
 	text-align: justify;
@@ -133,17 +142,22 @@ body {
 
 #infoColumn {
 	position: fixed;
-	top: 100px;
-	right: 0px;
+    top: 100px;
+	right: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
 	width: 23%;
-	height: 100%;
     opacity: 0;
     text-align: center;
     padding-top: 10px;
 	color: black;
 	text-size: medium;
 	background-color: Khaki;
-	z-index: 10000;
+    z-index: 1000;
 }
 .hover-pointer:hover {cursor:pointer}
+.alert {
+    background-color: #7EA629;
+    text-align: center;
+}
 

@@ -11,7 +11,7 @@ use Data::Dumper;
 
 use queryWordNet;
 
-open WORDS, '<', '../data/sample.json';
+open WORDS, '<', '../data/vocab.json';
 
 my %examples = ();
 

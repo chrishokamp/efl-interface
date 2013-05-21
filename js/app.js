@@ -4,7 +4,7 @@ $(function(){
     ReadingView = Backbone.View.extend({
         el: $('#readingElements'),
         initialize: function() {
-            console.log("initialized view");
+            console.log("initialized Reading view");
         },
         render: function (dataLocation, template) {
             //this.$el.html("I was passed: " + word);
@@ -14,7 +14,9 @@ $(function(){
         loadReading: function (readingFile, template) {
             console.log("loading reading from: " + readingFile);
             console.log("Element is: " + this.$el.attr('id'));
-            this.$el.prepend('<h3 style="color:blue;">You can click the <span style="color:red;">red</span> words to receive help!</h3><hr>');
+            //TODO: prepend twitter bootstrap alert
+            var a = '<div class="alert"><button type="button" class="close" data-dismiss="alert">&times;</button>You can <strong>click</strong> the <span style="color: blue">blue</span> words to get feedback.</div>';
+            this.$el.prepend(a);
             var that = this;
             $.getJSON('data/outsider_usages.json', function(data) {
                 console.log("getting the reading JSON");
@@ -33,31 +35,14 @@ $(function(){
                     that.$el.append(html);
                 });
             });
-            //this.$el.load(readingFile, function() {
-            //    //TODO: use a templating engine for this part!
-            //    console.log("inside success callback");
-            //    $(this).prepend('<h3 style="color:blue;">You can click the <span style="color:red;">red</span> words to receive help!</h3>');
-            //    //TODO: load outsider_usages
-            //    //for each lexelt, surround the surface forms in <span>, and give it the attribute data-rowid=feedbackWord
-
-
-            //    $(this).find(".head").addClass('feedback');
-            //    $('.feedback').hover(function() {
-            //        $('.feedback').addClass('hover-pointer');
-            //        },               
-            //        function() {
-            //            $('.feedback').removeClass('hover-pointer');
-            //        }
-            //    );
-         
-            //});
         },
         events: {
             "click .feedback": function(e) {
-                //console.log("click: value of this is: " + typeof(this)); //value of 'this' is the Backbone view
                     e.preventDefault();
-                    console.log('clicked element was: ' + $(e.currentTarget).text());
-                    this.trigger("click", $(e.currentTarget).text()); //Is it correct to pass text() here?
+                    var $clicked = $(e.currentTarget);
+                    var wordID = $clicked.data('word');
+                    console.log('clicked element: wordID: ' + wordID);
+                    this.trigger("click", wordID);             
             }
        }
     });
@@ -69,10 +54,12 @@ $(function(){
         },
         render: function (template, feedbackObj) {
             this.toggleColumn(true);
-            //initialize the word models, and the words collection 
-            //add the div to the DOM, or select it
             var html = template(feedbackObj);
             this.$el.html(html);
+            
+            //if syns/examples is not empty, prepend text
+             
+            
             //this.$el.html("I was passed: " + word);
             
             console.log("FeedbackView rendered");
@@ -116,15 +103,15 @@ $(function(){
         //  - iterate over attributes to get every word
         loadWordData: function() {
             var that = this;
-            $.getJSON('data/words.json', function(data) {
+            $.getJSON('data/feedback.json', function(data) {
                 //models = [];
-                console.log("getting the JSON");
-                var dict = data.words;
+                console.log("getting the JSON for the feedback vocabulary");
+                var dict = data;
                 _.each(dict, function(i) {
                     console.log("word: " + i.word);
                     //TODO: connect words to <span>s by id = word
                     //TODO: load readings with <span> ids
-                    var w = new Word({id: i.word, word: i.word, pos: i.pos, syns: i.syns, ex: i.ex});
+                    var w = new Word({id: i.word, word: i.word, pos: i.pos, syns: i.syns, ex: i.examples});
                     that.add(w);
                 });
                 //that.wordCollection(models);
@@ -144,12 +131,21 @@ $(function(){
     var words = new Words();
     words.loadWordData();
 
+    //TODO: change from elem text to data-word
     feedback.listenTo(reading, "click", function(elemText) {
         console.log("Feedback View heard click from reading -- text: " + elemText);
         //TODO: get the data from the model's word object
         $.trim(elemText);
         var fb = words.get(elemText);
-        var out = {word: fb.get('word'), syns: fb.get('syns'), ex: fb.get('ex')};
+        var sLabel = '';
+        if (fb.get('syns').length > 0) {
+             sLabel = 'Synonyms';
+        }
+        var eLabel = '';
+        if (fb.get('ex').length > 0) {
+             eLabel = 'Example Usages';
+        }
+        var out = {word: fb.get('word'), synLabel: sLabel, exLabel: eLabel, syns: fb.get('syns'), ex: fb.get('ex')};
         //this.render(elemText);
         this.render(feedbackTemplate, out);
     });

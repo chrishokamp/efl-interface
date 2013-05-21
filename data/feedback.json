@@ -1,0 +1,562 @@
+{
+    "acquit": {
+        "examples": [
+            "pronounce not guilty of criminal charges; \"The suspect was cleared of the murder charges\"  ",
+            "behave in a certain manner; \"She carried herself well\"; \"he bore himself with dignity\"; \"They conducted themselves well during these difficult times\"  "
+        ],
+        "pos": "v",
+        "syns": [
+            "exculpate",
+            "set free",
+            "comport oneself",
+            "perform",
+            "clear",
+            "find innocent",
+            "absolve",
+            "free",
+            "let off (the hook)",
+            "behave (oneself)",
+            "act",
+            "release",
+            "discharge",
+            "conduct oneself",
+            "exonerate"
+        ],
+        "word": "acquit"
+    },
+    "aloof": {
+        "examples": [
+            "remote in manner; \"stood apart with aloof dignity\"; \"a distant smile\"; \"he was upstage with strangers\"  "
+        ],
+        "pos": "a",
+        "syns": [
+            "remote",
+            "standoffish",
+            "stiff",
+            "unsociable",
+            "antisocial",
+            "uncommunicative",
+            "unsympathetic",
+            "unforthcoming",
+            "unfriendly",
+            "unapproachable",
+            "distant",
+            "reserved",
+            "detached",
+            "withdrawn",
+            "formal"
+        ],
+        "word": "aloof"
+    },
+    "bleak": {
+        "examples": [
+            "offering little or no hope; \"the future looked black\"; \"prospects were bleak\"; \"Life in the Aran Islands has always been bleak and difficult\"- J.M.Synge; \"took a dim view of things\"  ",
+            "providing no shelter or sustenance; \"bare rocky hills\"; \"barren lands\"; \"the bleak treeless regions of the high Andes\"; \"the desolate surface of the moon\"; \"a stark landscape\"  ",
+            "unpleasantly cold and damp; \"bleak winds of the North Atlantic\"  "
+        ],
+        "pos": "a",
+        "syns": [
+            "desolate",
+            "exposed",
+            "raw",
+            "treeless",
+            "bare",
+            "icy",
+            "unfavorable",
+            "cold",
+            "open",
+            "without vegetation",
+            "discouraging",
+            "stark",
+            "grim",
+            "unpromising",
+            "black",
+            "lunar",
+            "denuded",
+            "bitter",
+            "unpropitious",
+            "empty",
+            "windswept",
+            "freezing",
+            "dreary",
+            "depressing",
+            "gloomy",
+            "dismal",
+            "dark",
+            "desert",
+            "dim",
+            "disheartening",
+            "somber",
+            "inauspicious",
+            "hopeless",
+            "biting"
+        ],
+        "word": "bleak"
+    },
+    "bootleg": {
+        "examples": [
+            "sell illicit products such as drugs or alcohol; \"They were bootlegging whiskey\"  ",
+            "produce or distribute illegally; \"bootleg tapes of the diva's singing\"  "
+        ],
+        "pos": "v",
+        "syns": [],
+        "word": "bootleg"
+    },
+    "conform": {
+        "examples": [
+            "be similar, be in line with  ",
+            "adapt or conform oneself to new or different conditions; \"We must adjust to the bad economic situation\"  "
+        ],
+        "pos": "v",
+        "syns": [
+            "be consistent with",
+            "fit_in",
+            "imitate",
+            "adhere to",
+            "comply with",
+            "accept",
+            "measure_up",
+            "kowtow",
+            "follow the crowd",
+            "follow",
+            "fall in with",
+            "match_up",
+            "fit",
+            "follow_the_crowd",
+            "agree with",
+            "keep to",
+            "submit",
+            "suit",
+            "abide by",
+            "adapt",
+            "toe the line",
+            "answer",
+            "coincide",
+            "uphold",
+            "match",
+            "square with",
+            "correspond to",
+            "obey",
+            "defer to",
+            "satisfy",
+            "play it by the book",
+            "play by the rules",
+            "follow convention",
+            "play_the_game",
+            "observe",
+            "meet",
+            "fit in",
+            "respect",
+            "comply",
+            "tally with",
+            "acquiesce",
+            "go along with",
+            "be conventional",
+            "contradict",
+            "stick to",
+            "correspond",
+            "yield",
+            "be like",
+            "adjust",
+            "heed",
+            "toe_the_line",
+            "fulfill",
+            "measure up to",
+            "agree",
+            "follow the rules"
+        ],
+        "word": "conform"
+    },
+    "contemptuous": {
+        "examples": [
+            "expressing extreme contempt  "
+        ],
+        "pos": "a",
+        "syns": [
+            "insolent",
+            "condescending",
+            "sneering",
+            "aloof",
+            "dismissive",
+            "arrogant",
+            "derisive",
+            "haughty",
+            "insulting",
+            "superior",
+            "sniffy",
+            "disrespectful",
+            "scoffing",
+            "withering",
+            "mocking",
+            "disdainful",
+            "scathing",
+            "snide",
+            "snotty",
+            "proud",
+            "high and mighty",
+            "scornful",
+            "supercilious"
+        ],
+        "word": "contemptuous"
+    },
+    "elite": {
+        "examples": [
+            "a group or class of persons enjoying superior intellectual or social or economic status  "
+        ],
+        "pos": "n",
+        "syns": [
+            "flower",
+            "elect",
+            "aristocracy",
+            "cr\u00e8me de la cr\u00e8me",
+            "nobility",
+            "beautiful people",
+            "jet set",
+            "haut monde",
+            "beau monde",
+            "high society",
+            "upper class",
+            "pick",
+            "glitterati",
+            "nonpareil",
+            "best",
+            "cream"
+        ],
+        "word": "elite"
+    },
+    "elude": {
+        "examples": [
+            "escape, either physically or mentally; \"The thief eluded the police\"; \"This difficult idea seems to evade her\"; \"The event evades explanation\"  ",
+            "be incomprehensible to; escape understanding by; \"What you are seeing in him eludes me\"  ",
+            "avoid or try to avoid fulfilling, answering, or performing (duties, questions, or issues); \"He dodged the issue\"; \"she skirted the problem\"; \"They tend to evade their responsibilities\"; \"he evaded the questions skillfully\"  "
+        ],
+        "pos": "v",
+        "syns": [
+            "dodge",
+            "escape from",
+            "run away from",
+            "run from",
+            "avoid",
+            "shake off",
+            "slip through the net",
+            "evade",
+            "get away from",
+            "throw off the scent",
+            "slip away from",
+            "lose",
+            "slip through someone's fingers",
+            "give the slip to"
+        ],
+        "word": "elude"
+    },
+    "gallant": {
+        "examples": [
+            "unflinching in battle or action; \"a gallant warrior\"; \"put up a gallant resistance to the attackers\"  ",
+            "lively and spirited; \"a dashing hero\"  ",
+            "having or displaying great dignity or nobility; \"a gallant pageant\"; \"lofty ships\"; \"majestic cities\"; \"proud alpine peaks\"  ",
+            "being attentive to women like an ideal knight  "
+        ],
+        "pos": "a",
+        "syns": [
+            "brave",
+            "chivalrous",
+            "mannerly",
+            "thoughtful",
+            "valiant",
+            "unafraid",
+            "intrepid",
+            "daring",
+            "dauntless",
+            "doughty",
+            "gutsy",
+            "plucky",
+            "honorable",
+            "bold",
+            "princely",
+            "fearless",
+            "spunky",
+            "polite",
+            "mettlesome",
+            "undaunted",
+            "lionhearted",
+            "attentive",
+            "considerate",
+            "courageous",
+            "heroic",
+            "gracious",
+            "valorous",
+            "respectful",
+            "unflinching",
+            "stouthearted",
+            "gentlemanly",
+            "courteous"
+        ],
+        "word": "gallant"
+    },
+    "gingerly": {
+        "examples": [
+            "in a gingerly manner; \"gingerly I raised the edge of the blanket\"  "
+        ],
+        "pos": "r",
+        "syns": [
+            "warily",
+            "hesitantly",
+            "delicately",
+            "timidly",
+            "watchfully",
+            "charily",
+            "with care",
+            "vigilantly",
+            "cautiously",
+            "circumspectly",
+            "carefully",
+            "attentively",
+            "heedfully"
+        ],
+        "word": "gingerly"
+    },
+    "incredulous": {
+        "examples": [
+            "not disposed or willing to believe; unbelieving  "
+        ],
+        "pos": "a",
+        "syns": [
+            "distrustful",
+            "skeptical",
+            "cynical",
+            "suspicious",
+            "mistrustful",
+            "dubious",
+            "doubtful",
+            "unconvinced",
+            "unbelieving",
+            "disbelieving"
+        ],
+        "word": "incredulous"
+    },
+    "indignant": {
+        "examples": [
+            "angered at something unjust or wrong; \"an indignant denial\"; \"incensed at the judges' unfairness\"; \"a look of outraged disbelief\"; \"umbrageous at the loss of their territory\"  "
+        ],
+        "pos": "a",
+        "syns": [
+            "nettled",
+            "vexed",
+            "exasperated",
+            "aggravated",
+            "huffy",
+            "in high dudgeon",
+            "in a huff",
+            "irritated",
+            "resentful",
+            "angry",
+            "cross",
+            "put out",
+            "disgruntled",
+            "ticked off",
+            "chagrined",
+            "displeased",
+            "sore",
+            "riled",
+            "mad",
+            "piqued",
+            "affronted",
+            "peeved",
+            "miffed",
+            "offended",
+            "aggrieved",
+            "annoyed",
+            "irked"
+        ],
+        "word": "indignant"
+    },
+    "ironic": {
+        "examples": [
+            "humorously sarcastic or mocking; \"dry humor\"; \"an ironic remark often conveys an intended meaning obliquely\"; \"an ironic novel\"; \"an ironical smile\"; \"with a wry Scottish wit\"  ",
+            "characterized by often poignant difference or incongruity between what is expected and what actually is; \"madness, an ironic fate for such a clear thinker\"; \"it was ironical that the well-planned scheme failed so completely\"  "
+        ],
+        "pos": "a",
+        "syns": [
+            "cynical",
+            "mocking",
+            "incongruous",
+            "sarcastic",
+            "sardonic",
+            "satirical",
+            "caustic",
+            "wry",
+            "paradoxical"
+        ],
+        "word": "ironic"
+    },
+    "nonchalantly": {
+        "examples": [
+            "in a composed and unconcerned manner; \"without more ado Barker borrowed a knife from his brigade Major and honed it on a carborundum stone as coolly as a butcher\"  ",
+            "in an unconcerned manner; \"glanced casually at the headlines\"  "
+        ],
+        "pos": "r",
+        "syns": [],
+        "word": "nonchalantly"
+    },
+    "ornery": {
+        "examples": [
+            "having a difficult and contrary disposition; \"a cantankerous and venomous-tongued old lady\"- Dorothy Sayers  "
+        ],
+        "pos": "a",
+        "syns": [
+            "stubborn",
+            "grouchy",
+            "ill-tempered",
+            "cantankerous",
+            "cussed",
+            "truculent",
+            "cranky",
+            "bad-tempered",
+            "crotchety",
+            "dyspeptic",
+            "waspish",
+            "grumpy",
+            "irascible"
+        ],
+        "word": "ornery"
+    },
+    "ruefully": {
+        "examples": [
+            "in a rueful manner; \"`I made a big mistake,' he said ruefully\"  "
+        ],
+        "pos": "r",
+        "syns": [],
+        "word": "ruefully"
+    },
+    "sage": {
+        "examples": [
+            "having wisdom that comes with age and experience  ",
+            "of the grey-green color of sage leaves  "
+        ],
+        "pos": "a",
+        "syns": [
+            "penetrating",
+            "knowledgeable",
+            "shrewd",
+            "intellectual",
+            "thoughtful",
+            "perceptive",
+            "sensible",
+            "scholarly",
+            "erudite",
+            "judicious",
+            "learned",
+            "intelligent",
+            "insightful",
+            "clever",
+            "perspicacious",
+            "discerning",
+            "percipient",
+            "deep",
+            "sagacious",
+            "canny",
+            "having/showing great knowledge",
+            "prudent",
+            "acute",
+            "wise",
+            "profound",
+            "philosophical",
+            "politic",
+            "astute"
+        ],
+        "word": "sage"
+    },
+    "savvy": {
+        "examples": [
+            "the cognitive condition of someone who understands; \"he has virtually no understanding of social cause and effect\"  "
+        ],
+        "pos": "n",
+        "syns": [
+            "intelligence",
+            "insight",
+            "sharpness",
+            "wit",
+            "canniness",
+            "knowledge",
+            "acumen",
+            "sapience",
+            "common sense",
+            "horse sense",
+            "acuity",
+            "sharp-wittedness",
+            "perception",
+            "understanding",
+            "penetration",
+            "perspicacity",
+            "(street) smarts",
+            "discernment",
+            "sagacity",
+            "acuteness",
+            "shrewdness",
+            "know-how",
+            "perceptiveness",
+            "astuteness"
+        ],
+        "word": "savvy"
+    },
+    "subside": {
+        "examples": [
+            "wear off or die down; \"The pain subsided\"  ",
+            "sink to a lower level or form a depression; \"the valleys subside\"  ",
+            "sink down or precipitate; \"the mud subsides when the waters become calm\"  ",
+            "descend into or as if into some soft substance or place; \"He sank into bed\"; \"She subsided into the chair\"  "
+        ],
+        "pos": "v",
+        "syns": [
+            "slacken (off)",
+            "quiet down",
+            "wane",
+            "dwindle",
+            "recede",
+            "soften",
+            "weaken",
+            "go down",
+            "get lower",
+            "cave in",
+            "ebb",
+            "relent",
+            "calm",
+            "fade",
+            "let up",
+            "ease (up)",
+            "die down",
+            "collapse",
+            "decline",
+            "sink",
+            "abate",
+            "fall",
+            "diminish",
+            "lessen",
+            "settle",
+            "crumple",
+            "give way"
+        ],
+        "word": "subside"
+    },
+    "wistful": {
+        "examples": [
+            "showing pensive sadness; \"the sensitive and wistful response of a poet to the gentler phases of beauty\"  "
+        ],
+        "pos": "a",
+        "syns": [
+            "longing",
+            "melancholy",
+            "pensive",
+            "elegiac",
+            "regretful",
+            "nostalgic",
+            "yearning",
+            "rueful",
+            "contemplative",
+            "reflective",
+            "mournful",
+            "plaintive"
+        ],
+        "word": "wistful"
+    }
+}
