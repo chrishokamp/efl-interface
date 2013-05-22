@@ -1,13 +1,30 @@
 $(function(){
     console.log("Inside app.js");
 
+    //HACK
+    $(document).on('click', '#quizButton', function(e) {
+        e.preventDefault();
+        console.log('quizButton clicked');
+        //load quiz from ajax -- TODO: submit interaction feature vector
+        $.ajax({
+            url: 'dataTemplate.html',
+            success: function(data) {
+                //this is the redirect
+                document.location.href='dataTemplate.html';
+            }
+        });
+    });
+    
+    $(document).on('click', '#infoColumn', function() {
+        $("#infoColumn").animate({opacity:0});
+    });
+
     ReadingView = Backbone.View.extend({
         el: $('#readingElements'),
         initialize: function() {
             console.log("initialized Reading view");
         },
         render: function (dataLocation, template) {
-            //this.$el.html("I was passed: " + word);
             //console.log("ReadingView rendered using json from loc: " + dataLocation);
             this.loadReading(dataLocation, template);
         },
@@ -16,6 +33,7 @@ $(function(){
             console.log("Element is: " + this.$el.attr('id'));
             //TODO: prepend twitter bootstrap alert
             var a = '<div class="alert"><button type="button" class="close" data-dismiss="alert">&times;</button>You can <strong>click</strong> the <span style="color: blue">blue</span> words to get feedback.</div>';
+            var e = '<div id="toQuiz"><button id="quizButton"><strong>Go To Quiz</strong></button></div>';
             this.$el.prepend(a);
             var that = this;
             $.getJSON('data/outsider_usages.json', function(data) {
@@ -29,11 +47,12 @@ $(function(){
                     var f = entry.feedbackWord;
                     var w = entry.surfaceForm;
                     var markedUp = c.replace(w, '<span class="feedback" data-word="'+f+'">'+w+'</span>');
-                    var readingItem = {context: markedUp};
                     //NOW FILL THE READING TEMPLATE
+                    var readingItem = {context: markedUp};
                     var html = template(readingItem); 
                     that.$el.append(html);
                 });
+                that.$el.append(e);
             });
         },
         events: {

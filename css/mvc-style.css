@@ -155,9 +155,19 @@ ul, li {
 	background-color: Khaki;
     z-index: 1000;
 }
+#toQuiz {
+    width: 100%;
+    background-color: LightBlue;
+    text-align: center;
+}
+#quizButton {
+    display: inline-block;
+    margin: auto;
+}
 .hover-pointer:hover {cursor:pointer}
 .alert {
     background-color: #7EA629;
+    color: black;
     text-align: center;
 }
 

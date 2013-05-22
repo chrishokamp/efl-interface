@@ -35,12 +35,6 @@
         "stemmed": "contemptu",
         "surfaceForm": "contemptuously"
     },
-    "dog": {
-        "context": "The country would be like that, I thought dreamily. I would have a yeller cur dog, like I used to, and Sodapop could get Mickey Mouse back and ride in all the rodeos he wanted to, and Darry would lose that cold, hard look and be like he used to be, eight months ago, before Mom and Dad were killed. Since I was dreaming I brought Mom and Dad back to life...",
-        "feedbackWord": "dogged",
-        "stemmed": "dog",
-        "surfaceForm": "dog"
-    },
     "elite": {
         "context": "\"\n\"No,\" Cherry said bleakly, \"it's Randy and Bob. \"\n\"And,\" Two-Bit added grimly, \"a few other of the socially elite checkered-shirt set\"\n\"Your boyfriends? \" Johnny's voice was steady, but standing as close to him as I was, I could see he was trembling.",
         "feedbackWord": "elite",
@@ -82,12 +76,6 @@
         "feedbackWord": "ironic",
         "stemmed": "iron",
         "surfaceForm": "ironed"
-    },
-    "leery": {
-        "context": "One of the Brumly guys waved me over. We mostly stuck with our own outfits, so I was a little leery of going over to him, but I shrugged. He asked to borrow a weed, then lit up.",
-        "feedbackWord": "leery",
-        "stemmed": "leeri",
-        "surfaceForm": "leery"
     },
     "nonchalantly": {
         "context": "Soda would flip when I told him. \"Okay,\" I said nonchalantly, \"might as well. \"\nI sat between them, and Johnny sat next to Cherry.",
