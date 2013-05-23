@@ -64,10 +64,12 @@ function renderQuiz () {
             //TODO: switch view properly when this happens
             checkAnswers(); 
             $('#submit').fadeOut();
-            var thanks = '<div class="alert"><button type="button" class="close" data-dismiss="alert">&times;</button><strong>Thanks and have a great day!</strong></div>';
+            var thanks = '<div class="alert" style="background-color: white"><button type="button" class="close" data-dismiss="alert">&times;</button><strong>Thanks and have a great day!</strong></div>';
             var $w = $('#wrapper');
             $w.find('.alert').remove();
+            $w.find('#footer').remove();
             $w.prepend(thanks);
+            $(".alert").animate({backgroundColor: "blue", color: "white"}, 'slow');
         });
 
     // TODO: move this logic to a global pageUpdate function
