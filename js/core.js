@@ -1,4 +1,3 @@
-
 function loading () {
         var spinner = '<div id="loading"><img id="spinner" src="img/ajax-loader.gif" alt="Loading..."></div>';
         $('body').append(spinner);

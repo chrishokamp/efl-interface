@@ -1,26 +1,11 @@
-$(document).ready(function() {
-    //TODO: temporary!!
+function renderQuiz () {
+    //HACK -- TODO -- load drag words dynamically -- don't deliver in HTML doc
     $(".dragWord").addClass('inBuffer');
 
     //TODO: call add questions! 
     //NOTE: this is conceptually similar to 'render'
     pageUpdate();
     //END STARTUP FUNCTIONS
-
-    // GLOBAL STATEFUL OBJECTS
-    //var Container = {
-    //    numElements: function() {
-    //        return $(".inBuffer").length;
-    //    },
-    //    //we need to be able to increment and decrement each spot
-    //    nextSpot: function() {
-    //        var lineHeight = parseInt($('body').css('line-height'), 10);
-    //        //alert ("container says that line height is: " + lineHeight);
-    //        return (this.numElements() * lineHeight) + 20;
-    //        //alert("NEXT SPOT IS NOW: " + this.nextSpot);
-    //    }
-    //};
-    //Container.nextSpot();
 
     //Begin UI elements
     $(".dragWord").attr('current', "");
@@ -71,14 +56,19 @@ $(document).ready(function() {
             pageUpdate();
         }
     });
-    $('#submit')
+    $('#submit') //TODO: this can only happen once! -- show correct answers, and/or tell user thanks! on submit(), send feedback object to server
         .button()
         .click(function( event ) {
             event.preventDefault();
             console.log("submit button was clicked");
             //TODO: switch view properly when this happens
             checkAnswers(); 
-    });
+            $('#submit').fadeOut();
+            var thanks = '<div class="alert"><button type="button" class="close" data-dismiss="alert">&times;</button><strong>Thanks and have a great day!</strong></div>';
+            var $w = $('#wrapper');
+            $w.find('.alert').remove();
+            $w.prepend(thanks);
+        });
 
     // TODO: move this logic to a global pageUpdate function
     function dropped (event, ui, $elem) {
@@ -161,7 +151,6 @@ $(document).ready(function() {
             $elem.animate({top: (i * (lineHeight + 20)) + containerOffset.top, left: newLeft});
         }
     }
-                    
-});
+//END QUIZ UI ELEMENTS
+}
 
-//END UI ELEMENTS

@@ -1,24 +1,11 @@
 $(function(){
     console.log("Inside app.js");
-
-    //HACK
-    $(document).on('click', '#quizButton', function(e) {
-        e.preventDefault();
-        console.log('quizButton clicked');
-        //load quiz from ajax -- TODO: submit interaction feature vector
-        $.ajax({
-            url: 'dataTemplate.html',
-            success: function(data) {
-                //this is the redirect
-                document.location.href='dataTemplate.html';
-            }
-        });
-    });
-    
+             
     $(document).on('click', '#infoColumn', function() {
         $("#infoColumn").animate({opacity:0});
     });
 
+    //VIEWS
     ReadingView = Backbone.View.extend({
         el: $('#readingElements'),
         initialize: function() {
@@ -62,6 +49,11 @@ $(function(){
                     var wordID = $clicked.data('word');
                     console.log('clicked element: wordID: ' + wordID);
                     this.trigger("click", wordID);             
+            },
+            "click #toQuiz": function(e) {
+                    e.preventDefault();
+                    console.log('inside reading view --> toQuiz event');
+                    this.trigger("toQuiz"); //TODO: store user data in model
             }
        }
     });
@@ -75,9 +67,7 @@ $(function(){
             this.toggleColumn(true);
             var html = template(feedbackObj);
             this.$el.html(html);
-            
             //if syns/examples is not empty, prepend text
-             
             
             //this.$el.html("I was passed: " + word);
             
@@ -92,6 +82,15 @@ $(function(){
             }
         }
     });
+    QuizView = Backbone.View.extend({
+        el: $('html')
+        //TODO: load quiz into html element via ajax call 
+
+
+    });    
+
+
+    //END VIEWS
 
     //MODELS AND COLLECTIONS
     //Model for reading item
@@ -137,10 +136,12 @@ $(function(){
             });   
         }
     });
+    //END MODELS AND COLLECTIONS
 
     //loadReading('pages/readingOutsiders.html', '#outsidersReading');
     var reading = new ReadingView();
     var feedback = new FeedbackView();
+    var quiz = new QuizView();
 
     var feedbackTemplate = Handlebars.compile($('#feedbackTemplate').html());
     var readingTemplate = Handlebars.compile($('#readingTemplate').html());
@@ -167,6 +168,29 @@ $(function(){
         var out = {word: fb.get('word'), synLabel: sLabel, exLabel: eLabel, syns: fb.get('syns'), ex: fb.get('ex')};
         //this.render(elemText);
         this.render(feedbackTemplate, out);
+    });
+
+    //todo -- make quiz view -- render event replaces HTML with the quiz -- DON'T LOSE THE DATA
+    quiz.listenTo(reading, "toQuiz", function() {
+        console.log("quiz view heard toQuiz event from reading view");
+        //this.render(feedbackTemplate, out);
+        //HACK
+        $(document).on('click', '#quizButton', function(e) {
+             e.preventDefault();
+             $.ajax({
+                 url: 'quiz.html',
+                 success: function(data) {
+                     //call renderQuiz() from ui
+                     $('body').html(data);
+                     $("html, body").animate({ scrollTop: 0 }, "fast"); //scroll to top
+                     renderQuiz();
+                     console.log("tried to render quiz");
+                 }
+            });
+            console.log('quizButton clicked');
+             //TODO: pre-load quiz into a hidden div
+             //load quiz from ajax -- TODO: submit interaction feature vector 
+        });
     });
 
 
