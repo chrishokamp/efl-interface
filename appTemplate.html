@@ -21,6 +21,35 @@
     <a id="topTag"></a>
     <div id="infoColumn"></div><!-- this column displays info about the clicked word -->
     <div id="readingElements" class="reading"></div> <!-- end reading elements -->
+    <!-- Entry Modal -->
+    <div id="entryData" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="entryDialog" aria-hidden="true">
+        <div class="modal-header">
+            <h3 id="entryDialog">Please give us some information</h3>
+        </div>
+        <div class="modal-body">
+            <label for="idArea">Where are you doing this evaluation?</label>
+            <input type="text" id="idArea"/>
+            <label for="locationArea">Where are you doing this evaluation?</label>
+            <input type="text" id="locationArea"/>
+        </div>
+        <div class="modal-footer">
+            <button id="toReading" class="btn" aria-hidden="true">Continue</button>
+        </div>
+    </div>
+
+    <div id="instructions" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="insHeader" aria-hidden="true">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h3 id="insHeader">Instructions for the Reading Activity and Quiz</h3>
+        </div>
+        <div class="modal-body">
+            <p>Evaluation instructions</p>
+        </div>
+        <div class="modal-footer">
+            <button class="btn" data-dismiss="modal" aria-hidden="true">Continue</button>
+        </div>
+    </div>
+
     <script id="feedbackTemplate" type="text/x-handlebars-template">
         <div class="feedbackWord">
         <h4>{{word}}</h4>

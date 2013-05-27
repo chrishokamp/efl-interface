@@ -12,6 +12,9 @@ body {
 	text-align: left;
 	overflow: auto;
 }
+
+
+
 .readingItem p {
     text-align: left;
     padding: 16px;
@@ -122,7 +125,7 @@ ul, li {
 }
 #hd_header {
     background-color: #35531A;
-    z-index: 10001;
+    z-index: 2;
     height: 100%;
     width: 100%;
 }
@@ -153,7 +156,7 @@ ul, li {
 	color: black;
 	text-size: medium;
 	background-color: Khaki;
-    z-index: 1000;
+    z-index: 3;
 }
 #toQuiz {
     width: 100%;
@@ -166,8 +169,9 @@ ul, li {
 }
 .hover-pointer:hover {cursor:pointer}
 .alert {
-    background-color: #7EA629;
+   /* background-color: #7EA629; */
     color: black;
     text-align: center;
 }
+
 
