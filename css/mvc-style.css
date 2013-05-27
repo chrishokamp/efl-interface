@@ -12,8 +12,9 @@ body {
 	text-align: left;
 	overflow: auto;
 }
-
-
+.center {
+    text-align: center;
+}
 
 .readingItem p {
     text-align: left;

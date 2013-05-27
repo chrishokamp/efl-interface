@@ -1,3 +1,5 @@
+//THIS FILE IS JUST FUNCTIONS
+
 function loading () {
         var spinner = '<div id="loading"><img id="spinner" src="img/ajax-loader.gif" alt="Loading..."></div>';
         $('body').append(spinner);
@@ -27,7 +29,6 @@ function loadQuestionData () {
 }
 */
 
-//TODO: on button click
 function checkAnswers () {
 //we want the correspondence between blankID and answerID
 //check these against json map to determine correctness --> record and give feedback
@@ -37,6 +38,7 @@ function checkAnswers () {
         //alert ("answer to question 1: " + ex);
         answerMap = data;
         console.log("checking answers");
+
         $(".inBlank").each( function() {
             var $e = $(this);
             var answerId = $e.attr('id');

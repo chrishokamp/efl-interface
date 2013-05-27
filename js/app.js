@@ -1,6 +1,8 @@
 console.log("Inside app.js");
+//WORKING: instantiate the user prototype -- TODO: keep in a separate file
 
 //this portion collects entry data about the user -- to be persisted on the server
+//ENTRY
 $("#entryData")
     .modal({
         keyboard: false,
@@ -8,13 +10,28 @@ $("#entryData")
     })
     .css("top", "200px");
 
+$("#entryData").keypress(function(e) { //on enter press, trigger click on toReading button
+    if (e.keyCode == 13) {
+        console.log("you pressed enter in the entry data area" );
+        $("#toReading").trigger('click');
+   }
+});
+
+//INSTRUCTIONS
+$("#instructions").keypress(function(e) { //on enter press, trigger click on toReading button
+    if (e.keyCode == 13) {
+        console.log("you pressed enter in the instructions area" );
+        $("#continue").trigger('click');
+   }
+});
+
+var currentUser;
 $(document).on('click', '#toReading', function() {
     var loc = $("#locationArea").val(); 
-    console.log("Text in location area: " + loc);
     var id  = $("#idArea").val(); 
-    console.log("Text in ID area: " + id);
     //Check value, else add alert
     if (notEmpty(loc) === true && notEmpty(id) === true) {
+        currentUser = new User(id, loc);
         $("#entryData").modal('hide');
         $("#instructions").modal().css("top", "200px");
     } else {
@@ -22,8 +39,16 @@ $(document).on('click', '#toReading', function() {
         $("#entryData .modal-body").prepend(a);
         //$("#infoColumn").animate({opacity:0});
     }
-
 });
+
+$(document).on('click', '#continue', function() {
+    $("#instructions").modal('hide');
+    //TEST
+    console.log('current user id = ' + currentUser.id);
+    console.log('current user id = ' + currentUser.loc);
+    //END TEST
+});
+
 function notEmpty (str) {
     console.log("notEmpty: length of string: " + str.length);
     if (str.length > 0) {
@@ -36,6 +61,7 @@ function notEmpty (str) {
 }  
 //End entry area
          
+//Reading Space
 $(document).on('click', '#infoColumn', function() {
     $("#infoColumn").animate({opacity:0});
 });
@@ -83,7 +109,7 @@ ReadingView = Backbone.View.extend({
                 var $clicked = $(e.currentTarget);
                 var wordID = $clicked.data('word');
                 console.log('clicked element: wordID: ' + wordID);
-                this.trigger("click", wordID);             
+                this.trigger("click", wordID, currentUser);             
         },
         "click #toQuiz": function(e) {
                 e.preventDefault();
@@ -185,12 +211,17 @@ reading.render('pages/readingOutsiders.html', readingTemplate); //TODO: change t
 var words = new Words();
 words.loadWordData();
 
+//TODO: the feedback onClick event also interacts with the user object
 //TODO: change from elem text to data-word
 feedback.listenTo(reading, "click", function(elemText) {
     console.log("Feedback View heard click from reading -- text: " + elemText);
-    //TODO: get the data from the model's word object
     $.trim(elemText);
     var fb = words.get(elemText);
+    //add clicked word to user data object
+    currentUser.clickedWords.push(elemText);
+    //TEST #tested
+    console.log("added " + elemText + " to user object TEST: " + currentUser.clickedWords[currentUser.clickedWords.length-1]);
+
     var sLabel = '';
     if (fb.get('syns').length > 0) {
          sLabel = 'Synonyms';
@@ -199,6 +230,7 @@ feedback.listenTo(reading, "click", function(elemText) {
     if (fb.get('ex').length > 0) {
          eLabel = 'Example Usages';
     }
+    //populate the handlebars template
     var out = {word: fb.get('word'), synLabel: sLabel, exLabel: eLabel, syns: fb.get('syns'), ex: fb.get('ex')};
     //this.render(elemText);
     this.render(feedbackTemplate, out);
@@ -208,7 +240,7 @@ feedback.listenTo(reading, "click", function(elemText) {
 quiz.listenTo(reading, "toQuiz", function() {
     console.log("quiz view heard toQuiz event from reading view");
     //this.render(feedbackTemplate, out);
-    //HACK
+    //HACKS
     $(document).on('click', '#quizButton', function(e) {
          e.preventDefault();
          $.ajax({
@@ -218,10 +250,43 @@ quiz.listenTo(reading, "toQuiz", function() {
                  $('body').html(data);
                  $("html, body").animate({ scrollTop: 0 }, "fast"); //scroll to top
                  renderQuiz();
-                 console.log("tried to render quiz");
+                 console.log("rendered quiz");
              }
         });
         console.log('quizButton clicked');
+         //TODO: pre-load quiz into a hidden div
+         //load quiz from ajax -- TODO: submit interaction feature vector
+    });
+
+    $(document).on('click', '#submit', function(e) { 
+         e.preventDefault();
+         console.log("INSIDE app.js: submit button was clicked");
+         //TODO: pass numAnswers as param
+         var numAnswers = 7;
+         var l = $(".inBlank").length;
+         if (l < numAnswers) {
+            var a = '<div class="alert alert-error"><button type="button" class="close" data-dismiss="alert">&times;</button><strong>Please answer every question</strong></div>';
+            $w = $('#wrapper');
+            $w.find('.alert').remove();
+            $w.prepend(a);
+         } else {
+            //TODO: get answers from core.js:checkAnswers()
+            checkAnswers(); //core.js
+            exitDisplay(); //ui.js
+         }
+        console.log("Size of .inBlank list: " + l);
+        /*
+         $.ajax({
+             url: 'quiz.html',
+             success: function(data) {
+                 //call renderQuiz() from ui
+                 $('body').html(data);
+                 $("html, body").animate({ scrollTop: 0 }, "fast"); //scroll to top
+                 renderQuiz();
+                 console.log("rendered quiz");
+             }
+        }); */
+        console.log('submit button clicked');
          //TODO: pre-load quiz into a hidden div
          //load quiz from ajax -- TODO: submit interaction feature vector 
     });

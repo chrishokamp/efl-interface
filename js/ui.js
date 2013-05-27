@@ -56,21 +56,9 @@ function renderQuiz () {
             pageUpdate();
         }
     });
-    $('#submit') //TODO: this can only happen once! -- show correct answers, and/or tell user thanks! on submit(), send feedback object to server
-        .button()
-        .click(function( event ) {
-            event.preventDefault();
-            console.log("submit button was clicked");
-            //TODO: switch view properly when this happens
-            checkAnswers(); 
-            $('#submit').fadeOut();
-            var thanks = '<div class="alert" style="background-color: white"><button type="button" class="close" data-dismiss="alert">&times;</button><strong>Thanks and have a great day!</strong></div>';
-            var $w = $('#wrapper');
-            $w.find('.alert').remove();
-            $w.find('#footer').remove();
-            $w.prepend(thanks);
-            $(".alert").animate({backgroundColor: "blue", color: "white"}, 'slow');
-        });
+
+    $('#submit').button();
+
 
     // TODO: move this logic to a global pageUpdate function
     function dropped (event, ui, $elem) {
@@ -153,6 +141,14 @@ function renderQuiz () {
             $elem.animate({top: (i * (lineHeight + 20)) + containerOffset.top, left: newLeft});
         }
     }
-//END QUIZ UI ELEMENTS
 }
-
+//END QUIZ UI ELEMENTS
+function exitDisplay() {
+        $('#submit').fadeOut();
+        var thanks = '<div class="alert" style="background-color: white"><button type="button" class="close" data-dismiss="alert">&times;</button><strong>Thanks and have a great day!</strong></div>';
+        var $w = $('#wrapper');
+        $w.find('.alert').remove();
+        $w.find('#footer').remove();
+        $w.prepend(thanks);
+        $(".alert").animate({backgroundColor: "blue", color: "white"}, 'slow');
+}
