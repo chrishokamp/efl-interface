@@ -29,16 +29,16 @@ function loadQuestionData () {
 }
 */
 
-function checkAnswers () {
+//TODO: this function breaks the async nature of ajax calls!!!
+function checkAnswers (quizData) {
 //we want the correspondence between blankID and answerID
-//check these against json map to determine correctness --> record and give feedback
     $.getJSON('data/answers.json', function(data) {
+        var userAnswers = {};
         //var answerDict = data;
         //var ex = answerDict["1"]["A"];
         //alert ("answer to question 1: " + ex);
         answerMap = data;
         console.log("checking answers");
-
         $(".inBlank").each( function() {
             var $e = $(this);
             var answerId = $e.attr('id');
@@ -46,19 +46,27 @@ function checkAnswers () {
             var qNumber = chosenBlank.charAt(chosenBlank.length - 1);
             console.log("Answer for question " + qNumber + " is: " + answerId);
             if(answerMap[qNumber]['A'] === answerId) {
+                //TODO: add to userAnswers object
+                userAnswers[chosenBlank] = ["correct", answerMap[qNumber]['A'], answerId];
                 console.log("you are correct");
                 var eX = $('#' + chosenBlank).parent();
                 $(eX).css("background", "#000"); 
                 $(eX).animate({backgroundColor: "#228B22"}, 1500);
             } else {
+                userAnswers[chosenBlank] = ["wrong", answerMap[qNumber]['A'], answerId];
+                console.log("chosenBlank: " + chosenBlank);
+                console.log("userAnswers.chosenBlank: " + userAnswers[chosenBlank]);
                 console.log("you are not correct");
                 var eY = $('#' + chosenBlank).parent();
                 $(eY).css("backgroundColor", "#000"); 
                 $(eY).animate({backgroundColor: "#DC143C"}, 1500);
             }
         });
-
+        //use the callback
+        quizData(userAnswers);
     });
+    //Async problems with this way! -- deferred object?
+    //return userAnswers;
 }
 
 //TODO: 

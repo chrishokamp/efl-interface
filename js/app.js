@@ -8,7 +8,7 @@ $("#entryData")
         keyboard: false,
         backdrop: 'static'
     })
-    .css("top", "200px");
+    .css("top", "120px");
 
 $("#entryData").keypress(function(e) { //on enter press, trigger click on toReading button
     if (e.keyCode == 13) {
@@ -33,7 +33,7 @@ $(document).on('click', '#toReading', function() {
     if (notEmpty(loc) === true && notEmpty(id) === true) {
         currentUser = new User(id, loc);
         $("#entryData").modal('hide');
-        $("#instructions").modal().css("top", "200px");
+        $("#instructions").modal().css("top", "120px");
     } else {
         var a = '<div class="alert alert-error"><button type="button" class="close" data-dismiss="alert">&times;</button>Please enter a valid location and/or id.</div>';
         $("#entryData .modal-body").prepend(a);
@@ -260,34 +260,70 @@ quiz.listenTo(reading, "toQuiz", function() {
 
     $(document).on('click', '#submit', function(e) { 
          e.preventDefault();
+         var $w = $('#wrapper');
+         $w.find('.alert').remove();
          console.log("INSIDE app.js: submit button was clicked");
          //TODO: pass numAnswers as param
-         var numAnswers = 7;
+         var numAnswers = 10;
          var l = $(".inBlank").length;
          if (l < numAnswers) {
             var a = '<div class="alert alert-error"><button type="button" class="close" data-dismiss="alert">&times;</button><strong>Please answer every question</strong></div>';
-            $w = $('#wrapper');
-            $w.find('.alert').remove();
             $w.prepend(a);
          } else {
-            //TODO: get answers from core.js:checkAnswers()
-            checkAnswers(); //core.js
-            exitDisplay(); //ui.js
+            //core.js --> format checkAnswers(callback)
+            checkAnswers(useQuizData);
+            var b = '<div class="alert"><button type="button" class="close" data-dismiss="alert">&times;</button><strong>Thanks, and have a great day!</strong></div>';
+            $w.prepend(b);
          }
         console.log("Size of .inBlank list: " + l);
-        /*
-         $.ajax({
-             url: 'quiz.html',
-             success: function(data) {
-                 //call renderQuiz() from ui
-                 $('body').html(data);
-                 $("html, body").animate({ scrollTop: 0 }, "fast"); //scroll to top
-                 renderQuiz();
-                 console.log("rendered quiz");
-             }
-        }); */
         console.log('submit button clicked');
-         //TODO: pre-load quiz into a hidden div
-         //load quiz from ajax -- TODO: submit interaction feature vector 
     });
 });
+
+function useQuizData (quizData) {
+    //TEST
+    //var d = quizData.blank2;
+    //for (var c = 0; c<d.length; c += 1) {
+    //  console.log("CALLBACK: quizData returned: " + d[c]);
+    //}
+
+    //User is global - can be grabbed from anywhere
+    if (currentUser.submitted === undefined) {
+        currentUser["quizResults"] = quizData;
+        //TODO: set user's total time
+        currentUser.stopTime = new Date().getTime()/1000;
+        currentUser.totalTime = Math.floor(currentUser.stopTime - currentUser.startTime);
+
+        //TEST
+        var o = JSON.stringify(currentUser);
+        console.log("Pushing to server: currentUser to JSON: " + o);
+        //End Test
+
+        storeUserData(currentUser);
+        currentUser.submitted = 'true';
+        $("#wrapper").find('#submit').remove();
+        
+    }
+}
+
+function storeUserData (userObj) {
+    //store the total time
+    var userJSON = JSON.stringify(userObj);
+    //alert ("user data" + userJSON);
+    $.ajax({
+        async: true,
+        cache: false,
+        type: 'post',
+        data: { userData: userJSON},
+        url: 'cgi/userData.pl',
+        success: function(data) {
+            console.log('User data was logged');
+        },
+        error: function(){
+            console.log('userData did not persist -- there was a problem with the request');
+        }
+    });
+}
+
+
+

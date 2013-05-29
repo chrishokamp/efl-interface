@@ -2,6 +2,8 @@
 rm -r demo/*
 cp *.html demo/
 cp -r js/ demo/
+mkdir demo/cgi
+cp   cgi/userData.pl demo/cgi/
 cp -r data/ demo/
 cp -r css/ demo/
 cp -r pages/ demo/

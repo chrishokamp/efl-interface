@@ -15,15 +15,16 @@ my $jsonString = $userData->param("userData");
 
 #my $uid = $decoded->{"id"}; #tested
 
-open OUT, '>>', '/local/chris_h/houndDog/userData/userLogs.json';
+#open OUT, '>>', '/local/chris_h/houndDog/userData/userLogs.json';
+open OUT, '>>', '/home/chris/test/hd-userLogs.json';
 print OUT $jsonString; 
 print OUT "\n"; 
 close OUT;
 
-#&outputPage($jsonString);
-#sub outputPage {
-#	print $userData->header(-charset => 'UTF-8');
-#	print $_[0];
-#}
+&outputPage($jsonString);
+sub outputPage {
+	print $userData->header(-charset => 'UTF-8');
+    print $_[0];
+}
 
 1;
