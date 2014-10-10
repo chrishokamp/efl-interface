@@ -108,6 +108,9 @@ ReadingView = Backbone.View.extend({
                 e.preventDefault();
                 var $clicked = $(e.currentTarget);
                 var wordID = $clicked.data('word');
+                
+                //TEST
+                debugger;
                 console.log('clicked element: wordID: ' + wordID);
                 this.trigger("click", wordID, currentUser);             
         },
@@ -143,6 +146,7 @@ FeedbackView = Backbone.View.extend({
         }
     }
 });
+
 QuizView = Backbone.View.extend({
     el: $('html')
     //TODO: load quiz into html element via ajax call 
@@ -154,7 +158,7 @@ QuizView = Backbone.View.extend({
 
 //MODELS AND COLLECTIONS
 //Model for reading item
-Reading = Backbone.Model.extend({
+var Reading = Backbone.Model.extend({
     defaults:{
         surfaceWord: '',
         context: '',
@@ -164,7 +168,7 @@ Reading = Backbone.Model.extend({
 });
 
 //Model for feedback item
-Word = Backbone.Model.extend({
+var Word = Backbone.Model.extend({
     defaults:{
         word: '',
         pos: '',
@@ -175,7 +179,7 @@ Word = Backbone.Model.extend({
 });
 
 //collection of all words -- aka feedback collection
-Words  = Backbone.Collection.extend({
+var Words  = Backbone.Collection.extend({
     model: Word,
     //TODO initialize collection via JSON Ajax?
     //  - iterate over attributes to get every word
